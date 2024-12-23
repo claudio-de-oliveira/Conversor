@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Conversor": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\\\TFS\\\\Shop Control 9\\\\src\\\\ShopControl9\\\\Projetos\\\\S9_Industria\""
+    }
+  }
+}
