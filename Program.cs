@@ -82,11 +82,9 @@ internal class Program
 
     private static XmlDocument LerArquivoXml(string caminhoArquivo)
     {
-        using (XmlReader reader = XmlReader.Create(caminhoArquivo))
-        {
-            var xmlDoc = new XmlDocument();
-            xmlDoc.Load(reader);
-            return xmlDoc;
-        }
+        using XmlReader reader = XmlReader.Create(caminhoArquivo);
+        var xmlDoc = new XmlDocument();
+        xmlDoc.Load(reader);
+        return xmlDoc;
     }
 }
