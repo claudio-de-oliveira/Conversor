@@ -1,11 +1,5 @@
 ﻿
-using System.Data;
-using System.Text;
-using System;
 using System.Xml;
-using System.Xml.Linq;
-using System.Xml.Serialization;
-using System.Data.SqlTypes;
 using Conversor.Xml;
 using Conversor.Atributos;
 
@@ -26,8 +20,13 @@ internal class Program
             {
                 var xml = LerArquivoXml(caminhoArquivo);
 
-                ProcessXmlNode(xml);
+                XXmlNode xmlNode = ProcessXmlNode(xml);
+
+                var xContext = new XFlutterContext();
+
+                xContext.Process(xmlNode);
             }
+
         }
 
         return;
@@ -59,6 +58,7 @@ internal class Program
     private static XXmlAttribute ProcessXmlAttribute(XmlAttribute attribute)
     {
         return new XXmlAttribute() {
+            Name = attribute.Name,
             Value = attribute.Value
         };
     }
@@ -72,10 +72,10 @@ internal class Program
         
         if (node.Attributes != null)
             foreach (XmlAttribute xmlAttribute in node.Attributes)
-                xnode.Attributes.Add(xmlAttribute.Name, ProcessXmlAttribute(xmlAttribute));
+                xnode.Attributes.Add(ProcessXmlAttribute(xmlAttribute));
         if (node.ChildNodes != null)
             foreach (XmlNode childNode in node.ChildNodes)
-                xnode.ChildNodes.Add(childNode.Name, ProcessXmlNode(childNode));
+                xnode.ChildNodes.Add(ProcessXmlNode(childNode));
 
         return xnode;
     }
