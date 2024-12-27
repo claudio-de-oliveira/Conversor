@@ -87,6 +87,31 @@ namespace Conversor.Xml
                 case "ContentControl":
                     ProcessContentControlNode(node);
                     break;
+                // StatusBarItem
+                // ScrollViewer
+                // GroupItem
+                // ListBoxItem
+                // ComboBoxItem
+                // ListViewItem
+                // Button    
+                // /RepeatButton
+                // ToggleButton
+                // CheckBox
+                // RadioButton
+                // GridViewColumnHeader
+                // Expander
+                // GroupBox
+                // TabItem
+                // ListView
+                // ListBox
+                // ComboBox
+                // TabControl
+                // MultiSelector
+                // TreeViewItem
+                // ToolBar
+                // MenuItem
+                // Menu
+                // 
                 default:
                     ProcessDefaultNode(node);
                     break;
