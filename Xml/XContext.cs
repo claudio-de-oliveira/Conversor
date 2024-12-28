@@ -87,30 +87,69 @@ namespace Conversor.Xml
                 case "ContentControl":
                     ProcessContentControlNode(node);
                     break;
-                // StatusBarItem
-                // ScrollViewer
-                // GroupItem
-                // ListBoxItem
-                // ComboBoxItem
-                // ListViewItem
-                // Button    
-                // /RepeatButton
-                // ToggleButton
-                // CheckBox
-                // RadioButton
-                // GridViewColumnHeader
-                // Expander
-                // GroupBox
-                // TabItem
-                // ListView
-                // ListBox
-                // ComboBox
-                // TabControl
-                // MultiSelector
-                // TreeViewItem
-                // ToolBar
-                // MenuItem
-                // Menu
+                case "StatusBarItem":
+                    ProcessStatusBarItemNode(node);
+                    break;
+                case "ScrollViewer":
+                    ProcessScrollViewerNode(node);
+                    break;
+                case "GroupItem":
+                    ProcessGroupItemNode(node);
+                    break;
+                case "ListBoxItem":
+                    ProcessListBoxItemNode(node);
+                    break;
+                case "ComboBoxItem":
+                    ProcessComboBoxItemNode(node);
+                    break;
+                case "ListViewItem":
+                    ProcessListViewItemNode(node);
+                    break;
+                case "RepeatButton":
+                    ProcessRepeatButtonNode(node);
+                    break;
+                case "ToggleButton":
+                    ProcessToggleButtonNode(node);
+                    break;
+                case "CheckBox":
+                    ProcessCheckBoxNode(node);
+                    break;
+                case "RadioButton":
+                    ProcessRadioButtonNode(node);
+                    break;
+                case "GridViewColumnHeader":
+                    ProcessGridViewColumnHeaderNode(node);
+                    break;
+                case "Expander":
+                    ProcessExpanderNode(node);
+                    break;
+                case "GroupBox":
+                    ProcessGroupBoxNode(node);
+                    break;
+                case "TabItem":
+                    ProcessTabItemNode(node);
+                    break;
+                case "ListView":
+                    ProcessListViewNode(node);
+                    break;
+                case "TabControl":
+                    ProcessTabControlNode(node);
+                    break;
+                case "MultiSelector":
+                    ProcessMultiSelectorNode(node);
+                    break;
+                case "TreeViewItem":
+                    ProcessTreeViewItemNode(node);
+                    break;
+                case "ToolBar":
+                    ProcessToolBarNode(node);
+                    break;
+                case "MenuItem":
+                    ProcessMenuItemNode(node);
+                    break;
+                case "Menu":
+                    ProcessMenuNode(node);
+                    break;
                 // 
                 default:
                     ProcessDefaultNode(node);
@@ -190,6 +229,91 @@ namespace Conversor.Xml
         {
             // Nothing todo
         }
+        public virtual void ProcessStatusBarItemNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessScrollViewerNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessGroupItemNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessListBoxItemNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessComboBoxItemNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessListViewItemNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessRepeatButtonNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessToggleButtonNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessCheckBoxNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessRadioButtonNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessGridViewColumnHeaderNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessExpanderNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessGroupBoxNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessTabItemNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessListViewNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessTabControlNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessMultiSelectorNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessTreeViewItemNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessToolBarNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessMenuItemNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+        public virtual void ProcessMenuNode(XXmlNode node)
+        {
+            // Nothing todo
+        }
+
     }
 }
 

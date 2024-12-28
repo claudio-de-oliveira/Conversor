@@ -1,7 +1,6 @@
 ﻿
 using System.Xml;
 using Conversor.Xml;
-using Conversor.Atributos;
 
 internal class Program
 {

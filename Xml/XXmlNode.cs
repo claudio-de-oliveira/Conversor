@@ -1,4 +1,4 @@
-using Conversor.Atributos;
+using Conversor.Xml;
 
 public class XXmlNode {
     public string? Name { get; set; }

@@ -138,6 +138,169 @@ namespace Conversor.Xml
             // Do something
         }
 
+
+        public override void ProcessStatusBarItemNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessScrollViewerNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessGroupItemNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessListBoxItemNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessComboBoxItemNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessListViewItemNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessRepeatButtonNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessToggleButtonNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessCheckBoxNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessRadioButtonNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessGridViewColumnHeaderNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessExpanderNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessGroupBoxNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessTabItemNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessListViewNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessTabControlNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessMultiSelectorNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessTreeViewItemNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessToolBarNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+        public override void ProcessMenuItemNode(XXmlNode node)
+        {
+            var attributes = node.Attributes;
+            var children = node.ChildNodes;
+            
+            // Do something
+        }
+
+
+
         public override void ProcessDefaultNode(XXmlNode node)
         {
             var attributes = node.Attributes;

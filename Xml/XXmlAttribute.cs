@@ -1,4 +1,4 @@
-namespace Conversor.Atributos
+namespace Conversor.Xml
 {
     public class XXmlAttribute
     {
