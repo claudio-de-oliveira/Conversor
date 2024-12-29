@@ -35,3086 +35,3089 @@ public abstract class XContextBase
        if (xnode.ChildNodes != null)
            foreach (XXmlNode childNode in xnode.ChildNodes)
                ProcessNodeInternal(childNode);
-
-       switch(xnode.Name)
-       {
-           case "AccessKeyPressedEventArgs":
-               OnAccessKeyPressedEventArgs(xnode);
-               break;
-           case "AccessText":
-               OnAccessText(xnode);
-               break;
-           case "ActiveXHost":
-               OnActiveXHost(xnode);
-               break;
-           case "AdormedElementPlaceholder":
-               OnAdormedElementPlaceholder(xnode);
-               break;
-           case "Adorner":
-               OnAdorner(xnode);
-               break;
-           case "AdornerContainer":
-               OnAdornerContainer(xnode);
-               break;
-           case "AdornerDecorator":
-               OnAdornerDecorator(xnode);
-               break;
-           case "AdornerHitTestResut":
-               OnAdornerHitTestResut(xnode);
-               break;
-           case "AdornerLayer":
-               OnAdornerLayer(xnode);
-               break;
-           case "AffineTransform3D":
-               OnAffineTransform3D(xnode);
-               break;
-           case "AmbientLight":
-               OnAmbientLight(xnode);
-               break;
-           case "AnchoredBlock":
-               OnAnchoredBlock(xnode);
-               break;
-           case "Animatable":
-               OnAnimatable(xnode);
-               break;
-           case "AnimationClock":
-               OnAnimationClock(xnode);
-               break;
-           case "AnimationTimeline":
-               OnAnimationTimeline(xnode);
-               break;
-           case "AnnotationDocumemtPagnator":
-               OnAnnotationDocumemtPagnator(xnode);
-               break;
-           case "AnnotationService":
-               OnAnnotationService(xnode);
-               break;
-           case "AnnotationStore":
-               OnAnnotationStore(xnode);
-               break;
-           case "Application":
-               OnApplication(xnode);
-               break;
-           case "ArcSegment":
-               OnArcSegment(xnode);
-               break;
-           case "ArrayExtension":
-               OnArrayExtension(xnode);
-               break;
-           case "AttachableCollection":
-               OnAttachableCollection(xnode);
-               break;
-           case "AttachedPropertyBrowsableAttibute":
-               OnAttachedPropertyBrowsableAttibute(xnode);
-               break;
-           case "AttachedPropertyBrowsableForChildrenAttribute":
-               OnAttachedPropertyBrowsableForChildrenAttribute(xnode);
-               break;
-           case "AttachedPropertyBrowsableForTypeAttribute":
-               OnAttachedPropertyBrowsableForTypeAttribute(xnode);
-               break;
-           case "AttachedPropertyBrowsableWhenAttributePresentAttribute":
-               OnAttachedPropertyBrowsableWhenAttributePresentAttribute(xnode);
-               break;
-           case "Attribute":
-               OnAttribute(xnode);
-               break;
-           case "AutomationPeer":
-               OnAutomationPeer(xnode);
-               break;
-           case "AxisAngleRotation3D":
-               OnAxisAngleRotation3D(xnode);
-               break;
-           case "BackEase":
-               OnBackEase(xnode);
-               break;
-           case "Baml2006Reader":
-               OnBaml2006Reader(xnode);
-               break;
-           case "BaseIListConverter":
-               OnBaseIListConverter(xnode);
-               break;
-           case "BeginStoryboard":
-               OnBeginStoryboard(xnode);
-               break;
-           case "Behavior":
-               OnBehavior(xnode);
-               break;
-           case "BehaviorCollection":
-               OnBehaviorCollection(xnode);
-               break;
-           case "BevelBitmapEffect":
-               OnBevelBitmapEffect(xnode);
-               break;
-           case "BezierSegment":
-               OnBezierSegment(xnode);
-               break;
-           case "Binding":
-               OnBinding(xnode);
-               break;
-           case "BindingBase":
-               OnBindingBase(xnode);
-               break;
-           case "BindingExpression":
-               OnBindingExpression(xnode);
-               break;
-           case "BindingExpressionBase":
-               OnBindingExpressionBase(xnode);
-               break;
-           case "BindingGroup":
-               OnBindingGroup(xnode);
-               break;
-           case "BindingListCollectionView":
-               OnBindingListCollectionView(xnode);
-               break;
-           case "BitmapCache":
-               OnBitmapCache(xnode);
-               break;
-           case "BitmapCacheBrush":
-               OnBitmapCacheBrush(xnode);
-               break;
-           case "BitmapDecoder":
-               OnBitmapDecoder(xnode);
-               break;
-           case "BitmapEffect":
-               OnBitmapEffect(xnode);
-               break;
-           case "BitmapEffectCollection":
-               OnBitmapEffectCollection(xnode);
-               break;
-           case "BitmapEffectGroup":
-               OnBitmapEffectGroup(xnode);
-               break;
-           case "BitmapEffectInput":
-               OnBitmapEffectInput(xnode);
-               break;
-           case "BitmapEncoder":
-               OnBitmapEncoder(xnode);
-               break;
-           case "BitmapFrame":
-               OnBitmapFrame(xnode);
-               break;
-           case "BitmapImage":
-               OnBitmapImage(xnode);
-               break;
-           case "BitmapMetadata":
-               OnBitmapMetadata(xnode);
-               break;
-           case "BitmapPalette":
-               OnBitmapPalette(xnode);
-               break;
-           case "BitmapSource":
-               OnBitmapSource(xnode);
-               break;
-           case "Block":
-               OnBlock(xnode);
-               break;
-           case "BlockElement":
-               OnBlockElement(xnode);
-               break;
-           case "BlockUIContainer":
-               OnBlockUIContainer(xnode);
-               break;
-           case "BlurBitmapEffect":
-               OnBlurBitmapEffect(xnode);
-               break;
-           case "BlurEffect":
-               OnBlurEffect(xnode);
-               break;
-           case "BmpBitmapDecoder":
-               OnBmpBitmapDecoder(xnode);
-               break;
-           case "BmpBitmapEncoder":
-               OnBmpBitmapEncoder(xnode);
-               break;
-           case "Bold":
-               OnBold(xnode);
-               break;
-           case "BooleanAnimationBase":
-               OnBooleanAnimationBase(xnode);
-               break;
-           case "BooleanAnimationUsingKeyFrames":
-               OnBooleanAnimationUsingKeyFrames(xnode);
-               break;
-           case "BooleanKeyFrame":
-               OnBooleanKeyFrame(xnode);
-               break;
-           case "BooleanKeyFrameCollection":
-               OnBooleanKeyFrameCollection(xnode);
-               break;
-           case "BoolIListConverter":
-               OnBoolIListConverter(xnode);
-               break;
-           case "Border":
-               OnBorder(xnode);
-               break;
-           case "BounceEase":
-               OnBounceEase(xnode);
-               break;
-           case "Brush":
-               OnBrush(xnode);
-               break;
-           case "BrushValueSerializer":
-               OnBrushValueSerializer(xnode);
-               break;
-           case "BulletDecorator":
-               OnBulletDecorator(xnode);
-               break;
-           case "Button":
-               OnButton(xnode);
-               break;
-           case "ButtonAutomationPeer":
-               OnButtonAutomationPeer(xnode);
-               break;
-           case "ButtonBase":
-               OnButtonBase(xnode);
-               break;
-           case "ButtonBaseAutomationPeer":
-               OnButtonBaseAutomationPeer(xnode);
-               break;
-           case "ByteAnimation":
-               OnByteAnimation(xnode);
-               break;
-           case "ByteAnimationBase":
-               OnByteAnimationBase(xnode);
-               break;
-           case "ByteAnimationUsingKeyFrames":
-               OnByteAnimationUsingKeyFrames(xnode);
-               break;
-           case "ByteKeyFrame":
-               OnByteKeyFrame(xnode);
-               break;
-           case "BytekeyFrameCollection":
-               OnBytekeyFrameCollection(xnode);
-               break;
-           case "CachedBitmap":
-               OnCachedBitmap(xnode);
-               break;
-           case "CacheMode":
-               OnCacheMode(xnode);
-               break;
-           case "CacheModeValueSerializer":
-               OnCacheModeValueSerializer(xnode);
-               break;
-           case "Calendar":
-               OnCalendar(xnode);
-               break;
-           case "CalendarAutomationPeer":
-               OnCalendarAutomationPeer(xnode);
-               break;
-           case "CalendarButton":
-               OnCalendarButton(xnode);
-               break;
-           case "CalendarButtonAutomationPeer":
-               OnCalendarButtonAutomationPeer(xnode);
-               break;
-           case "CalendarDateChangedEventArgs":
-               OnCalendarDateChangedEventArgs(xnode);
-               break;
-           case "CalendarDayButton":
-               OnCalendarDayButton(xnode);
-               break;
-           case "Calendarltem":
-               OnCalendarltem(xnode);
-               break;
-           case "CalendarModeChangedEventArgs":
-               OnCalendarModeChangedEventArgs(xnode);
-               break;
-           case "CallMethodAction":
-               OnCallMethodAction(xnode);
-               break;
-           case "Camera":
-               OnCamera(xnode);
-               break;
-           case "CanExecuteChangedEventManager":
-               OnCanExecuteChangedEventManager(xnode);
-               break;
-           case "CanExecuteRoutedEventArgs":
-               OnCanExecuteRoutedEventArgs(xnode);
-               break;
-           case "Canvas":
-               OnCanvas(xnode);
-               break;
-           case "ChangePropertyAction":
-               OnChangePropertyAction(xnode);
-               break;
-           case "CharAnimationBase":
-               OnCharAnimationBase(xnode);
-               break;
-           case "CharAnimationUsingKeyFrame":
-               OnCharAnimationUsingKeyFrame(xnode);
-               break;
-           case "CharIListConverter":
-               OnCharIListConverter(xnode);
-               break;
-           case "CharKeyFrame":
-               OnCharKeyFrame(xnode);
-               break;
-           case "CharKeyFrameCollection":
-               OnCharKeyFrameCollection(xnode);
-               break;
-           case "CheckBox":
-               OnCheckBox(xnode);
-               break;
-           case "CheckBoxAutomationPeer":
-               OnCheckBoxAutomationPeer(xnode);
-               break;
-           case "CircleEase":
-               OnCircleEase(xnode);
-               break;
-           case "CleanUpVirtualizedItemEventArgs":
-               OnCleanUpVirtualizedItemEventArgs(xnode);
-               break;
-           case "Clock":
-               OnClock(xnode);
-               break;
-           case "ClockController":
-               OnClockController(xnode);
-               break;
-           case "ClockGroup":
-               OnClockGroup(xnode);
-               break;
-           case "CollectionChangedEventManager":
-               OnCollectionChangedEventManager(xnode);
-               break;
-           case "CollectionContainer":
-               OnCollectionContainer(xnode);
-               break;
-           case "CollectionView":
-               OnCollectionView(xnode);
-               break;
-           case "CollectionViewSource":
-               OnCollectionViewSource(xnode);
-               break;
-           case "ColorAnimation":
-               OnColorAnimation(xnode);
-               break;
-           case "ColorAnimationBase":
-               OnColorAnimationBase(xnode);
-               break;
-           case "ColorAnimationUsingKeyFrames":
-               OnColorAnimationUsingKeyFrames(xnode);
-               break;
-           case "ColorConvertedBitmap":
-               OnColorConvertedBitmap(xnode);
-               break;
-           case "ColorConvertedBitmapExtension":
-               OnColorConvertedBitmapExtension(xnode);
-               break;
-           case "ColorKeyFrame":
-               OnColorKeyFrame(xnode);
-               break;
-           case "ColorKeyFrameCollection":
-               OnColorKeyFrameCollection(xnode);
-               break;
-           case "ColorDefinition":
-               OnColorDefinition(xnode);
-               break;
-           case "CombinedGeometry":
-               OnCombinedGeometry(xnode);
-               break;
-           case "ComboBox":
-               OnComboBox(xnode);
-               break;
-           case "ComboBoxAutomationPeer":
-               OnComboBoxAutomationPeer(xnode);
-               break;
-           case "ComboBoxltem":
-               OnComboBoxltem(xnode);
-               break;
-           case "CommonDialog":
-               OnCommonDialog(xnode);
-               break;
-           case "ComparisonCondition":
-               OnComparisonCondition(xnode);
-               break;
-           case "ComponentResourceKey":
-               OnComponentResourceKey(xnode);
-               break;
-           case "ComponentResourceKeyConverter":
-               OnComponentResourceKeyConverter(xnode);
-               break;
-           case "CompositionTarget":
-               OnCompositionTarget(xnode);
-               break;
-           case "ConditionalExpression":
-               OnConditionalExpression(xnode);
-               break;
-           case "ConditionBehavior":
-               OnConditionBehavior(xnode);
-               break;
-           case "ConditionCollection":
-               OnConditionCollection(xnode);
-               break;
-           case "ContainerUIElement3D":
-               OnContainerUIElement3D(xnode);
-               break;
-           case "ContainerVisual":
-               OnContainerVisual(xnode);
-               break;
-           case "ContentControl":
-               OnContentControl(xnode);
-               break;
-           case "ContentElement":
-               OnContentElement(xnode);
-               break;
-           case "ContentElementAutomationPeer":
-               OnContentElementAutomationPeer(xnode);
-               break;
-           case "ContentLocator":
-               OnContentLocator(xnode);
-               break;
-           case "ContentocatorBase":
-               OnContentocatorBase(xnode);
-               break;
-           case "ContentLocatorGroup":
-               OnContentLocatorGroup(xnode);
-               break;
-           case "ContentPosition":
-               OnContentPosition(xnode);
-               break;
-           case "ContentPresenter":
-               OnContentPresenter(xnode);
-               break;
-           case "ContentTextAutomationPeer":
-               OnContentTextAutomationPeer(xnode);
-               break;
-           case "ContextMenu":
-               OnContextMenu(xnode);
-               break;
-           case "ContextMenuAutomationPeer":
-               OnContextMenuAutomationPeer(xnode);
-               break;
-           case "ContextMenuEventArgs":
-               OnContextMenuEventArgs(xnode);
-               break;
-           case "Control":
-               OnControl(xnode);
-               break;
-           case "ControllableStoryboardAction":
-               OnControllableStoryboardAction(xnode);
-               break;
-           case "ControlStoryboardAction":
-               OnControlStoryboardAction(xnode);
-               break;
-           case "ControlTemplate":
-               OnControlTemplate(xnode);
-               break;
-           case "CroppedBitmap":
-               OnCroppedBitmap(xnode);
-               break;
-           case "CubicEase":
-               OnCubicEase(xnode);
-               break;
-           case "CurrentChangedEventManager":
-               OnCurrentChangedEventManager(xnode);
-               break;
-           case "CurrentChangingEventManager":
-               OnCurrentChangingEventManager(xnode);
-               break;
-           case "D3DImage":
-               OnD3DImage(xnode);
-               break;
-           case "DashStyle":
-               OnDashStyle(xnode);
-               break;
-           case "DataChangedEventManager":
-               OnDataChangedEventManager(xnode);
-               break;
-           case "DataErrorValidationRule":
-               OnDataErrorValidationRule(xnode);
-               break;
-           case "DataGrid":
-               OnDataGrid(xnode);
-               break;
-           case "DataGridAutomationPeer":
-               OnDataGridAutomationPeer(xnode);
-               break;
-           case "DataGridBoundColumn":
-               OnDataGridBoundColumn(xnode);
-               break;
-           case "DataGridCell":
-               OnDataGridCell(xnode);
-               break;
-           case "DataGridCellAutomationPeer":
-               OnDataGridCellAutomationPeer(xnode);
-               break;
-           case "DataGridCellItemAutomationPeer":
-               OnDataGridCellItemAutomationPeer(xnode);
-               break;
-           case "DataGridCellsPanel":
-               OnDataGridCellsPanel(xnode);
-               break;
-           case "DataGridCellsPresenter":
-               OnDataGridCellsPresenter(xnode);
-               break;
-           case "DataGridCheckBoxColumn":
-               OnDataGridCheckBoxColumn(xnode);
-               break;
-           case "DataGridColumn":
-               OnDataGridColumn(xnode);
-               break;
-           case "DataGridColumnEventArgs":
-               OnDataGridColumnEventArgs(xnode);
-               break;
-           case "DataGridColumnHeader":
-               OnDataGridColumnHeader(xnode);
-               break;
-           case "DataGridColumnHeaderAutomationPeer":
-               OnDataGridColumnHeaderAutomationPeer(xnode);
-               break;
-           case "DataGridColumnHeaderItemAutomationPeer":
-               OnDataGridColumnHeaderItemAutomationPeer(xnode);
-               break;
-           case "DataGridColumnHeadersPresenter":
-               OnDataGridColumnHeadersPresenter(xnode);
-               break;
-           case "DataGridColumnHeadersPresenterAutomationPeer":
-               OnDataGridColumnHeadersPresenterAutomationPeer(xnode);
-               break;
-           case "DataGridColumnReorderingEventArgs":
-               OnDataGridColumnReorderingEventArgs(xnode);
-               break;
-           case "DataGridComboBoxColumn":
-               OnDataGridComboBoxColumn(xnode);
-               break;
-           case "DataGridDetailsPresenter":
-               OnDataGridDetailsPresenter(xnode);
-               break;
-           case "DataGridDetailsPresenterAutomationPeer":
-               OnDataGridDetailsPresenterAutomationPeer(xnode);
-               break;
-           case "DataGridHyperlinkColumn":
-               OnDataGridHyperlinkColumn(xnode);
-               break;
-           case "DataGridItemAutomationPeer":
-               OnDataGridItemAutomationPeer(xnode);
-               break;
-           case "DataGridRow":
-               OnDataGridRow(xnode);
-               break;
-           case "DataGridRowAutomationPeer":
-               OnDataGridRowAutomationPeer(xnode);
-               break;
-           case "DataGridRowHeader":
-               OnDataGridRowHeader(xnode);
-               break;
-           case "DataGridRowHeaderAutomationPeer":
-               OnDataGridRowHeaderAutomationPeer(xnode);
-               break;
-           case "DataGridRowsPresenter":
-               OnDataGridRowsPresenter(xnode);
-               break;
-           case "DataGridSortingEventArgs":
-               OnDataGridSortingEventArgs(xnode);
-               break;
-           case "DataGridTemplateColumn":
-               OnDataGridTemplateColumn(xnode);
-               break;
-           case "DataGridTextColumn":
-               OnDataGridTextColumn(xnode);
-               break;
-           case "DataObjectCopyingEventArgs":
-               OnDataObjectCopyingEventArgs(xnode);
-               break;
-           case "DataObjectEventArgs":
-               OnDataObjectEventArgs(xnode);
-               break;
-           case "DataObjectPastingEventArgs":
-               OnDataObjectPastingEventArgs(xnode);
-               break;
-           case "DataObjectSettingDataEventArgs":
-               OnDataObjectSettingDataEventArgs(xnode);
-               break;
-           case "DataSourceProvider":
-               OnDataSourceProvider(xnode);
-               break;
-           case "DataStateBehavior":
-               OnDataStateBehavior(xnode);
-               break;
-           case "DataStoreChangedTrigger":
-               OnDataStoreChangedTrigger(xnode);
-               break;
-           case "DataTemplate":
-               OnDataTemplate(xnode);
-               break;
-           case "DataTemplateKey":
-               OnDataTemplateKey(xnode);
-               break;
-           case "DataTransferEventArgs":
-               OnDataTransferEventArgs(xnode);
-               break;
-           case "DataTrigger":
-               OnDataTrigger(xnode);
-               break;
-           case "DatePicker":
-               OnDatePicker(xnode);
-               break;
-           case "DatePickerAutomationPeer":
-               OnDatePickerAutomationPeer(xnode);
-               break;
-           case "DatePickerTextBox":
-               OnDatePickerTextBox(xnode);
-               break;
-           case "DateTimeAutomationPeer":
-               OnDateTimeAutomationPeer(xnode);
-               break;
-           case "DateTimeValueSerializer":
-               OnDateTimeValueSerializer(xnode);
-               break;
-           case "DecimalAnimation":
-               OnDecimalAnimation(xnode);
-               break;
-           case "DecimalAnimationBase":
-               OnDecimalAnimationBase(xnode);
-               break;
-           case "DecimalAnimationUsingKeyFrames":
-               OnDecimalAnimationUsingKeyFrames(xnode);
-               break;
-           case "DecimalKeyFrame":
-               OnDecimalKeyFrame(xnode);
-               break;
-           case "DecimalKeyFrameCollection":
-               OnDecimalKeyFrameCollection(xnode);
-               break;
-           case "Decorator":
-               OnDecorator(xnode);
-               break;
-           case "DefinitionBase":
-               OnDefinitionBase(xnode);
-               break;
-           case "DependencyObject":
-               OnDependencyObject(xnode);
-               break;
-           case "DiffuseMaterial":
-               OnDiffuseMaterial(xnode);
-               break;
-           case "DirectionalLight":
-               OnDirectionalLight(xnode);
-               break;
-           case "DiscreteBooleanKeyFrame":
-               OnDiscreteBooleanKeyFrame(xnode);
-               break;
-           case "DiscreteByteKeyFrame":
-               OnDiscreteByteKeyFrame(xnode);
-               break;
-           case "DiscreteCharKevFrame":
-               OnDiscreteCharKevFrame(xnode);
-               break;
-           case "DiscreteColorKeyFrame":
-               OnDiscreteColorKeyFrame(xnode);
-               break;
-           case "DiscreteDecimalKeyFrame":
-               OnDiscreteDecimalKeyFrame(xnode);
-               break;
-           case "DiscreteDoubleKeyFrame":
-               OnDiscreteDoubleKeyFrame(xnode);
-               break;
-           case "DiscreteInt16KevFrame":
-               OnDiscreteInt16KevFrame(xnode);
-               break;
-           case "DiscreteInt32KeyFrame":
-               OnDiscreteInt32KeyFrame(xnode);
-               break;
-           case "Discretent64KeyFrame":
-               OnDiscretent64KeyFrame(xnode);
-               break;
-           case "DiscretelMatrixKeyFrame":
-               OnDiscretelMatrixKeyFrame(xnode);
-               break;
-           case "DiscereteObjectKeyFrame":
-               OnDiscereteObjectKeyFrame(xnode);
-               break;
-           case "DiscretePoint3DKeyFrame":
-               OnDiscretePoint3DKeyFrame(xnode);
-               break;
-           case "DiscretePointKeyFrame":
-               OnDiscretePointKeyFrame(xnode);
-               break;
-           case "DiscreteQuaternionKeyFrame":
-               OnDiscreteQuaternionKeyFrame(xnode);
-               break;
-           case "DiscreteRectKeyFrame":
-               OnDiscreteRectKeyFrame(xnode);
-               break;
-           case "DiscreteRotation3DKeyFramne":
-               OnDiscreteRotation3DKeyFramne(xnode);
-               break;
-           case "DiscreteSingleKeyFrame":
-               OnDiscreteSingleKeyFrame(xnode);
-               break;
-           case "DiscreteSizeKeyFrame":
-               OnDiscreteSizeKeyFrame(xnode);
-               break;
-           case "DiscreteStringKeyFrame":
-               OnDiscreteStringKeyFrame(xnode);
-               break;
-           case "DiscreteThicknessKeyFrame":
-               OnDiscreteThicknessKeyFrame(xnode);
-               break;
-           case "DiscreteVector3DKeyFrame":
-               OnDiscreteVector3DKeyFrame(xnode);
-               break;
-           case "DiscreteVectorKeyFrame":
-               OnDiscreteVectorKeyFrame(xnode);
-               break;
-           case "DispatcherEventArgs":
-               OnDispatcherEventArgs(xnode);
-               break;
-           case "DispatcherFrame":
-               OnDispatcherFrame(xnode);
-               break;
-           case "DispatcherObject":
-               OnDispatcherObject(xnode);
-               break;
-           case "DispatcherOperation":
-               OnDispatcherOperation(xnode);
-               break;
-           case "DispatcherUnhandledExceptionEventArgs":
-               OnDispatcherUnhandledExceptionEventArgs(xnode);
-               break;
-           case "DispatcherUnhandledExceptionFilterEventArgs":
-               OnDispatcherUnhandledExceptionFilterEventArgs(xnode);
-               break;
-           case "DockPanel":
-               OnDockPanel(xnode);
-               break;
-           case "DocumentAutomationPeer":
-               OnDocumentAutomationPeer(xnode);
-               break;
-           case "DocumentViewerAutomationPeer":
-               OnDocumentViewerAutomationPeer(xnode);
-               break;
-           case "DocumentPageView":
-               OnDocumentPageView(xnode);
-               break;
-           case "DocumentPageViewAutomationPeer":
-               OnDocumentPageViewAutomationPeer(xnode);
-               break;
-           case "DocumentPaginator":
-               OnDocumentPaginator(xnode);
-               break;
-           case "DocumentReference":
-               OnDocumentReference(xnode);
-               break;
-           case "DocumentViewer":
-               OnDocumentViewer(xnode);
-               break;
-           case "DocumentViewerBaseAutomationPeer":
-               OnDocumentViewerBaseAutomationPeer(xnode);
-               break;
-           case "DoCumentViewerBase":
-               OnDoCumentViewerBase(xnode);
-               break;
-           case "DoubleAnimation":
-               OnDoubleAnimation(xnode);
-               break;
-           case "DoubleAnimationBase":
-               OnDoubleAnimationBase(xnode);
-               break;
-           case "DoubleAmimationUsingKevFrames":
-               OnDoubleAmimationUsingKevFrames(xnode);
-               break;
-           case "DoubleAnimationsingPath":
-               OnDoubleAnimationsingPath(xnode);
-               break;
-           case "DoubleCollection":
-               OnDoubleCollection(xnode);
-               break;
-           case "DoubleCollectionValueSenalizer":
-               OnDoubleCollectionValueSenalizer(xnode);
-               break;
-           case "DoubleIListConverter":
-               OnDoubleIListConverter(xnode);
-               break;
-           case "DoubleKeyFrame":
-               OnDoubleKeyFrame(xnode);
-               break;
-           case "DoubleKeyFrameCollection":
-               OnDoubleKeyFrameCollection(xnode);
-               break;
-           case "DragCompletedEventArgs":
-               OnDragCompletedEventArgs(xnode);
-               break;
-           case "DragDeltaEventArgs":
-               OnDragDeltaEventArgs(xnode);
-               break;
-           case "DragEventArgs":
-               OnDragEventArgs(xnode);
-               break;
-           case "DragStartedEventArgs":
-               OnDragStartedEventArgs(xnode);
-               break;
-           case "Drawing":
-               OnDrawing(xnode);
-               break;
-           case "DrawingBrush":
-               OnDrawingBrush(xnode);
-               break;
-           case "DrawingCollection":
-               OnDrawingCollection(xnode);
-               break;
-           case "DrawingContext":
-               OnDrawingContext(xnode);
-               break;
-           case "DrawingGroup":
-               OnDrawingGroup(xnode);
-               break;
-           case "DrawingImage":
-               OnDrawingImage(xnode);
-               break;
-           case "DrawingVisual":
-               OnDrawingVisual(xnode);
-               break;
-           case "DropShadowBitmapEffect":
-               OnDropShadowBitmapEffect(xnode);
-               break;
-           case "DropShadowEffect":
-               OnDropShadowEffect(xnode);
-               break;
-           case "DynamicDocumentPaginator":
-               OnDynamicDocumentPaginator(xnode);
-               break;
-           case "DynamicRenderer":
-               OnDynamicRenderer(xnode);
-               break;
-           case "DynamicResourceExtension":
-               OnDynamicResourceExtension(xnode);
-               break;
-           case "EasingByteKeyFrame":
-               OnEasingByteKeyFrame(xnode);
-               break;
-           case "EasingColorKeyFrame":
-               OnEasingColorKeyFrame(xnode);
-               break;
-           case "EasingDecimalKeyFrame":
-               OnEasingDecimalKeyFrame(xnode);
-               break;
-           case "EasingDoubleKeyFrame":
-               OnEasingDoubleKeyFrame(xnode);
-               break;
-           case "EasingFunctionBase":
-               OnEasingFunctionBase(xnode);
-               break;
-           case "EasingInt16KeyFrame":
-               OnEasingInt16KeyFrame(xnode);
-               break;
-           case "EasingInt32KeyFrame":
-               OnEasingInt32KeyFrame(xnode);
-               break;
-           case "Easinglnt64KeyFrame":
-               OnEasinglnt64KeyFrame(xnode);
-               break;
-           case "EasingPoint3DKeyFrame":
-               OnEasingPoint3DKeyFrame(xnode);
-               break;
-           case "EasingPointKeyFrame":
-               OnEasingPointKeyFrame(xnode);
-               break;
-           case "EasingQuaternionKeyFrame":
-               OnEasingQuaternionKeyFrame(xnode);
-               break;
-           case "EasingRectKeyFrame":
-               OnEasingRectKeyFrame(xnode);
-               break;
-           case "EasingRotation3DKeyFrame":
-               OnEasingRotation3DKeyFrame(xnode);
-               break;
-           case "EasingSingleKeyFrame":
-               OnEasingSingleKeyFrame(xnode);
-               break;
-           case "EasingSizeKeyFranme":
-               OnEasingSizeKeyFranme(xnode);
-               break;
-           case "EasingThicknessKeyFrame":
-               OnEasingThicknessKeyFrame(xnode);
-               break;
-           case "EasıngVector3DKeyFrame":
-               OnEasıngVector3DKeyFrame(xnode);
-               break;
-           case "EasingVectorKeyFrame":
-               OnEasingVectorKeyFrame(xnode);
-               break;
-           case "Effect":
-               OnEffect(xnode);
-               break;
-           case "ElasticEase":
-               OnElasticEase(xnode);
-               break;
-           case "Ellipse":
-               OnEllipse(xnode);
-               break;
-           case "EllipseGeometry":
-               OnEllipseGeometry(xnode);
-               break;
-           case "EllipseStylusShape":
-               OnEllipseStylusShape(xnode);
-               break;
-           case "EmbossBitmapEffect":
-               OnEmbossBitmapEffect(xnode);
-               break;
-           case "EmissiveMaterial":
-               OnEmissiveMaterial(xnode);
-               break;
-           case "ErrorsChangedEventManager":
-               OnErrorsChangedEventManager(xnode);
-               break;
-           case "EventArgs":
-               OnEventArgs(xnode);
-               break;
-           case "EventSetter":
-               OnEventSetter(xnode);
-               break;
-           case "EventTrigger":
-               OnEventTrigger(xnode);
-               break;
-           case "EventTriggerBase":
-               OnEventTriggerBase(xnode);
-               break;
-           case "Exception":
-               OnException(xnode);
-               break;
-           case "ExceptionRoutedEventArgs":
-               OnExceptionRoutedEventArgs(xnode);
-               break;
-           case "ExceptionValidationRule":
-               OnExceptionValidationRule(xnode);
-               break;
-           case "ExecutedRoutedEventArgs":
-               OnExecutedRoutedEventArgs(xnode);
-               break;
-           case "Expander":
-               OnExpander(xnode);
-               break;
-           case "ExpanderAutomationPeer":
-               OnExpanderAutomationPeer(xnode);
-               break;
-           case "ExponentialEase":
-               OnExponentialEase(xnode);
-               break;
-           case "Expression":
-               OnExpression(xnode);
-               break;
-           case "ExpressionConverter":
-               OnExpressionConverter(xnode);
-               break;
-           case "ExtendedVisualStateManager":
-               OnExtendedVisualStateManager(xnode);
-               break;
-           case "Figure":
-               OnFigure(xnode);
-               break;
-           case "FigureStructure":
-               OnFigureStructure(xnode);
-               break;
-           case "FileDialog":
-               OnFileDialog(xnode);
-               break;
-           case "FixedDocument":
-               OnFixedDocument(xnode);
-               break;
-           case "FixedDocumentSequence":
-               OnFixedDocumentSequence(xnode);
-               break;
-           case "FixedPage":
-               OnFixedPage(xnode);
-               break;
-           case "FixedPageAutomationPeer":
-               OnFixedPageAutomationPeer(xnode);
-               break;
-           case "Floater":
-               OnFloater(xnode);
-               break;
-           case "FlowDocument":
-               OnFlowDocument(xnode);
-               break;
-           case "FlowDocumentPageViewer":
-               OnFlowDocumentPageViewer(xnode);
-               break;
-           case "FlowDocumentPageViewerAutomationPeer":
-               OnFlowDocumentPageViewerAutomationPeer(xnode);
-               break;
-           case "FlowDocumentReader":
-               OnFlowDocumentReader(xnode);
-               break;
-           case "FlowDocumentReaderAutomationPeer":
-               OnFlowDocumentReaderAutomationPeer(xnode);
-               break;
-           case "FlowDocumentScrollViewer":
-               OnFlowDocumentScrollViewer(xnode);
-               break;
-           case "FlowDocumentScrollViewerAutomationPeer":
-               OnFlowDocumentScrollViewerAutomationPeer(xnode);
-               break;
-           case "FluidMoveBehavior":
-               OnFluidMoveBehavior(xnode);
-               break;
-           case "FluidMoveBehaviorBase":
-               OnFluidMoveBehaviorBase(xnode);
-               break;
-           case "FluidMoveSetTagBehavior":
-               OnFluidMoveSetTagBehavior(xnode);
-               break;
-           case "FontFamilyValueSerializer":
-               OnFontFamilyValueSerializer(xnode);
-               break;
-           case "FormatConvertedBitmap":
-               OnFormatConvertedBitmap(xnode);
-               break;
-           case "Frame":
-               OnFrame(xnode);
-               break;
-           case "FrameAutomationPeer":
-               OnFrameAutomationPeer(xnode);
-               break;
-           case "FrameworkContentElement":
-               OnFrameworkContentElement(xnode);
-               break;
-           case "FrameworkContentElementAutomationPeer":
-               OnFrameworkContentElementAutomationPeer(xnode);
-               break;
-           case "FrameworkElement":
-               OnFrameworkElement(xnode);
-               break;
-           case "FrameworkElementAutomationPeer":
-               OnFrameworkElementAutomationPeer(xnode);
-               break;
-           case "FrameworkPropertyMetadata":
-               OnFrameworkPropertyMetadata(xnode);
-               break;
-           case "FrameworkRichTextComposition":
-               OnFrameworkRichTextComposition(xnode);
-               break;
-           case "FrameworkTemplate":
-               OnFrameworkTemplate(xnode);
-               break;
-           case "FrameworkTextComposition":
-               OnFrameworkTextComposition(xnode);
-               break;
-           case "Freezable":
-               OnFreezable(xnode);
-               break;
-           case "FreezableCollection":
-               OnFreezableCollection(xnode);
-               break;
-           case "GeneralTransform":
-               OnGeneralTransform(xnode);
-               break;
-           case "GeneralTransform2DTo3D":
-               OnGeneralTransform2DTo3D(xnode);
-               break;
-           case "GeneralTransform3D":
-               OnGeneralTransform3D(xnode);
-               break;
-           case "GeneralTransform3DCollection":
-               OnGeneralTransform3DCollection(xnode);
-               break;
-           case "GeneralTransform3DGroup":
-               OnGeneralTransform3DGroup(xnode);
-               break;
-           case "GeneralTransform3DTo2D":
-               OnGeneralTransform3DTo2D(xnode);
-               break;
-           case "GeneralTransformCollection":
-               OnGeneralTransformCollection(xnode);
-               break;
-           case "GeneralTransformGroup":
-               OnGeneralTransformGroup(xnode);
-               break;
-           case "GenericRootAutomationPeer":
-               OnGenericRootAutomationPeer(xnode);
-               break;
-           case "Geometry":
-               OnGeometry(xnode);
-               break;
-           case "Geometry3D":
-               OnGeometry3D(xnode);
-               break;
-           case "GeometryCollection":
-               OnGeometryCollection(xnode);
-               break;
-           case "GeometryDrawing":
-               OnGeometryDrawing(xnode);
-               break;
-           case "GeometryGroup":
-               OnGeometryGroup(xnode);
-               break;
-           case "GeometryHitTestParameters":
-               OnGeometryHitTestParameters(xnode);
-               break;
-           case "GeometryHitTestResult":
-               OnGeometryHitTestResult(xnode);
-               break;
-           case "GeometryModel3D":
-               OnGeometryModel3D(xnode);
-               break;
-           case "GeometryValueSenalizer":
-               OnGeometryValueSenalizer(xnode);
-               break;
-           case "GestureRecognizer":
-               OnGestureRecognizer(xnode);
-               break;
-           case "GifBitmapDecoder":
-               OnGifBitmapDecoder(xnode);
-               break;
-           case "GifBitmapEncoder":
-               OnGifBitmapEncoder(xnode);
-               break;
-           case "GiveFeedbackEventArgs":
-               OnGiveFeedbackEventArgs(xnode);
-               break;
-           case "GlyphRunDrawing":
-               OnGlyphRunDrawing(xnode);
-               break;
-           case "Glyphs":
-               OnGlyphs(xnode);
-               break;
-           case "GoToStateAction":
-               OnGoToStateAction(xnode);
-               break;
-           case "GradientBrush":
-               OnGradientBrush(xnode);
-               break;
-           case "GradientStop":
-               OnGradientStop(xnode);
-               break;
-           case "GradientStopCollection":
-               OnGradientStopCollection(xnode);
-               break;
-           case "Grid":
-               OnGrid(xnode);
-               break;
-           case "GridSplitter":
-               OnGridSplitter(xnode);
-               break;
-           case "GridSplitterAutomationPeer":
-               OnGridSplitterAutomationPeer(xnode);
-               break;
-           case "GridView":
-               OnGridView(xnode);
-               break;
-           case "GridViewCellAutomationPeer":
-               OnGridViewCellAutomationPeer(xnode);
-               break;
-           case "GridViewColumn":
-               OnGridViewColumn(xnode);
-               break;
-           case "GridViewColumnHeader":
-               OnGridViewColumnHeader(xnode);
-               break;
-           case "GidViewColumnHeaderAutomationPeer":
-               OnGidViewColumnHeaderAutomationPeer(xnode);
-               break;
-           case "GridViewHeaderRowPresenter":
-               OnGridViewHeaderRowPresenter(xnode);
-               break;
-           case "GridViewHeaderRowPresenterAutomationPeer":
-               OnGridViewHeaderRowPresenterAutomationPeer(xnode);
-               break;
-           case "GridViewItemAutomationPeer":
-               OnGridViewItemAutomationPeer(xnode);
-               break;
-           case "GridViewRowPresenter":
-               OnGridViewRowPresenter(xnode);
-               break;
-           case "GridViewRowPresenterBase":
-               OnGridViewRowPresenterBase(xnode);
-               break;
-           case "GroupBox":
-               OnGroupBox(xnode);
-               break;
-           case "GroupBoXAutomationPeer":
-               OnGroupBoXAutomationPeer(xnode);
-               break;
-           case "GroupDescription":
-               OnGroupDescription(xnode);
-               break;
-           case "Groupltem":
-               OnGroupltem(xnode);
-               break;
-           case "GroupItemAutomationPeer":
-               OnGroupItemAutomationPeer(xnode);
-               break;
-           case "GuidelineSet":
-               OnGuidelineSet(xnode);
-               break;
-           case "HeaderedContentControl":
-               OnHeaderedContentControl(xnode);
-               break;
-           case "HeaderedItemsControl":
-               OnHeaderedItemsControl(xnode);
-               break;
-           case "HierarchicalDataTemplate":
-               OnHierarchicalDataTemplate(xnode);
-               break;
-           case "HitTestParameters":
-               OnHitTestParameters(xnode);
-               break;
-           case "HitTestParameters3D":
-               OnHitTestParameters3D(xnode);
-               break;
-           case "HitTestResult":
-               OnHitTestResult(xnode);
-               break;
-           case "HostVisual":
-               OnHostVisual(xnode);
-               break;
-           case "HwndHost":
-               OnHwndHost(xnode);
-               break;
-           case "HwndSource":
-               OnHwndSource(xnode);
-               break;
-           case "HwndTarget":
-               OnHwndTarget(xnode);
-               break;
-           case "Hperlınk":
-               OnHperlınk(xnode);
-               break;
-           case "HyperlinkAutomationPeer":
-               OnHyperlinkAutomationPeer(xnode);
-               break;
-           case "IconBitmapDecoder":
-               OnIconBitmapDecoder(xnode);
-               break;
-           case "Image":
-               OnImage(xnode);
-               break;
-           case "ImageAutomationPeer":
-               OnImageAutomationPeer(xnode);
-               break;
-           case "TmageBrush":
-               OnTmageBrush(xnode);
-               break;
-           case "ImageDrawing":
-               OnImageDrawing(xnode);
-               break;
-           case "Imageetadata":
-               OnImageetadata(xnode);
-               break;
-           case "ImageSource":
-               OnImageSource(xnode);
-               break;
-           case "ImageSourcealueSerializer":
-               OnImageSourcealueSerializer(xnode);
-               break;
-           case "IncrementalHitTester":
-               OnIncrementalHitTester(xnode);
-               break;
-           case "IncrementalLassoHitTester":
-               OnIncrementalLassoHitTester(xnode);
-               break;
-           case "IncrementalStrokehHitTester":
-               OnIncrementalStrokehHitTester(xnode);
-               break;
-           case "InkCanvas":
-               OnInkCanvas(xnode);
-               break;
-           case "InkCanvasAutomationPeer":
-               OnInkCanvasAutomationPeer(xnode);
-               break;
-           case "InkCanvasGestureEventArgs":
-               OnInkCanvasGestureEventArgs(xnode);
-               break;
-           case "InkCanvasStrokeCollectedEventArgs":
-               OnInkCanvasStrokeCollectedEventArgs(xnode);
-               break;
-           case "InkPresenter":
-               OnInkPresenter(xnode);
-               break;
-           case "InkPresenterAutomationPeer":
-               OnInkPresenterAutomationPeer(xnode);
-               break;
-           case "Inline":
-               OnInline(xnode);
-               break;
-           case "InlineUIContainer":
-               OnInlineUIContainer(xnode);
-               break;
-           case "InPlaceBitmapMetadata":
-               OnInPlaceBitmapMetadata(xnode);
-               break;
-           case "InputBindıng":
-               OnInputBindıng(xnode);
-               break;
-           case "InputDevice":
-               OnInputDevice(xnode);
-               break;
-           case "InputEventArgs":
-               OnInputEventArgs(xnode);
-               break;
-           case "InputGesture":
-               OnInputGesture(xnode);
-               break;
-           case "InputanguageChangedEventArgs":
-               OnInputanguageChangedEventArgs(xnode);
-               break;
-           case "InputLanguageChangingEventArgs":
-               OnInputLanguageChangingEventArgs(xnode);
-               break;
-           case "InputanguageEventArgs":
-               OnInputanguageEventArgs(xnode);
-               break;
-           case "InputLanguageManager":
-               OnInputLanguageManager(xnode);
-               break;
-           case "InputManager":
-               OnInputManager(xnode);
-               break;
-           case "InputMethod":
-               OnInputMethod(xnode);
-               break;
-           case "Int16Animation":
-               OnInt16Animation(xnode);
-               break;
-           case "Int16AnimationBase":
-               OnInt16AnimationBase(xnode);
-               break;
-           case "Int16AnimationBaseUsingKeyFrames":
-               OnInt16AnimationBaseUsingKeyFrames(xnode);
-               break;
-           case "Int16KeyFrame":
-               OnInt16KeyFrame(xnode);
-               break;
-           case "Int16KeyFrameCollection":
-               OnInt16KeyFrameCollection(xnode);
-               break;
-           case "Int32Animation":
-               OnInt32Animation(xnode);
-               break;
-           case "Int32AnimationBase":
-               OnInt32AnimationBase(xnode);
-               break;
-           case "Int32AnimationUsingKeyFrames":
-               OnInt32AnimationUsingKeyFrames(xnode);
-               break;
-           case "Int32Collection":
-               OnInt32Collection(xnode);
-               break;
-           case "Int32CollecionValueSerializer":
-               OnInt32CollecionValueSerializer(xnode);
-               break;
-           case "Int32KeyFrame":
-               OnInt32KeyFrame(xnode);
-               break;
-           case "Int32KeyFrameCollection":
-               OnInt32KeyFrameCollection(xnode);
-               break;
-           case "Int32RectValueSernalizer":
-               OnInt32RectValueSernalizer(xnode);
-               break;
-           case "Int64Animation":
-               OnInt64Animation(xnode);
-               break;
-           case "Int64AnimationBase":
-               OnInt64AnimationBase(xnode);
-               break;
-           case "Int64AnimationUsingKeyFrames":
-               OnInt64AnimationUsingKeyFrames(xnode);
-               break;
-           case "Int64KevFrame":
-               OnInt64KevFrame(xnode);
-               break;
-           case "Int64KevFrameCollection":
-               OnInt64KevFrameCollection(xnode);
-               break;
-           case "InteropBitmap":
-               OnInteropBitmap(xnode);
-               break;
-           case "InvokeCommandAction":
-               OnInvokeCommandAction(xnode);
-               break;
-           case "Italic":
-               OnItalic(xnode);
-               break;
-           case "ItemAutomationPeer":
-               OnItemAutomationPeer(xnode);
-               break;
-           case "ItemCollection":
-               OnItemCollection(xnode);
-               break;
-           case "ItemContainerTernplate":
-               OnItemContainerTernplate(xnode);
-               break;
-           case "ItemContainerTemplateKey":
-               OnItemContainerTemplateKey(xnode);
-               break;
-           case "ItemsControl":
-               OnItemsControl(xnode);
-               break;
-           case "ItemsControlAutomationPeer":
-               OnItemsControlAutomationPeer(xnode);
-               break;
-           case "ItemsPanelTernplate":
-               OnItemsPanelTernplate(xnode);
-               break;
-           case "ItemsPresenter":
-               OnItemsPresenter(xnode);
-               break;
-           case "JournalEntry":
-               OnJournalEntry(xnode);
-               break;
-           case "JpegBitmapDecoder":
-               OnJpegBitmapDecoder(xnode);
-               break;
-           case "JpegBitmapEncoder":
-               OnJpegBitmapEncoder(xnode);
-               break;
-           case "JumpItem":
-               OnJumpItem(xnode);
-               break;
-           case "JumpPath":
-               OnJumpPath(xnode);
-               break;
-           case "JumpTask":
-               OnJumpTask(xnode);
-               break;
-           case "KeyBinding":
-               OnKeyBinding(xnode);
-               break;
-           case "KeyboardDevice":
-               OnKeyboardDevice(xnode);
-               break;
-           case "KeyboardEventArgs":
-               OnKeyboardEventArgs(xnode);
-               break;
-           case "KeyboardFocusChangedEventArgs":
-               OnKeyboardFocusChangedEventArgs(xnode);
-               break;
-           case "KeyboardInputPrOviderAcquireFocusEventArgs":
-               OnKeyboardInputPrOviderAcquireFocusEventArgs(xnode);
-               break;
-           case "KeyEventArgs":
-               OnKeyEventArgs(xnode);
-               break;
-           case "KevGesture":
-               OnKevGesture(xnode);
-               break;
-           case "KevGestureValueSerializer":
-               OnKevGestureValueSerializer(xnode);
-               break;
-           case "KeySpline":
-               OnKeySpline(xnode);
-               break;
-           case "KeyTrigger":
-               OnKeyTrigger(xnode);
-               break;
-           case "KeyValueSerializer":
-               OnKeyValueSerializer(xnode);
-               break;
-           case "Label":
-               OnLabel(xnode);
-               break;
-           case "LabelAutomationPeer":
-               OnLabelAutomationPeer(xnode);
-               break;
-           case "LateBoundBitmapDecoder":
-               OnLateBoundBitmapDecoder(xnode);
-               break;
-           case "LaunchUriOrFileAction":
-               OnLaunchUriOrFileAction(xnode);
-               break;
-           case "Light":
-               OnLight(xnode);
-               break;
-           case "Line":
-               OnLine(xnode);
-               break;
-           case "LinearByteKeyFrame":
-               OnLinearByteKeyFrame(xnode);
-               break;
-           case "LinearColorKeyFrame":
-               OnLinearColorKeyFrame(xnode);
-               break;
-           case "LinearDecimalKeyFrame":
-               OnLinearDecimalKeyFrame(xnode);
-               break;
-           case "LinearDoubleKeyFrame":
-               OnLinearDoubleKeyFrame(xnode);
-               break;
-           case "LinearGradientBrush":
-               OnLinearGradientBrush(xnode);
-               break;
-           case "LinearInt16KeyFrame":
-               OnLinearInt16KeyFrame(xnode);
-               break;
-           case "LinearInt32KeyFrame":
-               OnLinearInt32KeyFrame(xnode);
-               break;
-           case "LinearInt64KeyFrame":
-               OnLinearInt64KeyFrame(xnode);
-               break;
-           case "LinearPoint3DKeyFrame":
-               OnLinearPoint3DKeyFrame(xnode);
-               break;
-           case "LinearPointKeyFrame":
-               OnLinearPointKeyFrame(xnode);
-               break;
-           case "LinearQuaternionKeyFrame":
-               OnLinearQuaternionKeyFrame(xnode);
-               break;
-           case "LinearRectKeyFrame":
-               OnLinearRectKeyFrame(xnode);
-               break;
-           case "LinearRotation3DKeyFrame":
-               OnLinearRotation3DKeyFrame(xnode);
-               break;
-           case "LinearSingleKeyFrame":
-               OnLinearSingleKeyFrame(xnode);
-               break;
-           case "LinearSizeKeyFrame":
-               OnLinearSizeKeyFrame(xnode);
-               break;
-           case "LinearThicknessKeyFrame":
-               OnLinearThicknessKeyFrame(xnode);
-               break;
-           case "LinearVector3DKeyFrame":
-               OnLinearVector3DKeyFrame(xnode);
-               break;
-           case "LinearVectorKeyFrame":
-               OnLinearVectorKeyFrame(xnode);
-               break;
-           case "LineBreak":
-               OnLineBreak(xnode);
-               break;
-           case "LineGeometry":
-               OnLineGeometry(xnode);
-               break;
-           case "LineSeement":
-               OnLineSeement(xnode);
-               break;
-           case "List":
-               OnList(xnode);
-               break;
-           case "ListBox":
-               OnListBox(xnode);
-               break;
-           case "ListBoxAutomationPeer":
-               OnListBoxAutomationPeer(xnode);
-               break;
-           case "ListBoxltem":
-               OnListBoxltem(xnode);
-               break;
-           case "ListBoxItemAutomationPeer":
-               OnListBoxItemAutomationPeer(xnode);
-               break;
-           case "ListBoxItemWrapperAutomationPecer":
-               OnListBoxItemWrapperAutomationPecer(xnode);
-               break;
-           case "ListColectionView":
-               OnListColectionView(xnode);
-               break;
-           case "ListItem":
-               OnListItem(xnode);
-               break;
-           case "ListitemStructure":
-               OnListitemStructure(xnode);
-               break;
-           case "ListStructure":
-               OnListStructure(xnode);
-               break;
-           case "ListView":
-               OnListView(xnode);
-               break;
-           case "ListViewAutomationPeer":
-               OnListViewAutomationPeer(xnode);
-               break;
-           case "ListViewItem":
-               OnListViewItem(xnode);
-               break;
-           case "LostFocusEventManager":
-               OnLostFocusEventManager(xnode);
-               break;
-           case "ManipulationBoundaryFeedbackEvetArgs":
-               OnManipulationBoundaryFeedbackEvetArgs(xnode);
-               break;
-           case "ManipulationCompletedEventArgs":
-               OnManipulationCompletedEventArgs(xnode);
-               break;
-           case "ManipulationDeltaEventArgs":
-               OnManipulationDeltaEventArgs(xnode);
-               break;
-           case "ManipulationInertiaStartingEventArgs":
-               OnManipulationInertiaStartingEventArgs(xnode);
-               break;
-           case "ManipulationStartedEventArgs":
-               OnManipulationStartedEventArgs(xnode);
-               break;
-           case "ManıpulationStartingErentArgs":
-               OnManıpulationStartingErentArgs(xnode);
-               break;
-           case "MarkupExtension":
-               OnMarkupExtension(xnode);
-               break;
-           case "Material":
-               OnMaterial(xnode);
-               break;
-           case "MaterialCollection":
-               OnMaterialCollection(xnode);
-               break;
-           case "MaterialGroup":
-               OnMaterialGroup(xnode);
-               break;
-           case "Matrix3DValueSerializer":
-               OnMatrix3DValueSerializer(xnode);
-               break;
-           case "MatrixAnimationBase":
-               OnMatrixAnimationBase(xnode);
-               break;
-           case "MatrixAnimationUsingKeyFrames":
-               OnMatrixAnimationUsingKeyFrames(xnode);
-               break;
-           case "MatrixAnimationUsingPath":
-               OnMatrixAnimationUsingPath(xnode);
-               break;
-           case "MatrixCamera":
-               OnMatrixCamera(xnode);
-               break;
-           case "MatrixKeyFrame":
-               OnMatrixKeyFrame(xnode);
-               break;
-           case "MatrixKeyFrameCollection":
-               OnMatrixKeyFrameCollection(xnode);
-               break;
-           case "MatrixTransform":
-               OnMatrixTransform(xnode);
-               break;
-           case "MatrixTransform3D":
-               OnMatrixTransform3D(xnode);
-               break;
-           case "MatrixValueSerializer":
-               OnMatrixValueSerializer(xnode);
-               break;
-           case "MediaClock":
-               OnMediaClock(xnode);
-               break;
-           case "MediaElement":
-               OnMediaElement(xnode);
-               break;
-           case "MediaElementAutomationPeer":
-               OnMediaElementAutomationPeer(xnode);
-               break;
-           case "MediaPlayer":
-               OnMediaPlayer(xnode);
-               break;
-           case "MediaScriptCommandRoutedEventArgs":
-               OnMediaScriptCommandRoutedEventArgs(xnode);
-               break;
-           case "MediaTimeline":
-               OnMediaTimeline(xnode);
-               break;
-           case "MemberDefinition":
-               OnMemberDefinition(xnode);
-               break;
-           case "Menu":
-               OnMenu(xnode);
-               break;
-           case "MenuAutomationPeer":
-               OnMenuAutomationPeer(xnode);
-               break;
-           case "MenuBase":
-               OnMenuBase(xnode);
-               break;
-           case "MenuItem":
-               OnMenuItem(xnode);
-               break;
-           case "MenuItemAutomationPeer":
-               OnMenuItemAutomationPeer(xnode);
-               break;
-           case "MeshGeometry3D":
-               OnMeshGeometry3D(xnode);
-               break;
-           case "Model3D":
-               OnModel3D(xnode);
-               break;
-           case "Model3DCollection":
-               OnModel3DCollection(xnode);
-               break;
-           case "Model3DGroup":
-               OnModel3DGroup(xnode);
-               break;
-           case "ModelUIElement3D":
-               OnModelUIElement3D(xnode);
-               break;
-           case "ModelVisual3D":
-               OnModelVisual3D(xnode);
-               break;
-           case "ModifierKeysValueSerializer":
-               OnModifierKeysValueSerializer(xnode);
-               break;
-           case "MouseActionValueSerializer":
-               OnMouseActionValueSerializer(xnode);
-               break;
-           case "MouseBinding":
-               OnMouseBinding(xnode);
-               break;
-           case "MouseButtonEventArgs":
-               OnMouseButtonEventArgs(xnode);
-               break;
-           case "MouseDevice":
-               OnMouseDevice(xnode);
-               break;
-           case "MouseDragElementBehavior":
-               OnMouseDragElementBehavior(xnode);
-               break;
-           case "MouseEventArgs":
-               OnMouseEventArgs(xnode);
-               break;
-           case "MouseGesture":
-               OnMouseGesture(xnode);
-               break;
-           case "MouseGestureValueSerializer":
-               OnMouseGestureValueSerializer(xnode);
-               break;
-           case "MouseWheelEventArgs":
-               OnMouseWheelEventArgs(xnode);
-               break;
-           case "MultiBinding":
-               OnMultiBinding(xnode);
-               break;
-           case "MultiBindingExpression":
-               OnMultiBindingExpression(xnode);
-               break;
-           case "MultiDataTrigger":
-               OnMultiDataTrigger(xnode);
-               break;
-           case "MultiSelector":
-               OnMultiSelector(xnode);
-               break;
-           case "MultiTrigger":
-               OnMultiTrigger(xnode);
-               break;
-           case "NamedElement":
-               OnNamedElement(xnode);
-               break;
-           case "NavigationWindow":
-               OnNavigationWindow(xnode);
-               break;
-           case "NavigationWindowAutomationPeer":
-               OnNavigationWindowAutomationPeer(xnode);
-               break;
-           case "NotifyDataErrorValidationRule":
-               OnNotifyDataErrorValidationRule(xnode);
-               break;
-           case "NotifyInputEventArgs":
-               OnNotifyInputEventArgs(xnode);
-               break;
-           case "NullExtension":
-               OnNullExtension(xnode);
-               break;
-           case "ObjectAnimationBase":
-               OnObjectAnimationBase(xnode);
-               break;
-           case "ObjectAnimationUsingKeyFrames":
-               OnObjectAnimationUsingKeyFrames(xnode);
-               break;
-           case "ObjectDataProvider":
-               OnObjectDataProvider(xnode);
-               break;
-           case "ObjectKeyFrame":
-               OnObjectKeyFrame(xnode);
-               break;
-           case "ObjectKeyFrameCollection":
-               OnObjectKeyFrameCollection(xnode);
-               break;
-           case "OpenFileDialog":
-               OnOpenFileDialog(xnode);
-               break;
-           case "OrthographicCamera":
-               OnOrthographicCamera(xnode);
-               break;
-           case "OuterGlowBitmapEffect":
-               OnOuterGlowBitmapEffect(xnode);
-               break;
-           case "Package":
-               OnPackage(xnode);
-               break;
-           case "PackagePart":
-               OnPackagePart(xnode);
-               break;
-           case "Page":
-               OnPage(xnode);
-               break;
-           case "PageContent":
-               OnPageContent(xnode);
-               break;
-           case "PageFunction":
-               OnPageFunction(xnode);
-               break;
-           case "PageFunctionBase":
-               OnPageFunctionBase(xnode);
-               break;
-           case "Panel":
-               OnPanel(xnode);
-               break;
-           case "Paragraph":
-               OnParagraph(xnode);
-               break;
-           case "ParagraphStructure":
-               OnParagraphStructure(xnode);
-               break;
-           case "ParallelTimeline":
-               OnParallelTimeline(xnode);
-               break;
-           case "PasswordBox":
-               OnPasswordBox(xnode);
-               break;
-           case "PasswordBoxAutomationPeer":
-               OnPasswordBoxAutomationPeer(xnode);
-               break;
-           case "Path":
-               OnPath(xnode);
-               break;
-           case "PathFigure":
-               OnPathFigure(xnode);
-               break;
-           case "PathFigureCollection":
-               OnPathFigureCollection(xnode);
-               break;
-           case "PathFigureCollectionValueSenalizer":
-               OnPathFigureCollectionValueSenalizer(xnode);
-               break;
-           case "PathGeometry":
-               OnPathGeometry(xnode);
-               break;
-           case "PathSegment":
-               OnPathSegment(xnode);
-               break;
-           case "PathSegmentCollection":
-               OnPathSegmentCollection(xnode);
-               break;
-           case "PauseStoryboard":
-               OnPauseStoryboard(xnode);
-               break;
-           case "Pen":
-               OnPen(xnode);
-               break;
-           case "PerspectiveCamera":
-               OnPerspectiveCamera(xnode);
-               break;
-           case "PixelShader":
-               OnPixelShader(xnode);
-               break;
-           case "PlaySoundAction":
-               OnPlaySoundAction(xnode);
-               break;
-           case "PngBitmapDecoder":
-               OnPngBitmapDecoder(xnode);
-               break;
-           case "PngBitmapEncoder":
-               OnPngBitmapEncoder(xnode);
-               break;
-           case "Point3DAnimation":
-               OnPoint3DAnimation(xnode);
-               break;
-           case "Point3DAnimationBase":
-               OnPoint3DAnimationBase(xnode);
-               break;
-           case "Point3DAnimationUsingKeyFrames":
-               OnPoint3DAnimationUsingKeyFrames(xnode);
-               break;
-           case "Point3DCollection":
-               OnPoint3DCollection(xnode);
-               break;
-           case "Point3DCollectionValueSerializer":
-               OnPoint3DCollectionValueSerializer(xnode);
-               break;
-           case "Point3DKeyFrame":
-               OnPoint3DKeyFrame(xnode);
-               break;
-           case "Point3DKeyFrameCollection":
-               OnPoint3DKeyFrameCollection(xnode);
-               break;
-           case "Point3DValueSerializer":
-               OnPoint3DValueSerializer(xnode);
-               break;
-           case "Point4DValueSerializer":
-               OnPoint4DValueSerializer(xnode);
-               break;
-           case "PointAnimation":
-               OnPointAnimation(xnode);
-               break;
-           case "PointAnimationBase":
-               OnPointAnimationBase(xnode);
-               break;
-           case "PointAnimationUsingKeyFrames":
-               OnPointAnimationUsingKeyFrames(xnode);
-               break;
-           case "PointAnimationUsingPath":
-               OnPointAnimationUsingPath(xnode);
-               break;
-           case "PointCollection":
-               OnPointCollection(xnode);
-               break;
-           case "PointCollectionValueSerializer":
-               OnPointCollectionValueSerializer(xnode);
-               break;
-           case "PointHitTestParameters":
-               OnPointHitTestParameters(xnode);
-               break;
-           case "PointHitTestResult":
-               OnPointHitTestResult(xnode);
-               break;
-           case "PointIListConverter":
-               OnPointIListConverter(xnode);
-               break;
-           case "PointKeyFrame":
-               OnPointKeyFrame(xnode);
-               break;
-           case "PointKeyFrameCollection":
-               OnPointKeyFrameCollection(xnode);
-               break;
-           case "PointLight":
-               OnPointLight(xnode);
-               break;
-           case "PointLightBase":
-               OnPointLightBase(xnode);
-               break;
-           case "PointValueSerializer":
-               OnPointValueSerializer(xnode);
-               break;
-           case "PolyBezierSegment":
-               OnPolyBezierSegment(xnode);
-               break;
-           case "Polygon":
-               OnPolygon(xnode);
-               break;
-           case "Polylıne":
-               OnPolylıne(xnode);
-               break;
-           case "PolyLineSegment":
-               OnPolyLineSegment(xnode);
-               break;
-           case "PolyQuadraticBezierSegment":
-               OnPolyQuadraticBezierSegment(xnode);
-               break;
-           case "Popup":
-               OnPopup(xnode);
-               break;
-           case "PowerEase":
-               OnPowerEase(xnode);
-               break;
-           case "PreProcessInputEventArgs":
-               OnPreProcessInputEventArgs(xnode);
-               break;
-           case "PresentationSource":
-               OnPresentationSource(xnode);
-               break;
-           case "PriorityBinding":
-               OnPriorityBinding(xnode);
-               break;
-           case "PriorityBindingExpression":
-               OnPriorityBindingExpression(xnode);
-               break;
-           case "ProcessInputEventArgs":
-               OnProcessInputEventArgs(xnode);
-               break;
-           case "ProgressBar":
-               OnProgressBar(xnode);
-               break;
-           case "ProgressBarAutomattonPeer":
-               OnProgressBarAutomattonPeer(xnode);
-               break;
-           case "ProjectionCamera":
-               OnProjectionCamera(xnode);
-               break;
-           case "PropertyChangedEventManager":
-               OnPropertyChangedEventManager(xnode);
-               break;
-           case "PropertyChangedTrigger":
-               OnPropertyChangedTrigger(xnode);
-               break;
-           case "PropertyDefinition":
-               OnPropertyDefinition(xnode);
-               break;
-           case "PropertyGroupDescription":
-               OnPropertyGroupDescription(xnode);
-               break;
-           case "PropertyMetadata":
-               OnPropertyMetadata(xnode);
-               break;
-           case "QuadraticBezierSegment":
-               OnQuadraticBezierSegment(xnode);
-               break;
-           case "OuadraticEase":
-               OnOuadraticEase(xnode);
-               break;
-           case "QuarticEase":
-               OnQuarticEase(xnode);
-               break;
-           case "QuaternionAnimation":
-               OnQuaternionAnimation(xnode);
-               break;
-           case "QuaternionAnimationBase":
-               OnQuaternionAnimationBase(xnode);
-               break;
-           case "QuaternionAnimationUsingKeyFrames":
-               OnQuaternionAnimationUsingKeyFrames(xnode);
-               break;
-           case "QuaternionKeyFrame":
-               OnQuaternionKeyFrame(xnode);
-               break;
-           case "QuaternionKeyFrameCollection":
-               OnQuaternionKeyFrameCollection(xnode);
-               break;
-           case "QuaternionRotation3D":
-               OnQuaternionRotation3D(xnode);
-               break;
-           case "QuaternionValueSerializer":
-               OnQuaternionValueSerializer(xnode);
-               break;
-           case "QueryContinueDragEventArgs":
-               OnQueryContinueDragEventArgs(xnode);
-               break;
-           case "QueryCursorEventArgs":
-               OnQueryCursorEventArgs(xnode);
-               break;
-           case "QuinticEase":
-               OnQuinticEase(xnode);
-               break;
-           case "RadialGradientBrush":
-               OnRadialGradientBrush(xnode);
-               break;
-           case "RadioButton":
-               OnRadioButton(xnode);
-               break;
-           case "RadioButtonAutomationPeer":
-               OnRadioButtonAutomationPeer(xnode);
-               break;
-           case "RangeBase":
-               OnRangeBase(xnode);
-               break;
-           case "RangeBaseAutomationPeer":
-               OnRangeBaseAutomationPeer(xnode);
-               break;
-           case "RayHitTestParameters":
-               OnRayHitTestParameters(xnode);
-               break;
-           case "RayHitTestResult":
-               OnRayHitTestResult(xnode);
-               break;
-           case "RayMeshGeometry3DHitTestResult":
-               OnRayMeshGeometry3DHitTestResult(xnode);
-               break;
-           case "Rect3DValueSerializer":
-               OnRect3DValueSerializer(xnode);
-               break;
-           case "Rectangle":
-               OnRectangle(xnode);
-               break;
-           case "RectangleGeometry":
-               OnRectangleGeometry(xnode);
-               break;
-           case "RectangleStylusShape":
-               OnRectangleStylusShape(xnode);
-               break;
-           case "RectAnimation":
-               OnRectAnimation(xnode);
-               break;
-           case "RectAnimationBase":
-               OnRectAnimationBase(xnode);
-               break;
-           case "RectAnimationUsingKeyFrames":
-               OnRectAnimationUsingKeyFrames(xnode);
-               break;
-           case "RectKeyFrame":
-               OnRectKeyFrame(xnode);
-               break;
-           case "RectKeyFrameCollection":
-               OnRectKeyFrameCollection(xnode);
-               break;
-           case "RectValueSerializer":
-               OnRectValueSerializer(xnode);
-               break;
-           case "Reference":
-               OnReference(xnode);
-               break;
-           case "RelativeSource":
-               OnRelativeSource(xnode);
-               break;
-           case "RemoveElementAction":
-               OnRemoveElementAction(xnode);
-               break;
-           case "RemoveStoryboard":
-               OnRemoveStoryboard(xnode);
-               break;
-           case "RenderTargetBitmap":
-               OnRenderTargetBitmap(xnode);
-               break;
-           case "RepeteButton":
-               OnRepeteButton(xnode);
-               break;
-           case "RepeatButtonAutomationPeer":
-               OnRepeatButtonAutomationPeer(xnode);
-               break;
-           case "RequestBringIntoViewEventArgs":
-               OnRequestBringIntoViewEventArgs(xnode);
-               break;
-           case "RequestNavigateEventArgs":
-               OnRequestNavigateEventArgs(xnode);
-               break;
-           case "ResizeGrip":
-               OnResizeGrip(xnode);
-               break;
-           case "ResourceKey":
-               OnResourceKey(xnode);
-               break;
-           case "ResourceReferenceExpressionConverter":
-               OnResourceReferenceExpressionConverter(xnode);
-               break;
-           case "ResumeStoryboard":
-               OnResumeStoryboard(xnode);
-               break;
-           case "RichTextBox":
-               OnRichTextBox(xnode);
-               break;
-           case "RichTextBoxAutomationPeer":
-               OnRichTextBoxAutomationPeer(xnode);
-               break;
-           case "RotateTransform":
-               OnRotateTransform(xnode);
-               break;
-           case "RotateTransform3D":
-               OnRotateTransform3D(xnode);
-               break;
-           case "Rotation3D":
-               OnRotation3D(xnode);
-               break;
-           case "Rotation3DAnimation":
-               OnRotation3DAnimation(xnode);
-               break;
-           case "Rotation3DAnimationBase":
-               OnRotation3DAnimationBase(xnode);
-               break;
-           case "Rotation3DAnimationUsingKeyFrames":
-               OnRotation3DAnimationUsingKeyFrames(xnode);
-               break;
-           case "Rotation3DKeyFrame":
-               OnRotation3DKeyFrame(xnode);
-               break;
-           case "Rotation3DKeyFrameCollection":
-               OnRotation3DKeyFrameCollection(xnode);
-               break;
-           case "RoutedCommand":
-               OnRoutedCommand(xnode);
-               break;
-           case "RoutedEventArgs":
-               OnRoutedEventArgs(xnode);
-               break;
-           case "RoutedPropertyChangedEventArgs":
-               OnRoutedPropertyChangedEventArgs(xnode);
-               break;
-           case "RoutedUICommand":
-               OnRoutedUICommand(xnode);
-               break;
-           case "RowDefinition":
-               OnRowDefinition(xnode);
-               break;
-           case "Run":
-               OnRun(xnode);
-               break;
-           case "SaveFileDialog":
-               OnSaveFileDialog(xnode);
-               break;
-           case "ScaleTransform":
-               OnScaleTransform(xnode);
-               break;
-           case "ScaleTransform3D":
-               OnScaleTransform3D(xnode);
-               break;
-           case "ScrollBar":
-               OnScrollBar(xnode);
-               break;
-           case "ScrollBarAutomationPeer":
-               OnScrollBarAutomationPeer(xnode);
-               break;
-           case "ScrollChangedEventArgs":
-               OnScrollChangedEventArgs(xnode);
-               break;
-           case "ScrollContentPresenter":
-               OnScrollContentPresenter(xnode);
-               break;
-           case "SerollEventArgs":
-               OnSerollEventArgs(xnode);
-               break;
-           case "ScrollViewer":
-               OnScrollViewer(xnode);
-               break;
-           case "ScrollViewerAutomationPeer":
-               OnScrollViewerAutomationPeer(xnode);
-               break;
-           case "Section":
-               OnSection(xnode);
-               break;
-           case "SectionStructure":
-               OnSectionStructure(xnode);
-               break;
-           case "SeekStoryboard":
-               OnSeekStoryboard(xnode);
-               break;
-           case "SelectionChangedEventArgs":
-               OnSelectionChangedEventArgs(xnode);
-               break;
-           case "SelectiveScrollingGrid":
-               OnSelectiveScrollingGrid(xnode);
-               break;
-           case "Selector":
-               OnSelector(xnode);
-               break;
-           case "SelectorAutomationPeer":
-               OnSelectorAutomationPeer(xnode);
-               break;
-           case "SelectorItemAutomationPeer":
-               OnSelectorItemAutomationPeer(xnode);
-               break;
-           case "SemanticBasicElement":
-               OnSemanticBasicElement(xnode);
-               break;
-           case "Separator":
-               OnSeparator(xnode);
-               break;
-           case "SeparatorAutomationPeer":
-               OnSeparatorAutomationPeer(xnode);
-               break;
-           case "ServiceProviders":
-               OnServiceProviders(xnode);
-               break;
-           case "SetDataStoreValueAction":
-               OnSetDataStoreValueAction(xnode);
-               break;
-           case "SetStoryboardSpeedRatio":
-               OnSetStoryboardSpeedRatio(xnode);
-               break;
-           case "Setter":
-               OnSetter(xnode);
-               break;
-           case "SetterBase":
-               OnSetterBase(xnode);
-               break;
-           case "ShaderEfect":
-               OnShaderEfect(xnode);
-               break;
-           case "Shape":
-               OnShape(xnode);
-               break;
-           case "SineEase":
-               OnSineEase(xnode);
-               break;
-           case "SingleAnimation":
-               OnSingleAnimation(xnode);
-               break;
-           case "SingleAnimationBase":
-               OnSingleAnimationBase(xnode);
-               break;
-           case "SingleAnimationUsingKeyFrames":
-               OnSingleAnimationUsingKeyFrames(xnode);
-               break;
-           case "SingleKeyFrame":
-               OnSingleKeyFrame(xnode);
-               break;
-           case "SingleKeyFrameCollection":
-               OnSingleKeyFrameCollection(xnode);
-               break;
-           case "Size3DValueSerializer":
-               OnSize3DValueSerializer(xnode);
-               break;
-           case "SizeAnimation":
-               OnSizeAnimation(xnode);
-               break;
-           case "SizeAnimationBase":
-               OnSizeAnimationBase(xnode);
-               break;
-           case "SizeAnimationUsingKeyFrames":
-               OnSizeAnimationUsingKeyFrames(xnode);
-               break;
-           case "SizeChangedEventArgs":
-               OnSizeChangedEventArgs(xnode);
-               break;
-           case "SizeKeyFrame":
-               OnSizeKeyFrame(xnode);
-               break;
-           case "SizeKeyFrameCollection":
-               OnSizeKeyFrameCollection(xnode);
-               break;
-           case "SizeValueSerializer":
-               OnSizeValueSerializer(xnode);
-               break;
-           case "SkewTransform":
-               OnSkewTransform(xnode);
-               break;
-           case "SkipStoryboardToFill":
-               OnSkipStoryboardToFill(xnode);
-               break;
-           case "Slider":
-               OnSlider(xnode);
-               break;
-           case "SiderAutomationPeer":
-               OnSiderAutomationPeer(xnode);
-               break;
-           case "SolidColorBrush":
-               OnSolidColorBrush(xnode);
-               break;
-           case "SoundPlayerAction":
-               OnSoundPlayerAction(xnode);
-               break;
-           case "SourceChangedEventArgs":
-               OnSourceChangedEventArgs(xnode);
-               break;
-           case "Span":
-               OnSpan(xnode);
-               break;
-           case "SpecularMaterial":
-               OnSpecularMaterial(xnode);
-               break;
-           case "SplineByteKeyFrame":
-               OnSplineByteKeyFrame(xnode);
-               break;
-           case "SplıneColorKeyFrame":
-               OnSplıneColorKeyFrame(xnode);
-               break;
-           case "SplineDecimalKeyFrame":
-               OnSplineDecimalKeyFrame(xnode);
-               break;
-           case "SplineDoubleKeyFrame":
-               OnSplineDoubleKeyFrame(xnode);
-               break;
-           case "Splinelnt16KeyFrame":
-               OnSplinelnt16KeyFrame(xnode);
-               break;
-           case "Splinelnt32KeyFrame":
-               OnSplinelnt32KeyFrame(xnode);
-               break;
-           case "Splinelnt64KeyFrame":
-               OnSplinelnt64KeyFrame(xnode);
-               break;
-           case "SplinePoint3DKeyFrame":
-               OnSplinePoint3DKeyFrame(xnode);
-               break;
-           case "SplinePointKevFrame":
-               OnSplinePointKevFrame(xnode);
-               break;
-           case "SplineQuaternionKeyFrame":
-               OnSplineQuaternionKeyFrame(xnode);
-               break;
-           case "SplineRectKeyFrame":
-               OnSplineRectKeyFrame(xnode);
-               break;
-           case "SplineRotation3DKeyFrame":
-               OnSplineRotation3DKeyFrame(xnode);
-               break;
-           case "SplineSingleKeyFrame":
-               OnSplineSingleKeyFrame(xnode);
-               break;
-           case "SplineSizeKeyFrame":
-               OnSplineSizeKeyFrame(xnode);
-               break;
-           case "SplineThicknessKeyFrame":
-               OnSplineThicknessKeyFrame(xnode);
-               break;
-           case "SplineVector3DKeyFrame":
-               OnSplineVector3DKeyFrame(xnode);
-               break;
-           case "SplineVectorKeyFrame":
-               OnSplineVectorKeyFrame(xnode);
-               break;
-           case "SpotLight":
-               OnSpotLight(xnode);
-               break;
-           case "StackPanel":
-               OnStackPanel(xnode);
-               break;
-           case "StaticExtension":
-               OnStaticExtension(xnode);
-               break;
-           case "StaticResourceExtension":
-               OnStaticResourceExtension(xnode);
-               break;
-           case "StatusBar":
-               OnStatusBar(xnode);
-               break;
-           case "StatusBarAutomationPeer":
-               OnStatusBarAutomationPeer(xnode);
-               break;
-           case "StatusBarItem":
-               OnStatusBarItem(xnode);
-               break;
-           case "StatusBarItemAutomationPeer":
-               OnStatusBarItemAutomationPeer(xnode);
-               break;
-           case "StickyNoteControl":
-               OnStickyNoteControl(xnode);
-               break;
-           case "StopStoryboard":
-               OnStopStoryboard(xnode);
-               break;
-           case "Storyboard":
-               OnStoryboard(xnode);
-               break;
-           case "StoryboardAction":
-               OnStoryboardAction(xnode);
-               break;
-           case "StoryboardCompletedTrigger":
-               OnStoryboardCompletedTrigger(xnode);
-               break;
-           case "StoryboardTrigger":
-               OnStoryboardTrigger(xnode);
-               break;
-           case "StoryBreak":
-               OnStoryBreak(xnode);
-               break;
-           case "StreamGeometry":
-               OnStreamGeometry(xnode);
-               break;
-           case "StreamGeometryContext":
-               OnStreamGeometryContext(xnode);
-               break;
-           case "StringAnimationBase":
-               OnStringAnimationBase(xnode);
-               break;
-           case "StringAnimationUsingKevFrames":
-               OnStringAnimationUsingKevFrames(xnode);
-               break;
-           case "StringKeyFrame":
-               OnStringKeyFrame(xnode);
-               break;
-           case "StringKeyFrameCollection":
-               OnStringKeyFrameCollection(xnode);
-               break;
-           case "Style":
-               OnStyle(xnode);
-               break;
-           case "StylusButtonEventArgs":
-               OnStylusButtonEventArgs(xnode);
-               break;
-           case "StylusDevice":
-               OnStylusDevice(xnode);
-               break;
-           case "StylusDownEventArgs":
-               OnStylusDownEventArgs(xnode);
-               break;
-           case "StylusPlugIn":
-               OnStylusPlugIn(xnode);
-               break;
-           case "StylusEventArgs":
-               OnStylusEventArgs(xnode);
-               break;
-           case "StylusPontProperty":
-               OnStylusPontProperty(xnode);
-               break;
-           case "StylusPointPropertyInfo":
-               OnStylusPointPropertyInfo(xnode);
-               break;
-           case "StylusShape":
-               OnStylusShape(xnode);
-               break;
-           case "StylusSystemGestureEventArgs":
-               OnStylusSystemGestureEventArgs(xnode);
-               break;
-           case "TabControl":
-               OnTabControl(xnode);
-               break;
-           case "TabControlAutomationPeer":
-               OnTabControlAutomationPeer(xnode);
-               break;
-           case "TabItern":
-               OnTabItern(xnode);
-               break;
-           case "TabItenAutomationPeer":
-               OnTabItenAutomationPeer(xnode);
-               break;
-           case "TabItemWrapperAutomationPeer":
-               OnTabItemWrapperAutomationPeer(xnode);
-               break;
-           case "Table":
-               OnTable(xnode);
-               break;
-           case "TableAutomationPeer":
-               OnTableAutomationPeer(xnode);
-               break;
-           case "TableCell":
-               OnTableCell(xnode);
-               break;
-           case "TableCellAutomationPeer":
-               OnTableCellAutomationPeer(xnode);
-               break;
-           case "TableCellStructure":
-               OnTableCellStructure(xnode);
-               break;
-           case "TableColumn":
-               OnTableColumn(xnode);
-               break;
-           case "TableRow":
-               OnTableRow(xnode);
-               break;
-           case "TableRowGroup":
-               OnTableRowGroup(xnode);
-               break;
-           case "TableRowGroupStructure":
-               OnTableRowGroupStructure(xnode);
-               break;
-           case "TableRowStructure":
-               OnTableRowStructure(xnode);
-               break;
-           case "TableStructure":
-               OnTableStructure(xnode);
-               break;
-           case "TabletDevice":
-               OnTabletDevice(xnode);
-               break;
-           case "TabPanel":
-               OnTabPanel(xnode);
-               break;
-           case "TargetedTriggerAction":
-               OnTargetedTriggerAction(xnode);
-               break;
-           case "TaskbarltemInfo":
-               OnTaskbarltemInfo(xnode);
-               break;
-           case "TemplateBindingExpression":
-               OnTemplateBindingExpression(xnode);
-               break;
-           case "TemplateBindingExtension":
-               OnTemplateBindingExtension(xnode);
-               break;
-           case "TemplateContentLoader":
-               OnTemplateContentLoader(xnode);
-               break;
-           case "TemplateKey":
-               OnTemplateKey(xnode);
-               break;
-           case "TextAutomationPeer":
-               OnTextAutomationPeer(xnode);
-               break;
-           case "TextBlock":
-               OnTextBlock(xnode);
-               break;
-           case "TextBlockAutomationPeer":
-               OnTextBlockAutomationPeer(xnode);
-               break;
-           case "TextBox":
-               OnTextBox(xnode);
-               break;
-           case "TextBoxAutomationPeer":
-               OnTextBoxAutomationPeer(xnode);
-               break;
-           case "TextBoxBase":
-               OnTextBoxBase(xnode);
-               break;
-           case "TextChangedEventArgs":
-               OnTextChangedEventArgs(xnode);
-               break;
-           case "TextCharacters":
-               OnTextCharacters(xnode);
-               break;
-           case "TextCollapsingProperties":
-               OnTextCollapsingProperties(xnode);
-               break;
-           case "TextComposıtion":
-               OnTextComposıtion(xnode);
-               break;
-           case "TextCompositionEventArgs":
-               OnTextCompositionEventArgs(xnode);
-               break;
-           case "TextCompositionManager":
-               OnTextCompositionManager(xnode);
-               break;
-           case "TextDecoration":
-               OnTextDecoration(xnode);
-               break;
-           case "TextDecorationCollection":
-               OnTextDecorationCollection(xnode);
-               break;
-           case "TextEffect":
-               OnTextEffect(xnode);
-               break;
-           case "TextEftectCollection":
-               OnTextEftectCollection(xnode);
-               break;
-           case "TextElement":
-               OnTextElement(xnode);
-               break;
-           case "TextElementAutomationPeer":
-               OnTextElementAutomationPeer(xnode);
-               break;
-           case "TextEmbeddedObject":
-               OnTextEmbeddedObject(xnode);
-               break;
-           case "TextEndOfLine":
-               OnTextEndOfLine(xnode);
-               break;
-           case "TextEndOfParagraph":
-               OnTextEndOfParagraph(xnode);
-               break;
-           case "TextEndOfSegment":
-               OnTextEndOfSegment(xnode);
-               break;
-           case "TextHidden":
-               OnTextHidden(xnode);
-               break;
-           case "TextMarkerProperties":
-               OnTextMarkerProperties(xnode);
-               break;
-           case "TextModifier":
-               OnTextModifier(xnode);
-               break;
-           case "TextPointer":
-               OnTextPointer(xnode);
-               break;
-           case "TextRange":
-               OnTextRange(xnode);
-               break;
-           case "TextRun":
-               OnTextRun(xnode);
-               break;
-           case "TextSearch":
-               OnTextSearch(xnode);
-               break;
-           case "TextSelection":
-               OnTextSelection(xnode);
-               break;
-           case "TextSimpleMarkerProperties":
-               OnTextSimpleMarkerProperties(xnode);
-               break;
-           case "TextTrailingCharacterEllipsis":
-               OnTextTrailingCharacterEllipsis(xnode);
-               break;
-           case "TextTrailingWordEllipsis":
-               OnTextTrailingWordEllipsis(xnode);
-               break;
-           case "ThemeDictionaryExtension":
-               OnThemeDictionaryExtension(xnode);
-               break;
-           case "ThicknessAnimation":
-               OnThicknessAnimation(xnode);
-               break;
-           case "ThicknessAnimationBase":
-               OnThicknessAnimationBase(xnode);
-               break;
-           case "ThicknessAnimationUsingKeyFrames":
-               OnThicknessAnimationUsingKeyFrames(xnode);
-               break;
-           case "ThicknessKeyFrame":
-               OnThicknessKeyFrame(xnode);
-               break;
-           case "ThicknessKeyFrameCollection":
-               OnThicknessKeyFrameCollection(xnode);
-               break;
-           case "Thumb":
-               OnThumb(xnode);
-               break;
-           case "ThumbAutomationPeer":
-               OnThumbAutomationPeer(xnode);
-               break;
-           case "ThumbButonInfo":
-               OnThumbButonInfo(xnode);
-               break;
-           case "ThumbButtonlnfoCollection":
-               OnThumbButtonlnfoCollection(xnode);
-               break;
-           case "TickBar":
-               OnTickBar(xnode);
-               break;
-           case "TiffBitmap":
-               OnTiffBitmap(xnode);
-               break;
-           case "TiffBitmapEncoder":
-               OnTiffBitmapEncoder(xnode);
-               break;
-           case "TileBrush":
-               OnTileBrush(xnode);
-               break;
-           case "Timeline":
-               OnTimeline(xnode);
-               break;
-           case "TimelineCollection":
-               OnTimelineCollection(xnode);
-               break;
-           case "TimelıneGroup":
-               OnTimelıneGroup(xnode);
-               break;
-           case "TimerTrigger":
-               OnTimerTrigger(xnode);
-               break;
-           case "ToggleButton":
-               OnToggleButton(xnode);
-               break;
-           case "ToggleButtonAutomationPeer":
-               OnToggleButtonAutomationPeer(xnode);
-               break;
-           case "ToolBar":
-               OnToolBar(xnode);
-               break;
-           case "TooIBarAutomationPeer":
-               OnTooIBarAutomationPeer(xnode);
-               break;
-           case "ToolBarOverflowPanel":
-               OnToolBarOverflowPanel(xnode);
-               break;
-           case "ToolBarPanel":
-               OnToolBarPanel(xnode);
-               break;
-           case "ToolBarTray":
-               OnToolBarTray(xnode);
-               break;
-           case "ToolTip":
-               OnToolTip(xnode);
-               break;
-           case "ToolTipAutomationPeer":
-               OnToolTipAutomationPeer(xnode);
-               break;
-           case "ToolTipEventArg3G":
-               OnToolTipEventArg3G(xnode);
-               break;
-           case "TouchDevice":
-               OnTouchDevice(xnode);
-               break;
-           case "TouchDeviceArgs":
-               OnTouchDeviceArgs(xnode);
-               break;
-           case "Track":
-               OnTrack(xnode);
-               break;
-           case "Transform":
-               OnTransform(xnode);
-               break;
-           case "Transform3D":
-               OnTransform3D(xnode);
-               break;
-           case "Transformn3DCollection":
-               OnTransformn3DCollection(xnode);
-               break;
-           case "Transform3DGroup":
-               OnTransform3DGroup(xnode);
-               break;
-           case "TransformCollection":
-               OnTransformCollection(xnode);
-               break;
-           case "TransformedBitmap":
-               OnTransformedBitmap(xnode);
-               break;
-           case "TransformGroup":
-               OnTransformGroup(xnode);
-               break;
-           case "TransformValueSerializer":
-               OnTransformValueSerializer(xnode);
-               break;
-           case "TransitionEfect":
-               OnTransitionEfect(xnode);
-               break;
-           case "TranslateTransform":
-               OnTranslateTransform(xnode);
-               break;
-           case "TranslateTransfom3D":
-               OnTranslateTransfom3D(xnode);
-               break;
-           case "TranslateZoomRotateBehavior":
-               OnTranslateZoomRotateBehavior(xnode);
-               break;
-           case "TreeView":
-               OnTreeView(xnode);
-               break;
-           case "TreeViewAutomationPeer":
-               OnTreeViewAutomationPeer(xnode);
-               break;
-           case "TreeViewDataltemAutomationPeer":
-               OnTreeViewDataltemAutomationPeer(xnode);
-               break;
-           case "TreeViewItem":
-               OnTreeViewItem(xnode);
-               break;
-           case "TreeViewItemAutomationPeer":
-               OnTreeViewItemAutomationPeer(xnode);
-               break;
-           case "Trigger":
-               OnTrigger(xnode);
-               break;
-           case "TriggerAction":
-               OnTriggerAction(xnode);
-               break;
-           case "TriggerActionCollection":
-               OnTriggerActionCollection(xnode);
-               break;
-           case "TriggerBase":
-               OnTriggerBase(xnode);
-               break;
-           case "TriggerCollection":
-               OnTriggerCollection(xnode);
-               break;
-           case "TypeConverter":
-               OnTypeConverter(xnode);
-               break;
-           case "TypeExtension":
-               OnTypeExtension(xnode);
-               break;
-           case "UIElement":
-               OnUIElement(xnode);
-               break;
-           case "UElement3D":
-               OnUElement3D(xnode);
-               break;
-           case "UIElement3DAutomationPeer":
-               OnUIElement3DAutomationPeer(xnode);
-               break;
-           case "UIElementAutomationPeer":
-               OnUIElementAutomationPeer(xnode);
-               break;
-           case "UIPropertyMetadata":
-               OnUIPropertyMetadata(xnode);
-               break;
-           case "Underline":
-               OnUnderline(xnode);
-               break;
-           case "UniformGrid":
-               OnUniformGrid(xnode);
-               break;
-           case "UserControl":
-               OnUserControl(xnode);
-               break;
-           case "UserControlAutomationPeer":
-               OnUserControlAutomationPeer(xnode);
-               break;
-           case "UShortlListConverter":
-               OnUShortlListConverter(xnode);
-               break;
-           case "ValidationErrorEventArgs":
-               OnValidationErrorEventArgs(xnode);
-               break;
-           case "ValidationRule":
-               OnValidationRule(xnode);
-               break;
-           case "ValueSerializer":
-               OnValueSerializer(xnode);
-               break;
-           case "Vector3DAnimation":
-               OnVector3DAnimation(xnode);
-               break;
-           case "Vector3DAnimationBase":
-               OnVector3DAnimationBase(xnode);
-               break;
-           case "Vector3DAnimationUsingKeyFrames":
-               OnVector3DAnimationUsingKeyFrames(xnode);
-               break;
-           case "Vector3DCollection":
-               OnVector3DCollection(xnode);
-               break;
-           case "Vector3DCollectionValueSerializer":
-               OnVector3DCollectionValueSerializer(xnode);
-               break;
-           case "Vector3DKeyFrame":
-               OnVector3DKeyFrame(xnode);
-               break;
-           case "Vector3DKevFrameCollection":
-               OnVector3DKevFrameCollection(xnode);
-               break;
-           case "Vector3DValueSerializer":
-               OnVector3DValueSerializer(xnode);
-               break;
-           case "VectorAnimation":
-               OnVectorAnimation(xnode);
-               break;
-           case "VectorAnimationBase":
-               OnVectorAnimationBase(xnode);
-               break;
-           case "VectorAnimationUsingKeyFrames":
-               OnVectorAnimationUsingKeyFrames(xnode);
-               break;
-           case "VectorCollection":
-               OnVectorCollection(xnode);
-               break;
-           case "VectorCollectionValueSerializer":
-               OnVectorCollectionValueSerializer(xnode);
-               break;
-           case "VectorKeyFrame":
-               OnVectorKeyFrame(xnode);
-               break;
-           case "VectorKeyFrameCollection":
-               OnVectorKeyFrameCollection(xnode);
-               break;
-           case "VectorValueSerializer":
-               OnVectorValueSerializer(xnode);
-               break;
-           case "VideoDrawing":
-               OnVideoDrawing(xnode);
-               break;
-           case "ViewBase":
-               OnViewBase(xnode);
-               break;
-           case "Viewbox":
-               OnViewbox(xnode);
-               break;
-           case "Viewport2DVisual3D":
-               OnViewport2DVisual3D(xnode);
-               break;
-           case "Viewport3D":
-               OnViewport3D(xnode);
-               break;
-           case "Viewport3DAutomationPeer":
-               OnViewport3DAutomationPeer(xnode);
-               break;
-           case "Viewport3DVisual":
-               OnViewport3DVisual(xnode);
-               break;
-           case "VrtualizingPanel":
-               OnVrtualizingPanel(xnode);
-               break;
-           case "VtualizingStackPanel":
-               OnVtualizingStackPanel(xnode);
-               break;
-           case "Visual":
-               OnVisual(xnode);
-               break;
-           case "Visual3D":
-               OnVisual3D(xnode);
-               break;
-           case "VisualBrush":
-               OnVisualBrush(xnode);
-               break;
-           case "VisualState":
-               OnVisualState(xnode);
-               break;
-           case "VisualStateGroup":
-               OnVisualStateGroup(xnode);
-               break;
-           case "VisualStateManager":
-               OnVisualStateManager(xnode);
-               break;
-           case "VisualTarget":
-               OnVisualTarget(xnode);
-               break;
-           case "VisualTransition":
-               OnVisualTransition(xnode);
-               break;
-           case "WeakEventManager":
-               OnWeakEventManager(xnode);
-               break;
-           case "WebBrowser":
-               OnWebBrowser(xnode);
-               break;
-           case "Window":
-               OnWindow(xnode);
-               break;
-           case "WindowAutomationPeer":
-               OnWindowAutomationPeer(xnode);
-               break;
-           case "WindowChrome":
-               OnWindowChrome(xnode);
-               break;
-           case "WmpBitmapDecoder":
-               OnWmpBitmapDecoder(xnode);
-               break;
-           case "WmpBitmapEncoder":
-               OnWmpBitmapEncoder(xnode);
-               break;
-           case "WrapPanel":
-               OnWrapPanel(xnode);
-               break;
-           case "WriteableBitmap":
-               OnWriteableBitmap(xnode);
-               break;
-           case "XamlBackgroundReader":
-               OnXamlBackgroundReader(xnode);
-               break;
-           case "XamlDeferringLoader":
-               OnXamlDeferringLoader(xnode);
-               break;
-           case "XamlDesignerSernalizationManager":
-               OnXamlDesignerSernalizationManager(xnode);
-               break;
-           case "XamlDirective":
-               OnXamlDirective(xnode);
-               break;
-           case "XamlDuplicateMemberException":
-               OnXamlDuplicateMemberException(xnode);
-               break;
-           case "XamlException":
-               OnXamlException(xnode);
-               break;
-           case "XamlInternalException":
-               OnXamlInternalException(xnode);
-               break;
-           case "XamlMember":
-               OnXamlMember(xnode);
-               break;
-           case "XamlObjectReader":
-               OnXamlObjectReader(xnode);
-               break;
-           case "XamlObjectReaderException":
-               OnXamlObjectReaderException(xnode);
-               break;
-           case "XamlObjectReaderSettings":
-               OnXamlObjectReaderSettings(xnode);
-               break;
-           case "XamlObjectWriter":
-               OnXamlObjectWriter(xnode);
-               break;
-           case "XamlObjectWriterException":
-               OnXamlObjectWriterException(xnode);
-               break;
-           case "XamlObjectWriterSettings":
-               OnXamlObjectWriterSettings(xnode);
-               break;
-           case "XamlParseException":
-               OnXamlParseException(xnode);
-               break;
-           case "XamlReader":
-               OnXamlReader(xnode);
-               break;
-           case "XamlReaderSettings":
-               OnXamlReaderSettings(xnode);
-               break;
-           case "XamlSchemaException":
-               OnXamlSchemaException(xnode);
-               break;
-           case "XamlSetMarkupExtensionEventArgs":
-               OnXamlSetMarkupExtensionEventArgs(xnode);
-               break;
-           case "XamlSetypeConverterEventArgs":
-               OnXamlSetypeConverterEventArgs(xnode);
-               break;
-           case "XamSetValueEentArgs":
-               OnXamSetValueEentArgs(xnode);
-               break;
-           case "XamlWriter":
-               OnXamlWriter(xnode);
-               break;
-           case "XamlWriterSettings":
-               OnXamlWriterSettings(xnode);
-               break;
-           case "XamlXmlReader":
-               OnXamlXmlReader(xnode);
-               break;
-           case "XamlXmlReaderSettings":
-               OnXamlXmlReaderSettings(xnode);
-               break;
-           case "XamlXmlWriter":
-               OnXamlXmlWriter(xnode);
-               break;
-           case "XamlXmlWriterException":
-               OnXamlXmlWriterException(xnode);
-               break;
-           case "XamlXmlWriterSettings":
-               OnXamlXmlWriterSettings(xnode);
-               break;
-           case "XmlDataProvider":
-               OnXmlDataProvider(xnode);
-               break;
-           case "XmlStreamStore":
-               OnXmlStreamStore(xnode);
-               break;
-           case "ZipPackage":
-               OnZipPackage(xnode);
-               break;
-           case "ZipPackagePart":
-               OnZipPackagePart(xnode);
-               break;
-           case "IdealSoftTextBox":
-               OnIdealSoftTextBox(xnode);
-               break;
-           //
-           default:
-               OnDefaultNode(xnode);
-               break;
-       }
+               
+        if (xnode.Code == "")
+        {
+            switch(xnode.Name)
+            {
+                case "AccessKeyPressedEventArgs":
+                    OnAccessKeyPressedEventArgs(xnode);
+                    break;
+                case "AccessText":
+                    OnAccessText(xnode);
+                    break;
+                case "ActiveXHost":
+                    OnActiveXHost(xnode);
+                    break;
+                case "AdormedElementPlaceholder":
+                    OnAdormedElementPlaceholder(xnode);
+                    break;
+                case "Adorner":
+                    OnAdorner(xnode);
+                    break;
+                case "AdornerContainer":
+                    OnAdornerContainer(xnode);
+                    break;
+                case "AdornerDecorator":
+                    OnAdornerDecorator(xnode);
+                    break;
+                case "AdornerHitTestResut":
+                    OnAdornerHitTestResut(xnode);
+                    break;
+                case "AdornerLayer":
+                    OnAdornerLayer(xnode);
+                    break;
+                case "AffineTransform3D":
+                    OnAffineTransform3D(xnode);
+                    break;
+                case "AmbientLight":
+                    OnAmbientLight(xnode);
+                    break;
+                case "AnchoredBlock":
+                    OnAnchoredBlock(xnode);
+                    break;
+                case "Animatable":
+                    OnAnimatable(xnode);
+                    break;
+                case "AnimationClock":
+                    OnAnimationClock(xnode);
+                    break;
+                case "AnimationTimeline":
+                    OnAnimationTimeline(xnode);
+                    break;
+                case "AnnotationDocumemtPagnator":
+                    OnAnnotationDocumemtPagnator(xnode);
+                    break;
+                case "AnnotationService":
+                    OnAnnotationService(xnode);
+                    break;
+                case "AnnotationStore":
+                    OnAnnotationStore(xnode);
+                    break;
+                case "Application":
+                    OnApplication(xnode);
+                    break;
+                case "ArcSegment":
+                    OnArcSegment(xnode);
+                    break;
+                case "ArrayExtension":
+                    OnArrayExtension(xnode);
+                    break;
+                case "AttachableCollection":
+                    OnAttachableCollection(xnode);
+                    break;
+                case "AttachedPropertyBrowsableAttibute":
+                    OnAttachedPropertyBrowsableAttibute(xnode);
+                    break;
+                case "AttachedPropertyBrowsableForChildrenAttribute":
+                    OnAttachedPropertyBrowsableForChildrenAttribute(xnode);
+                    break;
+                case "AttachedPropertyBrowsableForTypeAttribute":
+                    OnAttachedPropertyBrowsableForTypeAttribute(xnode);
+                    break;
+                case "AttachedPropertyBrowsableWhenAttributePresentAttribute":
+                    OnAttachedPropertyBrowsableWhenAttributePresentAttribute(xnode);
+                    break;
+                case "Attribute":
+                    OnAttribute(xnode);
+                    break;
+                case "AutomationPeer":
+                    OnAutomationPeer(xnode);
+                    break;
+                case "AxisAngleRotation3D":
+                    OnAxisAngleRotation3D(xnode);
+                    break;
+                case "BackEase":
+                    OnBackEase(xnode);
+                    break;
+                case "Baml2006Reader":
+                    OnBaml2006Reader(xnode);
+                    break;
+                case "BaseIListConverter":
+                    OnBaseIListConverter(xnode);
+                    break;
+                case "BeginStoryboard":
+                    OnBeginStoryboard(xnode);
+                    break;
+                case "Behavior":
+                    OnBehavior(xnode);
+                    break;
+                case "BehaviorCollection":
+                    OnBehaviorCollection(xnode);
+                    break;
+                case "BevelBitmapEffect":
+                    OnBevelBitmapEffect(xnode);
+                    break;
+                case "BezierSegment":
+                    OnBezierSegment(xnode);
+                    break;
+                case "Binding":
+                    OnBinding(xnode);
+                    break;
+                case "BindingBase":
+                    OnBindingBase(xnode);
+                    break;
+                case "BindingExpression":
+                    OnBindingExpression(xnode);
+                    break;
+                case "BindingExpressionBase":
+                    OnBindingExpressionBase(xnode);
+                    break;
+                case "BindingGroup":
+                    OnBindingGroup(xnode);
+                    break;
+                case "BindingListCollectionView":
+                    OnBindingListCollectionView(xnode);
+                    break;
+                case "BitmapCache":
+                    OnBitmapCache(xnode);
+                    break;
+                case "BitmapCacheBrush":
+                    OnBitmapCacheBrush(xnode);
+                    break;
+                case "BitmapDecoder":
+                    OnBitmapDecoder(xnode);
+                    break;
+                case "BitmapEffect":
+                    OnBitmapEffect(xnode);
+                    break;
+                case "BitmapEffectCollection":
+                    OnBitmapEffectCollection(xnode);
+                    break;
+                case "BitmapEffectGroup":
+                    OnBitmapEffectGroup(xnode);
+                    break;
+                case "BitmapEffectInput":
+                    OnBitmapEffectInput(xnode);
+                    break;
+                case "BitmapEncoder":
+                    OnBitmapEncoder(xnode);
+                    break;
+                case "BitmapFrame":
+                    OnBitmapFrame(xnode);
+                    break;
+                case "BitmapImage":
+                    OnBitmapImage(xnode);
+                    break;
+                case "BitmapMetadata":
+                    OnBitmapMetadata(xnode);
+                    break;
+                case "BitmapPalette":
+                    OnBitmapPalette(xnode);
+                    break;
+                case "BitmapSource":
+                    OnBitmapSource(xnode);
+                    break;
+                case "Block":
+                    OnBlock(xnode);
+                    break;
+                case "BlockElement":
+                    OnBlockElement(xnode);
+                    break;
+                case "BlockUIContainer":
+                    OnBlockUIContainer(xnode);
+                    break;
+                case "BlurBitmapEffect":
+                    OnBlurBitmapEffect(xnode);
+                    break;
+                case "BlurEffect":
+                    OnBlurEffect(xnode);
+                    break;
+                case "BmpBitmapDecoder":
+                    OnBmpBitmapDecoder(xnode);
+                    break;
+                case "BmpBitmapEncoder":
+                    OnBmpBitmapEncoder(xnode);
+                    break;
+                case "Bold":
+                    OnBold(xnode);
+                    break;
+                case "BooleanAnimationBase":
+                    OnBooleanAnimationBase(xnode);
+                    break;
+                case "BooleanAnimationUsingKeyFrames":
+                    OnBooleanAnimationUsingKeyFrames(xnode);
+                    break;
+                case "BooleanKeyFrame":
+                    OnBooleanKeyFrame(xnode);
+                    break;
+                case "BooleanKeyFrameCollection":
+                    OnBooleanKeyFrameCollection(xnode);
+                    break;
+                case "BoolIListConverter":
+                    OnBoolIListConverter(xnode);
+                    break;
+                case "Border":
+                    OnBorder(xnode);
+                    break;
+                case "BounceEase":
+                    OnBounceEase(xnode);
+                    break;
+                case "Brush":
+                    OnBrush(xnode);
+                    break;
+                case "BrushValueSerializer":
+                    OnBrushValueSerializer(xnode);
+                    break;
+                case "BulletDecorator":
+                    OnBulletDecorator(xnode);
+                    break;
+                case "Button":
+                    OnButton(xnode);
+                    break;
+                case "ButtonAutomationPeer":
+                    OnButtonAutomationPeer(xnode);
+                    break;
+                case "ButtonBase":
+                    OnButtonBase(xnode);
+                    break;
+                case "ButtonBaseAutomationPeer":
+                    OnButtonBaseAutomationPeer(xnode);
+                    break;
+                case "ByteAnimation":
+                    OnByteAnimation(xnode);
+                    break;
+                case "ByteAnimationBase":
+                    OnByteAnimationBase(xnode);
+                    break;
+                case "ByteAnimationUsingKeyFrames":
+                    OnByteAnimationUsingKeyFrames(xnode);
+                    break;
+                case "ByteKeyFrame":
+                    OnByteKeyFrame(xnode);
+                    break;
+                case "BytekeyFrameCollection":
+                    OnBytekeyFrameCollection(xnode);
+                    break;
+                case "CachedBitmap":
+                    OnCachedBitmap(xnode);
+                    break;
+                case "CacheMode":
+                    OnCacheMode(xnode);
+                    break;
+                case "CacheModeValueSerializer":
+                    OnCacheModeValueSerializer(xnode);
+                    break;
+                case "Calendar":
+                    OnCalendar(xnode);
+                    break;
+                case "CalendarAutomationPeer":
+                    OnCalendarAutomationPeer(xnode);
+                    break;
+                case "CalendarButton":
+                    OnCalendarButton(xnode);
+                    break;
+                case "CalendarButtonAutomationPeer":
+                    OnCalendarButtonAutomationPeer(xnode);
+                    break;
+                case "CalendarDateChangedEventArgs":
+                    OnCalendarDateChangedEventArgs(xnode);
+                    break;
+                case "CalendarDayButton":
+                    OnCalendarDayButton(xnode);
+                    break;
+                case "Calendarltem":
+                    OnCalendarltem(xnode);
+                    break;
+                case "CalendarModeChangedEventArgs":
+                    OnCalendarModeChangedEventArgs(xnode);
+                    break;
+                case "CallMethodAction":
+                    OnCallMethodAction(xnode);
+                    break;
+                case "Camera":
+                    OnCamera(xnode);
+                    break;
+                case "CanExecuteChangedEventManager":
+                    OnCanExecuteChangedEventManager(xnode);
+                    break;
+                case "CanExecuteRoutedEventArgs":
+                    OnCanExecuteRoutedEventArgs(xnode);
+                    break;
+                case "Canvas":
+                    OnCanvas(xnode);
+                    break;
+                case "ChangePropertyAction":
+                    OnChangePropertyAction(xnode);
+                    break;
+                case "CharAnimationBase":
+                    OnCharAnimationBase(xnode);
+                    break;
+                case "CharAnimationUsingKeyFrame":
+                    OnCharAnimationUsingKeyFrame(xnode);
+                    break;
+                case "CharIListConverter":
+                    OnCharIListConverter(xnode);
+                    break;
+                case "CharKeyFrame":
+                    OnCharKeyFrame(xnode);
+                    break;
+                case "CharKeyFrameCollection":
+                    OnCharKeyFrameCollection(xnode);
+                    break;
+                case "CheckBox":
+                    OnCheckBox(xnode);
+                    break;
+                case "CheckBoxAutomationPeer":
+                    OnCheckBoxAutomationPeer(xnode);
+                    break;
+                case "CircleEase":
+                    OnCircleEase(xnode);
+                    break;
+                case "CleanUpVirtualizedItemEventArgs":
+                    OnCleanUpVirtualizedItemEventArgs(xnode);
+                    break;
+                case "Clock":
+                    OnClock(xnode);
+                    break;
+                case "ClockController":
+                    OnClockController(xnode);
+                    break;
+                case "ClockGroup":
+                    OnClockGroup(xnode);
+                    break;
+                case "CollectionChangedEventManager":
+                    OnCollectionChangedEventManager(xnode);
+                    break;
+                case "CollectionContainer":
+                    OnCollectionContainer(xnode);
+                    break;
+                case "CollectionView":
+                    OnCollectionView(xnode);
+                    break;
+                case "CollectionViewSource":
+                    OnCollectionViewSource(xnode);
+                    break;
+                case "ColorAnimation":
+                    OnColorAnimation(xnode);
+                    break;
+                case "ColorAnimationBase":
+                    OnColorAnimationBase(xnode);
+                    break;
+                case "ColorAnimationUsingKeyFrames":
+                    OnColorAnimationUsingKeyFrames(xnode);
+                    break;
+                case "ColorConvertedBitmap":
+                    OnColorConvertedBitmap(xnode);
+                    break;
+                case "ColorConvertedBitmapExtension":
+                    OnColorConvertedBitmapExtension(xnode);
+                    break;
+                case "ColorKeyFrame":
+                    OnColorKeyFrame(xnode);
+                    break;
+                case "ColorKeyFrameCollection":
+                    OnColorKeyFrameCollection(xnode);
+                    break;
+                case "ColorDefinition":
+                    OnColorDefinition(xnode);
+                    break;
+                case "CombinedGeometry":
+                    OnCombinedGeometry(xnode);
+                    break;
+                case "ComboBox":
+                    OnComboBox(xnode);
+                    break;
+                case "ComboBoxAutomationPeer":
+                    OnComboBoxAutomationPeer(xnode);
+                    break;
+                case "ComboBoxltem":
+                    OnComboBoxltem(xnode);
+                    break;
+                case "CommonDialog":
+                    OnCommonDialog(xnode);
+                    break;
+                case "ComparisonCondition":
+                    OnComparisonCondition(xnode);
+                    break;
+                case "ComponentResourceKey":
+                    OnComponentResourceKey(xnode);
+                    break;
+                case "ComponentResourceKeyConverter":
+                    OnComponentResourceKeyConverter(xnode);
+                    break;
+                case "CompositionTarget":
+                    OnCompositionTarget(xnode);
+                    break;
+                case "ConditionalExpression":
+                    OnConditionalExpression(xnode);
+                    break;
+                case "ConditionBehavior":
+                    OnConditionBehavior(xnode);
+                    break;
+                case "ConditionCollection":
+                    OnConditionCollection(xnode);
+                    break;
+                case "ContainerUIElement3D":
+                    OnContainerUIElement3D(xnode);
+                    break;
+                case "ContainerVisual":
+                    OnContainerVisual(xnode);
+                    break;
+                case "ContentControl":
+                    OnContentControl(xnode);
+                    break;
+                case "ContentElement":
+                    OnContentElement(xnode);
+                    break;
+                case "ContentElementAutomationPeer":
+                    OnContentElementAutomationPeer(xnode);
+                    break;
+                case "ContentLocator":
+                    OnContentLocator(xnode);
+                    break;
+                case "ContentocatorBase":
+                    OnContentocatorBase(xnode);
+                    break;
+                case "ContentLocatorGroup":
+                    OnContentLocatorGroup(xnode);
+                    break;
+                case "ContentPosition":
+                    OnContentPosition(xnode);
+                    break;
+                case "ContentPresenter":
+                    OnContentPresenter(xnode);
+                    break;
+                case "ContentTextAutomationPeer":
+                    OnContentTextAutomationPeer(xnode);
+                    break;
+                case "ContextMenu":
+                    OnContextMenu(xnode);
+                    break;
+                case "ContextMenuAutomationPeer":
+                    OnContextMenuAutomationPeer(xnode);
+                    break;
+                case "ContextMenuEventArgs":
+                    OnContextMenuEventArgs(xnode);
+                    break;
+                case "Control":
+                    OnControl(xnode);
+                    break;
+                case "ControllableStoryboardAction":
+                    OnControllableStoryboardAction(xnode);
+                    break;
+                case "ControlStoryboardAction":
+                    OnControlStoryboardAction(xnode);
+                    break;
+                case "ControlTemplate":
+                    OnControlTemplate(xnode);
+                    break;
+                case "CroppedBitmap":
+                    OnCroppedBitmap(xnode);
+                    break;
+                case "CubicEase":
+                    OnCubicEase(xnode);
+                    break;
+                case "CurrentChangedEventManager":
+                    OnCurrentChangedEventManager(xnode);
+                    break;
+                case "CurrentChangingEventManager":
+                    OnCurrentChangingEventManager(xnode);
+                    break;
+                case "D3DImage":
+                    OnD3DImage(xnode);
+                    break;
+                case "DashStyle":
+                    OnDashStyle(xnode);
+                    break;
+                case "DataChangedEventManager":
+                    OnDataChangedEventManager(xnode);
+                    break;
+                case "DataErrorValidationRule":
+                    OnDataErrorValidationRule(xnode);
+                    break;
+                case "DataGrid":
+                    OnDataGrid(xnode);
+                    break;
+                case "DataGridAutomationPeer":
+                    OnDataGridAutomationPeer(xnode);
+                    break;
+                case "DataGridBoundColumn":
+                    OnDataGridBoundColumn(xnode);
+                    break;
+                case "DataGridCell":
+                    OnDataGridCell(xnode);
+                    break;
+                case "DataGridCellAutomationPeer":
+                    OnDataGridCellAutomationPeer(xnode);
+                    break;
+                case "DataGridCellItemAutomationPeer":
+                    OnDataGridCellItemAutomationPeer(xnode);
+                    break;
+                case "DataGridCellsPanel":
+                    OnDataGridCellsPanel(xnode);
+                    break;
+                case "DataGridCellsPresenter":
+                    OnDataGridCellsPresenter(xnode);
+                    break;
+                case "DataGridCheckBoxColumn":
+                    OnDataGridCheckBoxColumn(xnode);
+                    break;
+                case "DataGridColumn":
+                    OnDataGridColumn(xnode);
+                    break;
+                case "DataGridColumnEventArgs":
+                    OnDataGridColumnEventArgs(xnode);
+                    break;
+                case "DataGridColumnHeader":
+                    OnDataGridColumnHeader(xnode);
+                    break;
+                case "DataGridColumnHeaderAutomationPeer":
+                    OnDataGridColumnHeaderAutomationPeer(xnode);
+                    break;
+                case "DataGridColumnHeaderItemAutomationPeer":
+                    OnDataGridColumnHeaderItemAutomationPeer(xnode);
+                    break;
+                case "DataGridColumnHeadersPresenter":
+                    OnDataGridColumnHeadersPresenter(xnode);
+                    break;
+                case "DataGridColumnHeadersPresenterAutomationPeer":
+                    OnDataGridColumnHeadersPresenterAutomationPeer(xnode);
+                    break;
+                case "DataGridColumnReorderingEventArgs":
+                    OnDataGridColumnReorderingEventArgs(xnode);
+                    break;
+                case "DataGridComboBoxColumn":
+                    OnDataGridComboBoxColumn(xnode);
+                    break;
+                case "DataGridDetailsPresenter":
+                    OnDataGridDetailsPresenter(xnode);
+                    break;
+                case "DataGridDetailsPresenterAutomationPeer":
+                    OnDataGridDetailsPresenterAutomationPeer(xnode);
+                    break;
+                case "DataGridHyperlinkColumn":
+                    OnDataGridHyperlinkColumn(xnode);
+                    break;
+                case "DataGridItemAutomationPeer":
+                    OnDataGridItemAutomationPeer(xnode);
+                    break;
+                case "DataGridRow":
+                    OnDataGridRow(xnode);
+                    break;
+                case "DataGridRowAutomationPeer":
+                    OnDataGridRowAutomationPeer(xnode);
+                    break;
+                case "DataGridRowHeader":
+                    OnDataGridRowHeader(xnode);
+                    break;
+                case "DataGridRowHeaderAutomationPeer":
+                    OnDataGridRowHeaderAutomationPeer(xnode);
+                    break;
+                case "DataGridRowsPresenter":
+                    OnDataGridRowsPresenter(xnode);
+                    break;
+                case "DataGridSortingEventArgs":
+                    OnDataGridSortingEventArgs(xnode);
+                    break;
+                case "DataGridTemplateColumn":
+                    OnDataGridTemplateColumn(xnode);
+                    break;
+                case "DataGridTextColumn":
+                    OnDataGridTextColumn(xnode);
+                    break;
+                case "DataObjectCopyingEventArgs":
+                    OnDataObjectCopyingEventArgs(xnode);
+                    break;
+                case "DataObjectEventArgs":
+                    OnDataObjectEventArgs(xnode);
+                    break;
+                case "DataObjectPastingEventArgs":
+                    OnDataObjectPastingEventArgs(xnode);
+                    break;
+                case "DataObjectSettingDataEventArgs":
+                    OnDataObjectSettingDataEventArgs(xnode);
+                    break;
+                case "DataSourceProvider":
+                    OnDataSourceProvider(xnode);
+                    break;
+                case "DataStateBehavior":
+                    OnDataStateBehavior(xnode);
+                    break;
+                case "DataStoreChangedTrigger":
+                    OnDataStoreChangedTrigger(xnode);
+                    break;
+                case "DataTemplate":
+                    OnDataTemplate(xnode);
+                    break;
+                case "DataTemplateKey":
+                    OnDataTemplateKey(xnode);
+                    break;
+                case "DataTransferEventArgs":
+                    OnDataTransferEventArgs(xnode);
+                    break;
+                case "DataTrigger":
+                    OnDataTrigger(xnode);
+                    break;
+                case "DatePicker":
+                    OnDatePicker(xnode);
+                    break;
+                case "DatePickerAutomationPeer":
+                    OnDatePickerAutomationPeer(xnode);
+                    break;
+                case "DatePickerTextBox":
+                    OnDatePickerTextBox(xnode);
+                    break;
+                case "DateTimeAutomationPeer":
+                    OnDateTimeAutomationPeer(xnode);
+                    break;
+                case "DateTimeValueSerializer":
+                    OnDateTimeValueSerializer(xnode);
+                    break;
+                case "DecimalAnimation":
+                    OnDecimalAnimation(xnode);
+                    break;
+                case "DecimalAnimationBase":
+                    OnDecimalAnimationBase(xnode);
+                    break;
+                case "DecimalAnimationUsingKeyFrames":
+                    OnDecimalAnimationUsingKeyFrames(xnode);
+                    break;
+                case "DecimalKeyFrame":
+                    OnDecimalKeyFrame(xnode);
+                    break;
+                case "DecimalKeyFrameCollection":
+                    OnDecimalKeyFrameCollection(xnode);
+                    break;
+                case "Decorator":
+                    OnDecorator(xnode);
+                    break;
+                case "DefinitionBase":
+                    OnDefinitionBase(xnode);
+                    break;
+                case "DependencyObject":
+                    OnDependencyObject(xnode);
+                    break;
+                case "DiffuseMaterial":
+                    OnDiffuseMaterial(xnode);
+                    break;
+                case "DirectionalLight":
+                    OnDirectionalLight(xnode);
+                    break;
+                case "DiscreteBooleanKeyFrame":
+                    OnDiscreteBooleanKeyFrame(xnode);
+                    break;
+                case "DiscreteByteKeyFrame":
+                    OnDiscreteByteKeyFrame(xnode);
+                    break;
+                case "DiscreteCharKevFrame":
+                    OnDiscreteCharKevFrame(xnode);
+                    break;
+                case "DiscreteColorKeyFrame":
+                    OnDiscreteColorKeyFrame(xnode);
+                    break;
+                case "DiscreteDecimalKeyFrame":
+                    OnDiscreteDecimalKeyFrame(xnode);
+                    break;
+                case "DiscreteDoubleKeyFrame":
+                    OnDiscreteDoubleKeyFrame(xnode);
+                    break;
+                case "DiscreteInt16KevFrame":
+                    OnDiscreteInt16KevFrame(xnode);
+                    break;
+                case "DiscreteInt32KeyFrame":
+                    OnDiscreteInt32KeyFrame(xnode);
+                    break;
+                case "Discretent64KeyFrame":
+                    OnDiscretent64KeyFrame(xnode);
+                    break;
+                case "DiscretelMatrixKeyFrame":
+                    OnDiscretelMatrixKeyFrame(xnode);
+                    break;
+                case "DiscereteObjectKeyFrame":
+                    OnDiscereteObjectKeyFrame(xnode);
+                    break;
+                case "DiscretePoint3DKeyFrame":
+                    OnDiscretePoint3DKeyFrame(xnode);
+                    break;
+                case "DiscretePointKeyFrame":
+                    OnDiscretePointKeyFrame(xnode);
+                    break;
+                case "DiscreteQuaternionKeyFrame":
+                    OnDiscreteQuaternionKeyFrame(xnode);
+                    break;
+                case "DiscreteRectKeyFrame":
+                    OnDiscreteRectKeyFrame(xnode);
+                    break;
+                case "DiscreteRotation3DKeyFramne":
+                    OnDiscreteRotation3DKeyFramne(xnode);
+                    break;
+                case "DiscreteSingleKeyFrame":
+                    OnDiscreteSingleKeyFrame(xnode);
+                    break;
+                case "DiscreteSizeKeyFrame":
+                    OnDiscreteSizeKeyFrame(xnode);
+                    break;
+                case "DiscreteStringKeyFrame":
+                    OnDiscreteStringKeyFrame(xnode);
+                    break;
+                case "DiscreteThicknessKeyFrame":
+                    OnDiscreteThicknessKeyFrame(xnode);
+                    break;
+                case "DiscreteVector3DKeyFrame":
+                    OnDiscreteVector3DKeyFrame(xnode);
+                    break;
+                case "DiscreteVectorKeyFrame":
+                    OnDiscreteVectorKeyFrame(xnode);
+                    break;
+                case "DispatcherEventArgs":
+                    OnDispatcherEventArgs(xnode);
+                    break;
+                case "DispatcherFrame":
+                    OnDispatcherFrame(xnode);
+                    break;
+                case "DispatcherObject":
+                    OnDispatcherObject(xnode);
+                    break;
+                case "DispatcherOperation":
+                    OnDispatcherOperation(xnode);
+                    break;
+                case "DispatcherUnhandledExceptionEventArgs":
+                    OnDispatcherUnhandledExceptionEventArgs(xnode);
+                    break;
+                case "DispatcherUnhandledExceptionFilterEventArgs":
+                    OnDispatcherUnhandledExceptionFilterEventArgs(xnode);
+                    break;
+                case "DockPanel":
+                    OnDockPanel(xnode);
+                    break;
+                case "DocumentAutomationPeer":
+                    OnDocumentAutomationPeer(xnode);
+                    break;
+                case "DocumentViewerAutomationPeer":
+                    OnDocumentViewerAutomationPeer(xnode);
+                    break;
+                case "DocumentPageView":
+                    OnDocumentPageView(xnode);
+                    break;
+                case "DocumentPageViewAutomationPeer":
+                    OnDocumentPageViewAutomationPeer(xnode);
+                    break;
+                case "DocumentPaginator":
+                    OnDocumentPaginator(xnode);
+                    break;
+                case "DocumentReference":
+                    OnDocumentReference(xnode);
+                    break;
+                case "DocumentViewer":
+                    OnDocumentViewer(xnode);
+                    break;
+                case "DocumentViewerBaseAutomationPeer":
+                    OnDocumentViewerBaseAutomationPeer(xnode);
+                    break;
+                case "DoCumentViewerBase":
+                    OnDoCumentViewerBase(xnode);
+                    break;
+                case "DoubleAnimation":
+                    OnDoubleAnimation(xnode);
+                    break;
+                case "DoubleAnimationBase":
+                    OnDoubleAnimationBase(xnode);
+                    break;
+                case "DoubleAmimationUsingKevFrames":
+                    OnDoubleAmimationUsingKevFrames(xnode);
+                    break;
+                case "DoubleAnimationsingPath":
+                    OnDoubleAnimationsingPath(xnode);
+                    break;
+                case "DoubleCollection":
+                    OnDoubleCollection(xnode);
+                    break;
+                case "DoubleCollectionValueSenalizer":
+                    OnDoubleCollectionValueSenalizer(xnode);
+                    break;
+                case "DoubleIListConverter":
+                    OnDoubleIListConverter(xnode);
+                    break;
+                case "DoubleKeyFrame":
+                    OnDoubleKeyFrame(xnode);
+                    break;
+                case "DoubleKeyFrameCollection":
+                    OnDoubleKeyFrameCollection(xnode);
+                    break;
+                case "DragCompletedEventArgs":
+                    OnDragCompletedEventArgs(xnode);
+                    break;
+                case "DragDeltaEventArgs":
+                    OnDragDeltaEventArgs(xnode);
+                    break;
+                case "DragEventArgs":
+                    OnDragEventArgs(xnode);
+                    break;
+                case "DragStartedEventArgs":
+                    OnDragStartedEventArgs(xnode);
+                    break;
+                case "Drawing":
+                    OnDrawing(xnode);
+                    break;
+                case "DrawingBrush":
+                    OnDrawingBrush(xnode);
+                    break;
+                case "DrawingCollection":
+                    OnDrawingCollection(xnode);
+                    break;
+                case "DrawingContext":
+                    OnDrawingContext(xnode);
+                    break;
+                case "DrawingGroup":
+                    OnDrawingGroup(xnode);
+                    break;
+                case "DrawingImage":
+                    OnDrawingImage(xnode);
+                    break;
+                case "DrawingVisual":
+                    OnDrawingVisual(xnode);
+                    break;
+                case "DropShadowBitmapEffect":
+                    OnDropShadowBitmapEffect(xnode);
+                    break;
+                case "DropShadowEffect":
+                    OnDropShadowEffect(xnode);
+                    break;
+                case "DynamicDocumentPaginator":
+                    OnDynamicDocumentPaginator(xnode);
+                    break;
+                case "DynamicRenderer":
+                    OnDynamicRenderer(xnode);
+                    break;
+                case "DynamicResourceExtension":
+                    OnDynamicResourceExtension(xnode);
+                    break;
+                case "EasingByteKeyFrame":
+                    OnEasingByteKeyFrame(xnode);
+                    break;
+                case "EasingColorKeyFrame":
+                    OnEasingColorKeyFrame(xnode);
+                    break;
+                case "EasingDecimalKeyFrame":
+                    OnEasingDecimalKeyFrame(xnode);
+                    break;
+                case "EasingDoubleKeyFrame":
+                    OnEasingDoubleKeyFrame(xnode);
+                    break;
+                case "EasingFunctionBase":
+                    OnEasingFunctionBase(xnode);
+                    break;
+                case "EasingInt16KeyFrame":
+                    OnEasingInt16KeyFrame(xnode);
+                    break;
+                case "EasingInt32KeyFrame":
+                    OnEasingInt32KeyFrame(xnode);
+                    break;
+                case "Easinglnt64KeyFrame":
+                    OnEasinglnt64KeyFrame(xnode);
+                    break;
+                case "EasingPoint3DKeyFrame":
+                    OnEasingPoint3DKeyFrame(xnode);
+                    break;
+                case "EasingPointKeyFrame":
+                    OnEasingPointKeyFrame(xnode);
+                    break;
+                case "EasingQuaternionKeyFrame":
+                    OnEasingQuaternionKeyFrame(xnode);
+                    break;
+                case "EasingRectKeyFrame":
+                    OnEasingRectKeyFrame(xnode);
+                    break;
+                case "EasingRotation3DKeyFrame":
+                    OnEasingRotation3DKeyFrame(xnode);
+                    break;
+                case "EasingSingleKeyFrame":
+                    OnEasingSingleKeyFrame(xnode);
+                    break;
+                case "EasingSizeKeyFranme":
+                    OnEasingSizeKeyFranme(xnode);
+                    break;
+                case "EasingThicknessKeyFrame":
+                    OnEasingThicknessKeyFrame(xnode);
+                    break;
+                case "EasıngVector3DKeyFrame":
+                    OnEasıngVector3DKeyFrame(xnode);
+                    break;
+                case "EasingVectorKeyFrame":
+                    OnEasingVectorKeyFrame(xnode);
+                    break;
+                case "Effect":
+                    OnEffect(xnode);
+                    break;
+                case "ElasticEase":
+                    OnElasticEase(xnode);
+                    break;
+                case "Ellipse":
+                    OnEllipse(xnode);
+                    break;
+                case "EllipseGeometry":
+                    OnEllipseGeometry(xnode);
+                    break;
+                case "EllipseStylusShape":
+                    OnEllipseStylusShape(xnode);
+                    break;
+                case "EmbossBitmapEffect":
+                    OnEmbossBitmapEffect(xnode);
+                    break;
+                case "EmissiveMaterial":
+                    OnEmissiveMaterial(xnode);
+                    break;
+                case "ErrorsChangedEventManager":
+                    OnErrorsChangedEventManager(xnode);
+                    break;
+                case "EventArgs":
+                    OnEventArgs(xnode);
+                    break;
+                case "EventSetter":
+                    OnEventSetter(xnode);
+                    break;
+                case "EventTrigger":
+                    OnEventTrigger(xnode);
+                    break;
+                case "EventTriggerBase":
+                    OnEventTriggerBase(xnode);
+                    break;
+                case "Exception":
+                    OnException(xnode);
+                    break;
+                case "ExceptionRoutedEventArgs":
+                    OnExceptionRoutedEventArgs(xnode);
+                    break;
+                case "ExceptionValidationRule":
+                    OnExceptionValidationRule(xnode);
+                    break;
+                case "ExecutedRoutedEventArgs":
+                    OnExecutedRoutedEventArgs(xnode);
+                    break;
+                case "Expander":
+                    OnExpander(xnode);
+                    break;
+                case "ExpanderAutomationPeer":
+                    OnExpanderAutomationPeer(xnode);
+                    break;
+                case "ExponentialEase":
+                    OnExponentialEase(xnode);
+                    break;
+                case "Expression":
+                    OnExpression(xnode);
+                    break;
+                case "ExpressionConverter":
+                    OnExpressionConverter(xnode);
+                    break;
+                case "ExtendedVisualStateManager":
+                    OnExtendedVisualStateManager(xnode);
+                    break;
+                case "Figure":
+                    OnFigure(xnode);
+                    break;
+                case "FigureStructure":
+                    OnFigureStructure(xnode);
+                    break;
+                case "FileDialog":
+                    OnFileDialog(xnode);
+                    break;
+                case "FixedDocument":
+                    OnFixedDocument(xnode);
+                    break;
+                case "FixedDocumentSequence":
+                    OnFixedDocumentSequence(xnode);
+                    break;
+                case "FixedPage":
+                    OnFixedPage(xnode);
+                    break;
+                case "FixedPageAutomationPeer":
+                    OnFixedPageAutomationPeer(xnode);
+                    break;
+                case "Floater":
+                    OnFloater(xnode);
+                    break;
+                case "FlowDocument":
+                    OnFlowDocument(xnode);
+                    break;
+                case "FlowDocumentPageViewer":
+                    OnFlowDocumentPageViewer(xnode);
+                    break;
+                case "FlowDocumentPageViewerAutomationPeer":
+                    OnFlowDocumentPageViewerAutomationPeer(xnode);
+                    break;
+                case "FlowDocumentReader":
+                    OnFlowDocumentReader(xnode);
+                    break;
+                case "FlowDocumentReaderAutomationPeer":
+                    OnFlowDocumentReaderAutomationPeer(xnode);
+                    break;
+                case "FlowDocumentScrollViewer":
+                    OnFlowDocumentScrollViewer(xnode);
+                    break;
+                case "FlowDocumentScrollViewerAutomationPeer":
+                    OnFlowDocumentScrollViewerAutomationPeer(xnode);
+                    break;
+                case "FluidMoveBehavior":
+                    OnFluidMoveBehavior(xnode);
+                    break;
+                case "FluidMoveBehaviorBase":
+                    OnFluidMoveBehaviorBase(xnode);
+                    break;
+                case "FluidMoveSetTagBehavior":
+                    OnFluidMoveSetTagBehavior(xnode);
+                    break;
+                case "FontFamilyValueSerializer":
+                    OnFontFamilyValueSerializer(xnode);
+                    break;
+                case "FormatConvertedBitmap":
+                    OnFormatConvertedBitmap(xnode);
+                    break;
+                case "Frame":
+                    OnFrame(xnode);
+                    break;
+                case "FrameAutomationPeer":
+                    OnFrameAutomationPeer(xnode);
+                    break;
+                case "FrameworkContentElement":
+                    OnFrameworkContentElement(xnode);
+                    break;
+                case "FrameworkContentElementAutomationPeer":
+                    OnFrameworkContentElementAutomationPeer(xnode);
+                    break;
+                case "FrameworkElement":
+                    OnFrameworkElement(xnode);
+                    break;
+                case "FrameworkElementAutomationPeer":
+                    OnFrameworkElementAutomationPeer(xnode);
+                    break;
+                case "FrameworkPropertyMetadata":
+                    OnFrameworkPropertyMetadata(xnode);
+                    break;
+                case "FrameworkRichTextComposition":
+                    OnFrameworkRichTextComposition(xnode);
+                    break;
+                case "FrameworkTemplate":
+                    OnFrameworkTemplate(xnode);
+                    break;
+                case "FrameworkTextComposition":
+                    OnFrameworkTextComposition(xnode);
+                    break;
+                case "Freezable":
+                    OnFreezable(xnode);
+                    break;
+                case "FreezableCollection":
+                    OnFreezableCollection(xnode);
+                    break;
+                case "GeneralTransform":
+                    OnGeneralTransform(xnode);
+                    break;
+                case "GeneralTransform2DTo3D":
+                    OnGeneralTransform2DTo3D(xnode);
+                    break;
+                case "GeneralTransform3D":
+                    OnGeneralTransform3D(xnode);
+                    break;
+                case "GeneralTransform3DCollection":
+                    OnGeneralTransform3DCollection(xnode);
+                    break;
+                case "GeneralTransform3DGroup":
+                    OnGeneralTransform3DGroup(xnode);
+                    break;
+                case "GeneralTransform3DTo2D":
+                    OnGeneralTransform3DTo2D(xnode);
+                    break;
+                case "GeneralTransformCollection":
+                    OnGeneralTransformCollection(xnode);
+                    break;
+                case "GeneralTransformGroup":
+                    OnGeneralTransformGroup(xnode);
+                    break;
+                case "GenericRootAutomationPeer":
+                    OnGenericRootAutomationPeer(xnode);
+                    break;
+                case "Geometry":
+                    OnGeometry(xnode);
+                    break;
+                case "Geometry3D":
+                    OnGeometry3D(xnode);
+                    break;
+                case "GeometryCollection":
+                    OnGeometryCollection(xnode);
+                    break;
+                case "GeometryDrawing":
+                    OnGeometryDrawing(xnode);
+                    break;
+                case "GeometryGroup":
+                    OnGeometryGroup(xnode);
+                    break;
+                case "GeometryHitTestParameters":
+                    OnGeometryHitTestParameters(xnode);
+                    break;
+                case "GeometryHitTestResult":
+                    OnGeometryHitTestResult(xnode);
+                    break;
+                case "GeometryModel3D":
+                    OnGeometryModel3D(xnode);
+                    break;
+                case "GeometryValueSenalizer":
+                    OnGeometryValueSenalizer(xnode);
+                    break;
+                case "GestureRecognizer":
+                    OnGestureRecognizer(xnode);
+                    break;
+                case "GifBitmapDecoder":
+                    OnGifBitmapDecoder(xnode);
+                    break;
+                case "GifBitmapEncoder":
+                    OnGifBitmapEncoder(xnode);
+                    break;
+                case "GiveFeedbackEventArgs":
+                    OnGiveFeedbackEventArgs(xnode);
+                    break;
+                case "GlyphRunDrawing":
+                    OnGlyphRunDrawing(xnode);
+                    break;
+                case "Glyphs":
+                    OnGlyphs(xnode);
+                    break;
+                case "GoToStateAction":
+                    OnGoToStateAction(xnode);
+                    break;
+                case "GradientBrush":
+                    OnGradientBrush(xnode);
+                    break;
+                case "GradientStop":
+                    OnGradientStop(xnode);
+                    break;
+                case "GradientStopCollection":
+                    OnGradientStopCollection(xnode);
+                    break;
+                case "Grid":
+                    OnGrid(xnode);
+                    break;
+                case "GridSplitter":
+                    OnGridSplitter(xnode);
+                    break;
+                case "GridSplitterAutomationPeer":
+                    OnGridSplitterAutomationPeer(xnode);
+                    break;
+                case "GridView":
+                    OnGridView(xnode);
+                    break;
+                case "GridViewCellAutomationPeer":
+                    OnGridViewCellAutomationPeer(xnode);
+                    break;
+                case "GridViewColumn":
+                    OnGridViewColumn(xnode);
+                    break;
+                case "GridViewColumnHeader":
+                    OnGridViewColumnHeader(xnode);
+                    break;
+                case "GidViewColumnHeaderAutomationPeer":
+                    OnGidViewColumnHeaderAutomationPeer(xnode);
+                    break;
+                case "GridViewHeaderRowPresenter":
+                    OnGridViewHeaderRowPresenter(xnode);
+                    break;
+                case "GridViewHeaderRowPresenterAutomationPeer":
+                    OnGridViewHeaderRowPresenterAutomationPeer(xnode);
+                    break;
+                case "GridViewItemAutomationPeer":
+                    OnGridViewItemAutomationPeer(xnode);
+                    break;
+                case "GridViewRowPresenter":
+                    OnGridViewRowPresenter(xnode);
+                    break;
+                case "GridViewRowPresenterBase":
+                    OnGridViewRowPresenterBase(xnode);
+                    break;
+                case "GroupBox":
+                    OnGroupBox(xnode);
+                    break;
+                case "GroupBoXAutomationPeer":
+                    OnGroupBoXAutomationPeer(xnode);
+                    break;
+                case "GroupDescription":
+                    OnGroupDescription(xnode);
+                    break;
+                case "Groupltem":
+                    OnGroupltem(xnode);
+                    break;
+                case "GroupItemAutomationPeer":
+                    OnGroupItemAutomationPeer(xnode);
+                    break;
+                case "GuidelineSet":
+                    OnGuidelineSet(xnode);
+                    break;
+                case "HeaderedContentControl":
+                    OnHeaderedContentControl(xnode);
+                    break;
+                case "HeaderedItemsControl":
+                    OnHeaderedItemsControl(xnode);
+                    break;
+                case "HierarchicalDataTemplate":
+                    OnHierarchicalDataTemplate(xnode);
+                    break;
+                case "HitTestParameters":
+                    OnHitTestParameters(xnode);
+                    break;
+                case "HitTestParameters3D":
+                    OnHitTestParameters3D(xnode);
+                    break;
+                case "HitTestResult":
+                    OnHitTestResult(xnode);
+                    break;
+                case "HostVisual":
+                    OnHostVisual(xnode);
+                    break;
+                case "HwndHost":
+                    OnHwndHost(xnode);
+                    break;
+                case "HwndSource":
+                    OnHwndSource(xnode);
+                    break;
+                case "HwndTarget":
+                    OnHwndTarget(xnode);
+                    break;
+                case "Hperlınk":
+                    OnHperlınk(xnode);
+                    break;
+                case "HyperlinkAutomationPeer":
+                    OnHyperlinkAutomationPeer(xnode);
+                    break;
+                case "IconBitmapDecoder":
+                    OnIconBitmapDecoder(xnode);
+                    break;
+                case "Image":
+                    OnImage(xnode);
+                    break;
+                case "ImageAutomationPeer":
+                    OnImageAutomationPeer(xnode);
+                    break;
+                case "TmageBrush":
+                    OnTmageBrush(xnode);
+                    break;
+                case "ImageDrawing":
+                    OnImageDrawing(xnode);
+                    break;
+                case "Imageetadata":
+                    OnImageetadata(xnode);
+                    break;
+                case "ImageSource":
+                    OnImageSource(xnode);
+                    break;
+                case "ImageSourcealueSerializer":
+                    OnImageSourcealueSerializer(xnode);
+                    break;
+                case "IncrementalHitTester":
+                    OnIncrementalHitTester(xnode);
+                    break;
+                case "IncrementalLassoHitTester":
+                    OnIncrementalLassoHitTester(xnode);
+                    break;
+                case "IncrementalStrokehHitTester":
+                    OnIncrementalStrokehHitTester(xnode);
+                    break;
+                case "InkCanvas":
+                    OnInkCanvas(xnode);
+                    break;
+                case "InkCanvasAutomationPeer":
+                    OnInkCanvasAutomationPeer(xnode);
+                    break;
+                case "InkCanvasGestureEventArgs":
+                    OnInkCanvasGestureEventArgs(xnode);
+                    break;
+                case "InkCanvasStrokeCollectedEventArgs":
+                    OnInkCanvasStrokeCollectedEventArgs(xnode);
+                    break;
+                case "InkPresenter":
+                    OnInkPresenter(xnode);
+                    break;
+                case "InkPresenterAutomationPeer":
+                    OnInkPresenterAutomationPeer(xnode);
+                    break;
+                case "Inline":
+                    OnInline(xnode);
+                    break;
+                case "InlineUIContainer":
+                    OnInlineUIContainer(xnode);
+                    break;
+                case "InPlaceBitmapMetadata":
+                    OnInPlaceBitmapMetadata(xnode);
+                    break;
+                case "InputBindıng":
+                    OnInputBindıng(xnode);
+                    break;
+                case "InputDevice":
+                    OnInputDevice(xnode);
+                    break;
+                case "InputEventArgs":
+                    OnInputEventArgs(xnode);
+                    break;
+                case "InputGesture":
+                    OnInputGesture(xnode);
+                    break;
+                case "InputanguageChangedEventArgs":
+                    OnInputanguageChangedEventArgs(xnode);
+                    break;
+                case "InputLanguageChangingEventArgs":
+                    OnInputLanguageChangingEventArgs(xnode);
+                    break;
+                case "InputanguageEventArgs":
+                    OnInputanguageEventArgs(xnode);
+                    break;
+                case "InputLanguageManager":
+                    OnInputLanguageManager(xnode);
+                    break;
+                case "InputManager":
+                    OnInputManager(xnode);
+                    break;
+                case "InputMethod":
+                    OnInputMethod(xnode);
+                    break;
+                case "Int16Animation":
+                    OnInt16Animation(xnode);
+                    break;
+                case "Int16AnimationBase":
+                    OnInt16AnimationBase(xnode);
+                    break;
+                case "Int16AnimationBaseUsingKeyFrames":
+                    OnInt16AnimationBaseUsingKeyFrames(xnode);
+                    break;
+                case "Int16KeyFrame":
+                    OnInt16KeyFrame(xnode);
+                    break;
+                case "Int16KeyFrameCollection":
+                    OnInt16KeyFrameCollection(xnode);
+                    break;
+                case "Int32Animation":
+                    OnInt32Animation(xnode);
+                    break;
+                case "Int32AnimationBase":
+                    OnInt32AnimationBase(xnode);
+                    break;
+                case "Int32AnimationUsingKeyFrames":
+                    OnInt32AnimationUsingKeyFrames(xnode);
+                    break;
+                case "Int32Collection":
+                    OnInt32Collection(xnode);
+                    break;
+                case "Int32CollecionValueSerializer":
+                    OnInt32CollecionValueSerializer(xnode);
+                    break;
+                case "Int32KeyFrame":
+                    OnInt32KeyFrame(xnode);
+                    break;
+                case "Int32KeyFrameCollection":
+                    OnInt32KeyFrameCollection(xnode);
+                    break;
+                case "Int32RectValueSernalizer":
+                    OnInt32RectValueSernalizer(xnode);
+                    break;
+                case "Int64Animation":
+                    OnInt64Animation(xnode);
+                    break;
+                case "Int64AnimationBase":
+                    OnInt64AnimationBase(xnode);
+                    break;
+                case "Int64AnimationUsingKeyFrames":
+                    OnInt64AnimationUsingKeyFrames(xnode);
+                    break;
+                case "Int64KevFrame":
+                    OnInt64KevFrame(xnode);
+                    break;
+                case "Int64KevFrameCollection":
+                    OnInt64KevFrameCollection(xnode);
+                    break;
+                case "InteropBitmap":
+                    OnInteropBitmap(xnode);
+                    break;
+                case "InvokeCommandAction":
+                    OnInvokeCommandAction(xnode);
+                    break;
+                case "Italic":
+                    OnItalic(xnode);
+                    break;
+                case "ItemAutomationPeer":
+                    OnItemAutomationPeer(xnode);
+                    break;
+                case "ItemCollection":
+                    OnItemCollection(xnode);
+                    break;
+                case "ItemContainerTernplate":
+                    OnItemContainerTernplate(xnode);
+                    break;
+                case "ItemContainerTemplateKey":
+                    OnItemContainerTemplateKey(xnode);
+                    break;
+                case "ItemsControl":
+                    OnItemsControl(xnode);
+                    break;
+                case "ItemsControlAutomationPeer":
+                    OnItemsControlAutomationPeer(xnode);
+                    break;
+                case "ItemsPanelTernplate":
+                    OnItemsPanelTernplate(xnode);
+                    break;
+                case "ItemsPresenter":
+                    OnItemsPresenter(xnode);
+                    break;
+                case "JournalEntry":
+                    OnJournalEntry(xnode);
+                    break;
+                case "JpegBitmapDecoder":
+                    OnJpegBitmapDecoder(xnode);
+                    break;
+                case "JpegBitmapEncoder":
+                    OnJpegBitmapEncoder(xnode);
+                    break;
+                case "JumpItem":
+                    OnJumpItem(xnode);
+                    break;
+                case "JumpPath":
+                    OnJumpPath(xnode);
+                    break;
+                case "JumpTask":
+                    OnJumpTask(xnode);
+                    break;
+                case "KeyBinding":
+                    OnKeyBinding(xnode);
+                    break;
+                case "KeyboardDevice":
+                    OnKeyboardDevice(xnode);
+                    break;
+                case "KeyboardEventArgs":
+                    OnKeyboardEventArgs(xnode);
+                    break;
+                case "KeyboardFocusChangedEventArgs":
+                    OnKeyboardFocusChangedEventArgs(xnode);
+                    break;
+                case "KeyboardInputPrOviderAcquireFocusEventArgs":
+                    OnKeyboardInputPrOviderAcquireFocusEventArgs(xnode);
+                    break;
+                case "KeyEventArgs":
+                    OnKeyEventArgs(xnode);
+                    break;
+                case "KevGesture":
+                    OnKevGesture(xnode);
+                    break;
+                case "KevGestureValueSerializer":
+                    OnKevGestureValueSerializer(xnode);
+                    break;
+                case "KeySpline":
+                    OnKeySpline(xnode);
+                    break;
+                case "KeyTrigger":
+                    OnKeyTrigger(xnode);
+                    break;
+                case "KeyValueSerializer":
+                    OnKeyValueSerializer(xnode);
+                    break;
+                case "Label":
+                    OnLabel(xnode);
+                    break;
+                case "LabelAutomationPeer":
+                    OnLabelAutomationPeer(xnode);
+                    break;
+                case "LateBoundBitmapDecoder":
+                    OnLateBoundBitmapDecoder(xnode);
+                    break;
+                case "LaunchUriOrFileAction":
+                    OnLaunchUriOrFileAction(xnode);
+                    break;
+                case "Light":
+                    OnLight(xnode);
+                    break;
+                case "Line":
+                    OnLine(xnode);
+                    break;
+                case "LinearByteKeyFrame":
+                    OnLinearByteKeyFrame(xnode);
+                    break;
+                case "LinearColorKeyFrame":
+                    OnLinearColorKeyFrame(xnode);
+                    break;
+                case "LinearDecimalKeyFrame":
+                    OnLinearDecimalKeyFrame(xnode);
+                    break;
+                case "LinearDoubleKeyFrame":
+                    OnLinearDoubleKeyFrame(xnode);
+                    break;
+                case "LinearGradientBrush":
+                    OnLinearGradientBrush(xnode);
+                    break;
+                case "LinearInt16KeyFrame":
+                    OnLinearInt16KeyFrame(xnode);
+                    break;
+                case "LinearInt32KeyFrame":
+                    OnLinearInt32KeyFrame(xnode);
+                    break;
+                case "LinearInt64KeyFrame":
+                    OnLinearInt64KeyFrame(xnode);
+                    break;
+                case "LinearPoint3DKeyFrame":
+                    OnLinearPoint3DKeyFrame(xnode);
+                    break;
+                case "LinearPointKeyFrame":
+                    OnLinearPointKeyFrame(xnode);
+                    break;
+                case "LinearQuaternionKeyFrame":
+                    OnLinearQuaternionKeyFrame(xnode);
+                    break;
+                case "LinearRectKeyFrame":
+                    OnLinearRectKeyFrame(xnode);
+                    break;
+                case "LinearRotation3DKeyFrame":
+                    OnLinearRotation3DKeyFrame(xnode);
+                    break;
+                case "LinearSingleKeyFrame":
+                    OnLinearSingleKeyFrame(xnode);
+                    break;
+                case "LinearSizeKeyFrame":
+                    OnLinearSizeKeyFrame(xnode);
+                    break;
+                case "LinearThicknessKeyFrame":
+                    OnLinearThicknessKeyFrame(xnode);
+                    break;
+                case "LinearVector3DKeyFrame":
+                    OnLinearVector3DKeyFrame(xnode);
+                    break;
+                case "LinearVectorKeyFrame":
+                    OnLinearVectorKeyFrame(xnode);
+                    break;
+                case "LineBreak":
+                    OnLineBreak(xnode);
+                    break;
+                case "LineGeometry":
+                    OnLineGeometry(xnode);
+                    break;
+                case "LineSeement":
+                    OnLineSeement(xnode);
+                    break;
+                case "List":
+                    OnList(xnode);
+                    break;
+                case "ListBox":
+                    OnListBox(xnode);
+                    break;
+                case "ListBoxAutomationPeer":
+                    OnListBoxAutomationPeer(xnode);
+                    break;
+                case "ListBoxltem":
+                    OnListBoxltem(xnode);
+                    break;
+                case "ListBoxItemAutomationPeer":
+                    OnListBoxItemAutomationPeer(xnode);
+                    break;
+                case "ListBoxItemWrapperAutomationPecer":
+                    OnListBoxItemWrapperAutomationPecer(xnode);
+                    break;
+                case "ListColectionView":
+                    OnListColectionView(xnode);
+                    break;
+                case "ListItem":
+                    OnListItem(xnode);
+                    break;
+                case "ListitemStructure":
+                    OnListitemStructure(xnode);
+                    break;
+                case "ListStructure":
+                    OnListStructure(xnode);
+                    break;
+                case "ListView":
+                    OnListView(xnode);
+                    break;
+                case "ListViewAutomationPeer":
+                    OnListViewAutomationPeer(xnode);
+                    break;
+                case "ListViewItem":
+                    OnListViewItem(xnode);
+                    break;
+                case "LostFocusEventManager":
+                    OnLostFocusEventManager(xnode);
+                    break;
+                case "ManipulationBoundaryFeedbackEvetArgs":
+                    OnManipulationBoundaryFeedbackEvetArgs(xnode);
+                    break;
+                case "ManipulationCompletedEventArgs":
+                    OnManipulationCompletedEventArgs(xnode);
+                    break;
+                case "ManipulationDeltaEventArgs":
+                    OnManipulationDeltaEventArgs(xnode);
+                    break;
+                case "ManipulationInertiaStartingEventArgs":
+                    OnManipulationInertiaStartingEventArgs(xnode);
+                    break;
+                case "ManipulationStartedEventArgs":
+                    OnManipulationStartedEventArgs(xnode);
+                    break;
+                case "ManıpulationStartingErentArgs":
+                    OnManıpulationStartingErentArgs(xnode);
+                    break;
+                case "MarkupExtension":
+                    OnMarkupExtension(xnode);
+                    break;
+                case "Material":
+                    OnMaterial(xnode);
+                    break;
+                case "MaterialCollection":
+                    OnMaterialCollection(xnode);
+                    break;
+                case "MaterialGroup":
+                    OnMaterialGroup(xnode);
+                    break;
+                case "Matrix3DValueSerializer":
+                    OnMatrix3DValueSerializer(xnode);
+                    break;
+                case "MatrixAnimationBase":
+                    OnMatrixAnimationBase(xnode);
+                    break;
+                case "MatrixAnimationUsingKeyFrames":
+                    OnMatrixAnimationUsingKeyFrames(xnode);
+                    break;
+                case "MatrixAnimationUsingPath":
+                    OnMatrixAnimationUsingPath(xnode);
+                    break;
+                case "MatrixCamera":
+                    OnMatrixCamera(xnode);
+                    break;
+                case "MatrixKeyFrame":
+                    OnMatrixKeyFrame(xnode);
+                    break;
+                case "MatrixKeyFrameCollection":
+                    OnMatrixKeyFrameCollection(xnode);
+                    break;
+                case "MatrixTransform":
+                    OnMatrixTransform(xnode);
+                    break;
+                case "MatrixTransform3D":
+                    OnMatrixTransform3D(xnode);
+                    break;
+                case "MatrixValueSerializer":
+                    OnMatrixValueSerializer(xnode);
+                    break;
+                case "MediaClock":
+                    OnMediaClock(xnode);
+                    break;
+                case "MediaElement":
+                    OnMediaElement(xnode);
+                    break;
+                case "MediaElementAutomationPeer":
+                    OnMediaElementAutomationPeer(xnode);
+                    break;
+                case "MediaPlayer":
+                    OnMediaPlayer(xnode);
+                    break;
+                case "MediaScriptCommandRoutedEventArgs":
+                    OnMediaScriptCommandRoutedEventArgs(xnode);
+                    break;
+                case "MediaTimeline":
+                    OnMediaTimeline(xnode);
+                    break;
+                case "MemberDefinition":
+                    OnMemberDefinition(xnode);
+                    break;
+                case "Menu":
+                    OnMenu(xnode);
+                    break;
+                case "MenuAutomationPeer":
+                    OnMenuAutomationPeer(xnode);
+                    break;
+                case "MenuBase":
+                    OnMenuBase(xnode);
+                    break;
+                case "MenuItem":
+                    OnMenuItem(xnode);
+                    break;
+                case "MenuItemAutomationPeer":
+                    OnMenuItemAutomationPeer(xnode);
+                    break;
+                case "MeshGeometry3D":
+                    OnMeshGeometry3D(xnode);
+                    break;
+                case "Model3D":
+                    OnModel3D(xnode);
+                    break;
+                case "Model3DCollection":
+                    OnModel3DCollection(xnode);
+                    break;
+                case "Model3DGroup":
+                    OnModel3DGroup(xnode);
+                    break;
+                case "ModelUIElement3D":
+                    OnModelUIElement3D(xnode);
+                    break;
+                case "ModelVisual3D":
+                    OnModelVisual3D(xnode);
+                    break;
+                case "ModifierKeysValueSerializer":
+                    OnModifierKeysValueSerializer(xnode);
+                    break;
+                case "MouseActionValueSerializer":
+                    OnMouseActionValueSerializer(xnode);
+                    break;
+                case "MouseBinding":
+                    OnMouseBinding(xnode);
+                    break;
+                case "MouseButtonEventArgs":
+                    OnMouseButtonEventArgs(xnode);
+                    break;
+                case "MouseDevice":
+                    OnMouseDevice(xnode);
+                    break;
+                case "MouseDragElementBehavior":
+                    OnMouseDragElementBehavior(xnode);
+                    break;
+                case "MouseEventArgs":
+                    OnMouseEventArgs(xnode);
+                    break;
+                case "MouseGesture":
+                    OnMouseGesture(xnode);
+                    break;
+                case "MouseGestureValueSerializer":
+                    OnMouseGestureValueSerializer(xnode);
+                    break;
+                case "MouseWheelEventArgs":
+                    OnMouseWheelEventArgs(xnode);
+                    break;
+                case "MultiBinding":
+                    OnMultiBinding(xnode);
+                    break;
+                case "MultiBindingExpression":
+                    OnMultiBindingExpression(xnode);
+                    break;
+                case "MultiDataTrigger":
+                    OnMultiDataTrigger(xnode);
+                    break;
+                case "MultiSelector":
+                    OnMultiSelector(xnode);
+                    break;
+                case "MultiTrigger":
+                    OnMultiTrigger(xnode);
+                    break;
+                case "NamedElement":
+                    OnNamedElement(xnode);
+                    break;
+                case "NavigationWindow":
+                    OnNavigationWindow(xnode);
+                    break;
+                case "NavigationWindowAutomationPeer":
+                    OnNavigationWindowAutomationPeer(xnode);
+                    break;
+                case "NotifyDataErrorValidationRule":
+                    OnNotifyDataErrorValidationRule(xnode);
+                    break;
+                case "NotifyInputEventArgs":
+                    OnNotifyInputEventArgs(xnode);
+                    break;
+                case "NullExtension":
+                    OnNullExtension(xnode);
+                    break;
+                case "ObjectAnimationBase":
+                    OnObjectAnimationBase(xnode);
+                    break;
+                case "ObjectAnimationUsingKeyFrames":
+                    OnObjectAnimationUsingKeyFrames(xnode);
+                    break;
+                case "ObjectDataProvider":
+                    OnObjectDataProvider(xnode);
+                    break;
+                case "ObjectKeyFrame":
+                    OnObjectKeyFrame(xnode);
+                    break;
+                case "ObjectKeyFrameCollection":
+                    OnObjectKeyFrameCollection(xnode);
+                    break;
+                case "OpenFileDialog":
+                    OnOpenFileDialog(xnode);
+                    break;
+                case "OrthographicCamera":
+                    OnOrthographicCamera(xnode);
+                    break;
+                case "OuterGlowBitmapEffect":
+                    OnOuterGlowBitmapEffect(xnode);
+                    break;
+                case "Package":
+                    OnPackage(xnode);
+                    break;
+                case "PackagePart":
+                    OnPackagePart(xnode);
+                    break;
+                case "Page":
+                    OnPage(xnode);
+                    break;
+                case "PageContent":
+                    OnPageContent(xnode);
+                    break;
+                case "PageFunction":
+                    OnPageFunction(xnode);
+                    break;
+                case "PageFunctionBase":
+                    OnPageFunctionBase(xnode);
+                    break;
+                case "Panel":
+                    OnPanel(xnode);
+                    break;
+                case "Paragraph":
+                    OnParagraph(xnode);
+                    break;
+                case "ParagraphStructure":
+                    OnParagraphStructure(xnode);
+                    break;
+                case "ParallelTimeline":
+                    OnParallelTimeline(xnode);
+                    break;
+                case "PasswordBox":
+                    OnPasswordBox(xnode);
+                    break;
+                case "PasswordBoxAutomationPeer":
+                    OnPasswordBoxAutomationPeer(xnode);
+                    break;
+                case "Path":
+                    OnPath(xnode);
+                    break;
+                case "PathFigure":
+                    OnPathFigure(xnode);
+                    break;
+                case "PathFigureCollection":
+                    OnPathFigureCollection(xnode);
+                    break;
+                case "PathFigureCollectionValueSenalizer":
+                    OnPathFigureCollectionValueSenalizer(xnode);
+                    break;
+                case "PathGeometry":
+                    OnPathGeometry(xnode);
+                    break;
+                case "PathSegment":
+                    OnPathSegment(xnode);
+                    break;
+                case "PathSegmentCollection":
+                    OnPathSegmentCollection(xnode);
+                    break;
+                case "PauseStoryboard":
+                    OnPauseStoryboard(xnode);
+                    break;
+                case "Pen":
+                    OnPen(xnode);
+                    break;
+                case "PerspectiveCamera":
+                    OnPerspectiveCamera(xnode);
+                    break;
+                case "PixelShader":
+                    OnPixelShader(xnode);
+                    break;
+                case "PlaySoundAction":
+                    OnPlaySoundAction(xnode);
+                    break;
+                case "PngBitmapDecoder":
+                    OnPngBitmapDecoder(xnode);
+                    break;
+                case "PngBitmapEncoder":
+                    OnPngBitmapEncoder(xnode);
+                    break;
+                case "Point3DAnimation":
+                    OnPoint3DAnimation(xnode);
+                    break;
+                case "Point3DAnimationBase":
+                    OnPoint3DAnimationBase(xnode);
+                    break;
+                case "Point3DAnimationUsingKeyFrames":
+                    OnPoint3DAnimationUsingKeyFrames(xnode);
+                    break;
+                case "Point3DCollection":
+                    OnPoint3DCollection(xnode);
+                    break;
+                case "Point3DCollectionValueSerializer":
+                    OnPoint3DCollectionValueSerializer(xnode);
+                    break;
+                case "Point3DKeyFrame":
+                    OnPoint3DKeyFrame(xnode);
+                    break;
+                case "Point3DKeyFrameCollection":
+                    OnPoint3DKeyFrameCollection(xnode);
+                    break;
+                case "Point3DValueSerializer":
+                    OnPoint3DValueSerializer(xnode);
+                    break;
+                case "Point4DValueSerializer":
+                    OnPoint4DValueSerializer(xnode);
+                    break;
+                case "PointAnimation":
+                    OnPointAnimation(xnode);
+                    break;
+                case "PointAnimationBase":
+                    OnPointAnimationBase(xnode);
+                    break;
+                case "PointAnimationUsingKeyFrames":
+                    OnPointAnimationUsingKeyFrames(xnode);
+                    break;
+                case "PointAnimationUsingPath":
+                    OnPointAnimationUsingPath(xnode);
+                    break;
+                case "PointCollection":
+                    OnPointCollection(xnode);
+                    break;
+                case "PointCollectionValueSerializer":
+                    OnPointCollectionValueSerializer(xnode);
+                    break;
+                case "PointHitTestParameters":
+                    OnPointHitTestParameters(xnode);
+                    break;
+                case "PointHitTestResult":
+                    OnPointHitTestResult(xnode);
+                    break;
+                case "PointIListConverter":
+                    OnPointIListConverter(xnode);
+                    break;
+                case "PointKeyFrame":
+                    OnPointKeyFrame(xnode);
+                    break;
+                case "PointKeyFrameCollection":
+                    OnPointKeyFrameCollection(xnode);
+                    break;
+                case "PointLight":
+                    OnPointLight(xnode);
+                    break;
+                case "PointLightBase":
+                    OnPointLightBase(xnode);
+                    break;
+                case "PointValueSerializer":
+                    OnPointValueSerializer(xnode);
+                    break;
+                case "PolyBezierSegment":
+                    OnPolyBezierSegment(xnode);
+                    break;
+                case "Polygon":
+                    OnPolygon(xnode);
+                    break;
+                case "Polylıne":
+                    OnPolylıne(xnode);
+                    break;
+                case "PolyLineSegment":
+                    OnPolyLineSegment(xnode);
+                    break;
+                case "PolyQuadraticBezierSegment":
+                    OnPolyQuadraticBezierSegment(xnode);
+                    break;
+                case "Popup":
+                    OnPopup(xnode);
+                    break;
+                case "PowerEase":
+                    OnPowerEase(xnode);
+                    break;
+                case "PreProcessInputEventArgs":
+                    OnPreProcessInputEventArgs(xnode);
+                    break;
+                case "PresentationSource":
+                    OnPresentationSource(xnode);
+                    break;
+                case "PriorityBinding":
+                    OnPriorityBinding(xnode);
+                    break;
+                case "PriorityBindingExpression":
+                    OnPriorityBindingExpression(xnode);
+                    break;
+                case "ProcessInputEventArgs":
+                    OnProcessInputEventArgs(xnode);
+                    break;
+                case "ProgressBar":
+                    OnProgressBar(xnode);
+                    break;
+                case "ProgressBarAutomattonPeer":
+                    OnProgressBarAutomattonPeer(xnode);
+                    break;
+                case "ProjectionCamera":
+                    OnProjectionCamera(xnode);
+                    break;
+                case "PropertyChangedEventManager":
+                    OnPropertyChangedEventManager(xnode);
+                    break;
+                case "PropertyChangedTrigger":
+                    OnPropertyChangedTrigger(xnode);
+                    break;
+                case "PropertyDefinition":
+                    OnPropertyDefinition(xnode);
+                    break;
+                case "PropertyGroupDescription":
+                    OnPropertyGroupDescription(xnode);
+                    break;
+                case "PropertyMetadata":
+                    OnPropertyMetadata(xnode);
+                    break;
+                case "QuadraticBezierSegment":
+                    OnQuadraticBezierSegment(xnode);
+                    break;
+                case "OuadraticEase":
+                    OnOuadraticEase(xnode);
+                    break;
+                case "QuarticEase":
+                    OnQuarticEase(xnode);
+                    break;
+                case "QuaternionAnimation":
+                    OnQuaternionAnimation(xnode);
+                    break;
+                case "QuaternionAnimationBase":
+                    OnQuaternionAnimationBase(xnode);
+                    break;
+                case "QuaternionAnimationUsingKeyFrames":
+                    OnQuaternionAnimationUsingKeyFrames(xnode);
+                    break;
+                case "QuaternionKeyFrame":
+                    OnQuaternionKeyFrame(xnode);
+                    break;
+                case "QuaternionKeyFrameCollection":
+                    OnQuaternionKeyFrameCollection(xnode);
+                    break;
+                case "QuaternionRotation3D":
+                    OnQuaternionRotation3D(xnode);
+                    break;
+                case "QuaternionValueSerializer":
+                    OnQuaternionValueSerializer(xnode);
+                    break;
+                case "QueryContinueDragEventArgs":
+                    OnQueryContinueDragEventArgs(xnode);
+                    break;
+                case "QueryCursorEventArgs":
+                    OnQueryCursorEventArgs(xnode);
+                    break;
+                case "QuinticEase":
+                    OnQuinticEase(xnode);
+                    break;
+                case "RadialGradientBrush":
+                    OnRadialGradientBrush(xnode);
+                    break;
+                case "RadioButton":
+                    OnRadioButton(xnode);
+                    break;
+                case "RadioButtonAutomationPeer":
+                    OnRadioButtonAutomationPeer(xnode);
+                    break;
+                case "RangeBase":
+                    OnRangeBase(xnode);
+                    break;
+                case "RangeBaseAutomationPeer":
+                    OnRangeBaseAutomationPeer(xnode);
+                    break;
+                case "RayHitTestParameters":
+                    OnRayHitTestParameters(xnode);
+                    break;
+                case "RayHitTestResult":
+                    OnRayHitTestResult(xnode);
+                    break;
+                case "RayMeshGeometry3DHitTestResult":
+                    OnRayMeshGeometry3DHitTestResult(xnode);
+                    break;
+                case "Rect3DValueSerializer":
+                    OnRect3DValueSerializer(xnode);
+                    break;
+                case "Rectangle":
+                    OnRectangle(xnode);
+                    break;
+                case "RectangleGeometry":
+                    OnRectangleGeometry(xnode);
+                    break;
+                case "RectangleStylusShape":
+                    OnRectangleStylusShape(xnode);
+                    break;
+                case "RectAnimation":
+                    OnRectAnimation(xnode);
+                    break;
+                case "RectAnimationBase":
+                    OnRectAnimationBase(xnode);
+                    break;
+                case "RectAnimationUsingKeyFrames":
+                    OnRectAnimationUsingKeyFrames(xnode);
+                    break;
+                case "RectKeyFrame":
+                    OnRectKeyFrame(xnode);
+                    break;
+                case "RectKeyFrameCollection":
+                    OnRectKeyFrameCollection(xnode);
+                    break;
+                case "RectValueSerializer":
+                    OnRectValueSerializer(xnode);
+                    break;
+                case "Reference":
+                    OnReference(xnode);
+                    break;
+                case "RelativeSource":
+                    OnRelativeSource(xnode);
+                    break;
+                case "RemoveElementAction":
+                    OnRemoveElementAction(xnode);
+                    break;
+                case "RemoveStoryboard":
+                    OnRemoveStoryboard(xnode);
+                    break;
+                case "RenderTargetBitmap":
+                    OnRenderTargetBitmap(xnode);
+                    break;
+                case "RepeteButton":
+                    OnRepeteButton(xnode);
+                    break;
+                case "RepeatButtonAutomationPeer":
+                    OnRepeatButtonAutomationPeer(xnode);
+                    break;
+                case "RequestBringIntoViewEventArgs":
+                    OnRequestBringIntoViewEventArgs(xnode);
+                    break;
+                case "RequestNavigateEventArgs":
+                    OnRequestNavigateEventArgs(xnode);
+                    break;
+                case "ResizeGrip":
+                    OnResizeGrip(xnode);
+                    break;
+                case "ResourceKey":
+                    OnResourceKey(xnode);
+                    break;
+                case "ResourceReferenceExpressionConverter":
+                    OnResourceReferenceExpressionConverter(xnode);
+                    break;
+                case "ResumeStoryboard":
+                    OnResumeStoryboard(xnode);
+                    break;
+                case "RichTextBox":
+                    OnRichTextBox(xnode);
+                    break;
+                case "RichTextBoxAutomationPeer":
+                    OnRichTextBoxAutomationPeer(xnode);
+                    break;
+                case "RotateTransform":
+                    OnRotateTransform(xnode);
+                    break;
+                case "RotateTransform3D":
+                    OnRotateTransform3D(xnode);
+                    break;
+                case "Rotation3D":
+                    OnRotation3D(xnode);
+                    break;
+                case "Rotation3DAnimation":
+                    OnRotation3DAnimation(xnode);
+                    break;
+                case "Rotation3DAnimationBase":
+                    OnRotation3DAnimationBase(xnode);
+                    break;
+                case "Rotation3DAnimationUsingKeyFrames":
+                    OnRotation3DAnimationUsingKeyFrames(xnode);
+                    break;
+                case "Rotation3DKeyFrame":
+                    OnRotation3DKeyFrame(xnode);
+                    break;
+                case "Rotation3DKeyFrameCollection":
+                    OnRotation3DKeyFrameCollection(xnode);
+                    break;
+                case "RoutedCommand":
+                    OnRoutedCommand(xnode);
+                    break;
+                case "RoutedEventArgs":
+                    OnRoutedEventArgs(xnode);
+                    break;
+                case "RoutedPropertyChangedEventArgs":
+                    OnRoutedPropertyChangedEventArgs(xnode);
+                    break;
+                case "RoutedUICommand":
+                    OnRoutedUICommand(xnode);
+                    break;
+                case "RowDefinition":
+                    OnRowDefinition(xnode);
+                    break;
+                case "Run":
+                    OnRun(xnode);
+                    break;
+                case "SaveFileDialog":
+                    OnSaveFileDialog(xnode);
+                    break;
+                case "ScaleTransform":
+                    OnScaleTransform(xnode);
+                    break;
+                case "ScaleTransform3D":
+                    OnScaleTransform3D(xnode);
+                    break;
+                case "ScrollBar":
+                    OnScrollBar(xnode);
+                    break;
+                case "ScrollBarAutomationPeer":
+                    OnScrollBarAutomationPeer(xnode);
+                    break;
+                case "ScrollChangedEventArgs":
+                    OnScrollChangedEventArgs(xnode);
+                    break;
+                case "ScrollContentPresenter":
+                    OnScrollContentPresenter(xnode);
+                    break;
+                case "SerollEventArgs":
+                    OnSerollEventArgs(xnode);
+                    break;
+                case "ScrollViewer":
+                    OnScrollViewer(xnode);
+                    break;
+                case "ScrollViewerAutomationPeer":
+                    OnScrollViewerAutomationPeer(xnode);
+                    break;
+                case "Section":
+                    OnSection(xnode);
+                    break;
+                case "SectionStructure":
+                    OnSectionStructure(xnode);
+                    break;
+                case "SeekStoryboard":
+                    OnSeekStoryboard(xnode);
+                    break;
+                case "SelectionChangedEventArgs":
+                    OnSelectionChangedEventArgs(xnode);
+                    break;
+                case "SelectiveScrollingGrid":
+                    OnSelectiveScrollingGrid(xnode);
+                    break;
+                case "Selector":
+                    OnSelector(xnode);
+                    break;
+                case "SelectorAutomationPeer":
+                    OnSelectorAutomationPeer(xnode);
+                    break;
+                case "SelectorItemAutomationPeer":
+                    OnSelectorItemAutomationPeer(xnode);
+                    break;
+                case "SemanticBasicElement":
+                    OnSemanticBasicElement(xnode);
+                    break;
+                case "Separator":
+                    OnSeparator(xnode);
+                    break;
+                case "SeparatorAutomationPeer":
+                    OnSeparatorAutomationPeer(xnode);
+                    break;
+                case "ServiceProviders":
+                    OnServiceProviders(xnode);
+                    break;
+                case "SetDataStoreValueAction":
+                    OnSetDataStoreValueAction(xnode);
+                    break;
+                case "SetStoryboardSpeedRatio":
+                    OnSetStoryboardSpeedRatio(xnode);
+                    break;
+                case "Setter":
+                    OnSetter(xnode);
+                    break;
+                case "SetterBase":
+                    OnSetterBase(xnode);
+                    break;
+                case "ShaderEfect":
+                    OnShaderEfect(xnode);
+                    break;
+                case "Shape":
+                    OnShape(xnode);
+                    break;
+                case "SineEase":
+                    OnSineEase(xnode);
+                    break;
+                case "SingleAnimation":
+                    OnSingleAnimation(xnode);
+                    break;
+                case "SingleAnimationBase":
+                    OnSingleAnimationBase(xnode);
+                    break;
+                case "SingleAnimationUsingKeyFrames":
+                    OnSingleAnimationUsingKeyFrames(xnode);
+                    break;
+                case "SingleKeyFrame":
+                    OnSingleKeyFrame(xnode);
+                    break;
+                case "SingleKeyFrameCollection":
+                    OnSingleKeyFrameCollection(xnode);
+                    break;
+                case "Size3DValueSerializer":
+                    OnSize3DValueSerializer(xnode);
+                    break;
+                case "SizeAnimation":
+                    OnSizeAnimation(xnode);
+                    break;
+                case "SizeAnimationBase":
+                    OnSizeAnimationBase(xnode);
+                    break;
+                case "SizeAnimationUsingKeyFrames":
+                    OnSizeAnimationUsingKeyFrames(xnode);
+                    break;
+                case "SizeChangedEventArgs":
+                    OnSizeChangedEventArgs(xnode);
+                    break;
+                case "SizeKeyFrame":
+                    OnSizeKeyFrame(xnode);
+                    break;
+                case "SizeKeyFrameCollection":
+                    OnSizeKeyFrameCollection(xnode);
+                    break;
+                case "SizeValueSerializer":
+                    OnSizeValueSerializer(xnode);
+                    break;
+                case "SkewTransform":
+                    OnSkewTransform(xnode);
+                    break;
+                case "SkipStoryboardToFill":
+                    OnSkipStoryboardToFill(xnode);
+                    break;
+                case "Slider":
+                    OnSlider(xnode);
+                    break;
+                case "SiderAutomationPeer":
+                    OnSiderAutomationPeer(xnode);
+                    break;
+                case "SolidColorBrush":
+                    OnSolidColorBrush(xnode);
+                    break;
+                case "SoundPlayerAction":
+                    OnSoundPlayerAction(xnode);
+                    break;
+                case "SourceChangedEventArgs":
+                    OnSourceChangedEventArgs(xnode);
+                    break;
+                case "Span":
+                    OnSpan(xnode);
+                    break;
+                case "SpecularMaterial":
+                    OnSpecularMaterial(xnode);
+                    break;
+                case "SplineByteKeyFrame":
+                    OnSplineByteKeyFrame(xnode);
+                    break;
+                case "SplıneColorKeyFrame":
+                    OnSplıneColorKeyFrame(xnode);
+                    break;
+                case "SplineDecimalKeyFrame":
+                    OnSplineDecimalKeyFrame(xnode);
+                    break;
+                case "SplineDoubleKeyFrame":
+                    OnSplineDoubleKeyFrame(xnode);
+                    break;
+                case "Splinelnt16KeyFrame":
+                    OnSplinelnt16KeyFrame(xnode);
+                    break;
+                case "Splinelnt32KeyFrame":
+                    OnSplinelnt32KeyFrame(xnode);
+                    break;
+                case "Splinelnt64KeyFrame":
+                    OnSplinelnt64KeyFrame(xnode);
+                    break;
+                case "SplinePoint3DKeyFrame":
+                    OnSplinePoint3DKeyFrame(xnode);
+                    break;
+                case "SplinePointKevFrame":
+                    OnSplinePointKevFrame(xnode);
+                    break;
+                case "SplineQuaternionKeyFrame":
+                    OnSplineQuaternionKeyFrame(xnode);
+                    break;
+                case "SplineRectKeyFrame":
+                    OnSplineRectKeyFrame(xnode);
+                    break;
+                case "SplineRotation3DKeyFrame":
+                    OnSplineRotation3DKeyFrame(xnode);
+                    break;
+                case "SplineSingleKeyFrame":
+                    OnSplineSingleKeyFrame(xnode);
+                    break;
+                case "SplineSizeKeyFrame":
+                    OnSplineSizeKeyFrame(xnode);
+                    break;
+                case "SplineThicknessKeyFrame":
+                    OnSplineThicknessKeyFrame(xnode);
+                    break;
+                case "SplineVector3DKeyFrame":
+                    OnSplineVector3DKeyFrame(xnode);
+                    break;
+                case "SplineVectorKeyFrame":
+                    OnSplineVectorKeyFrame(xnode);
+                    break;
+                case "SpotLight":
+                    OnSpotLight(xnode);
+                    break;
+                case "StackPanel":
+                    OnStackPanel(xnode);
+                    break;
+                case "StaticExtension":
+                    OnStaticExtension(xnode);
+                    break;
+                case "StaticResourceExtension":
+                    OnStaticResourceExtension(xnode);
+                    break;
+                case "StatusBar":
+                    OnStatusBar(xnode);
+                    break;
+                case "StatusBarAutomationPeer":
+                    OnStatusBarAutomationPeer(xnode);
+                    break;
+                case "StatusBarItem":
+                    OnStatusBarItem(xnode);
+                    break;
+                case "StatusBarItemAutomationPeer":
+                    OnStatusBarItemAutomationPeer(xnode);
+                    break;
+                case "StickyNoteControl":
+                    OnStickyNoteControl(xnode);
+                    break;
+                case "StopStoryboard":
+                    OnStopStoryboard(xnode);
+                    break;
+                case "Storyboard":
+                    OnStoryboard(xnode);
+                    break;
+                case "StoryboardAction":
+                    OnStoryboardAction(xnode);
+                    break;
+                case "StoryboardCompletedTrigger":
+                    OnStoryboardCompletedTrigger(xnode);
+                    break;
+                case "StoryboardTrigger":
+                    OnStoryboardTrigger(xnode);
+                    break;
+                case "StoryBreak":
+                    OnStoryBreak(xnode);
+                    break;
+                case "StreamGeometry":
+                    OnStreamGeometry(xnode);
+                    break;
+                case "StreamGeometryContext":
+                    OnStreamGeometryContext(xnode);
+                    break;
+                case "StringAnimationBase":
+                    OnStringAnimationBase(xnode);
+                    break;
+                case "StringAnimationUsingKevFrames":
+                    OnStringAnimationUsingKevFrames(xnode);
+                    break;
+                case "StringKeyFrame":
+                    OnStringKeyFrame(xnode);
+                    break;
+                case "StringKeyFrameCollection":
+                    OnStringKeyFrameCollection(xnode);
+                    break;
+                case "Style":
+                    OnStyle(xnode);
+                    break;
+                case "StylusButtonEventArgs":
+                    OnStylusButtonEventArgs(xnode);
+                    break;
+                case "StylusDevice":
+                    OnStylusDevice(xnode);
+                    break;
+                case "StylusDownEventArgs":
+                    OnStylusDownEventArgs(xnode);
+                    break;
+                case "StylusPlugIn":
+                    OnStylusPlugIn(xnode);
+                    break;
+                case "StylusEventArgs":
+                    OnStylusEventArgs(xnode);
+                    break;
+                case "StylusPontProperty":
+                    OnStylusPontProperty(xnode);
+                    break;
+                case "StylusPointPropertyInfo":
+                    OnStylusPointPropertyInfo(xnode);
+                    break;
+                case "StylusShape":
+                    OnStylusShape(xnode);
+                    break;
+                case "StylusSystemGestureEventArgs":
+                    OnStylusSystemGestureEventArgs(xnode);
+                    break;
+                case "TabControl":
+                    OnTabControl(xnode);
+                    break;
+                case "TabControlAutomationPeer":
+                    OnTabControlAutomationPeer(xnode);
+                    break;
+                case "TabItern":
+                    OnTabItern(xnode);
+                    break;
+                case "TabItenAutomationPeer":
+                    OnTabItenAutomationPeer(xnode);
+                    break;
+                case "TabItemWrapperAutomationPeer":
+                    OnTabItemWrapperAutomationPeer(xnode);
+                    break;
+                case "Table":
+                    OnTable(xnode);
+                    break;
+                case "TableAutomationPeer":
+                    OnTableAutomationPeer(xnode);
+                    break;
+                case "TableCell":
+                    OnTableCell(xnode);
+                    break;
+                case "TableCellAutomationPeer":
+                    OnTableCellAutomationPeer(xnode);
+                    break;
+                case "TableCellStructure":
+                    OnTableCellStructure(xnode);
+                    break;
+                case "TableColumn":
+                    OnTableColumn(xnode);
+                    break;
+                case "TableRow":
+                    OnTableRow(xnode);
+                    break;
+                case "TableRowGroup":
+                    OnTableRowGroup(xnode);
+                    break;
+                case "TableRowGroupStructure":
+                    OnTableRowGroupStructure(xnode);
+                    break;
+                case "TableRowStructure":
+                    OnTableRowStructure(xnode);
+                    break;
+                case "TableStructure":
+                    OnTableStructure(xnode);
+                    break;
+                case "TabletDevice":
+                    OnTabletDevice(xnode);
+                    break;
+                case "TabPanel":
+                    OnTabPanel(xnode);
+                    break;
+                case "TargetedTriggerAction":
+                    OnTargetedTriggerAction(xnode);
+                    break;
+                case "TaskbarltemInfo":
+                    OnTaskbarltemInfo(xnode);
+                    break;
+                case "TemplateBindingExpression":
+                    OnTemplateBindingExpression(xnode);
+                    break;
+                case "TemplateBindingExtension":
+                    OnTemplateBindingExtension(xnode);
+                    break;
+                case "TemplateContentLoader":
+                    OnTemplateContentLoader(xnode);
+                    break;
+                case "TemplateKey":
+                    OnTemplateKey(xnode);
+                    break;
+                case "TextAutomationPeer":
+                    OnTextAutomationPeer(xnode);
+                    break;
+                case "TextBlock":
+                    OnTextBlock(xnode);
+                    break;
+                case "TextBlockAutomationPeer":
+                    OnTextBlockAutomationPeer(xnode);
+                    break;
+                case "TextBox":
+                    OnTextBox(xnode);
+                    break;
+                case "TextBoxAutomationPeer":
+                    OnTextBoxAutomationPeer(xnode);
+                    break;
+                case "TextBoxBase":
+                    OnTextBoxBase(xnode);
+                    break;
+                case "TextChangedEventArgs":
+                    OnTextChangedEventArgs(xnode);
+                    break;
+                case "TextCharacters":
+                    OnTextCharacters(xnode);
+                    break;
+                case "TextCollapsingProperties":
+                    OnTextCollapsingProperties(xnode);
+                    break;
+                case "TextComposıtion":
+                    OnTextComposıtion(xnode);
+                    break;
+                case "TextCompositionEventArgs":
+                    OnTextCompositionEventArgs(xnode);
+                    break;
+                case "TextCompositionManager":
+                    OnTextCompositionManager(xnode);
+                    break;
+                case "TextDecoration":
+                    OnTextDecoration(xnode);
+                    break;
+                case "TextDecorationCollection":
+                    OnTextDecorationCollection(xnode);
+                    break;
+                case "TextEffect":
+                    OnTextEffect(xnode);
+                    break;
+                case "TextEftectCollection":
+                    OnTextEftectCollection(xnode);
+                    break;
+                case "TextElement":
+                    OnTextElement(xnode);
+                    break;
+                case "TextElementAutomationPeer":
+                    OnTextElementAutomationPeer(xnode);
+                    break;
+                case "TextEmbeddedObject":
+                    OnTextEmbeddedObject(xnode);
+                    break;
+                case "TextEndOfLine":
+                    OnTextEndOfLine(xnode);
+                    break;
+                case "TextEndOfParagraph":
+                    OnTextEndOfParagraph(xnode);
+                    break;
+                case "TextEndOfSegment":
+                    OnTextEndOfSegment(xnode);
+                    break;
+                case "TextHidden":
+                    OnTextHidden(xnode);
+                    break;
+                case "TextMarkerProperties":
+                    OnTextMarkerProperties(xnode);
+                    break;
+                case "TextModifier":
+                    OnTextModifier(xnode);
+                    break;
+                case "TextPointer":
+                    OnTextPointer(xnode);
+                    break;
+                case "TextRange":
+                    OnTextRange(xnode);
+                    break;
+                case "TextRun":
+                    OnTextRun(xnode);
+                    break;
+                case "TextSearch":
+                    OnTextSearch(xnode);
+                    break;
+                case "TextSelection":
+                    OnTextSelection(xnode);
+                    break;
+                case "TextSimpleMarkerProperties":
+                    OnTextSimpleMarkerProperties(xnode);
+                    break;
+                case "TextTrailingCharacterEllipsis":
+                    OnTextTrailingCharacterEllipsis(xnode);
+                    break;
+                case "TextTrailingWordEllipsis":
+                    OnTextTrailingWordEllipsis(xnode);
+                    break;
+                case "ThemeDictionaryExtension":
+                    OnThemeDictionaryExtension(xnode);
+                    break;
+                case "ThicknessAnimation":
+                    OnThicknessAnimation(xnode);
+                    break;
+                case "ThicknessAnimationBase":
+                    OnThicknessAnimationBase(xnode);
+                    break;
+                case "ThicknessAnimationUsingKeyFrames":
+                    OnThicknessAnimationUsingKeyFrames(xnode);
+                    break;
+                case "ThicknessKeyFrame":
+                    OnThicknessKeyFrame(xnode);
+                    break;
+                case "ThicknessKeyFrameCollection":
+                    OnThicknessKeyFrameCollection(xnode);
+                    break;
+                case "Thumb":
+                    OnThumb(xnode);
+                    break;
+                case "ThumbAutomationPeer":
+                    OnThumbAutomationPeer(xnode);
+                    break;
+                case "ThumbButonInfo":
+                    OnThumbButonInfo(xnode);
+                    break;
+                case "ThumbButtonlnfoCollection":
+                    OnThumbButtonlnfoCollection(xnode);
+                    break;
+                case "TickBar":
+                    OnTickBar(xnode);
+                    break;
+                case "TiffBitmap":
+                    OnTiffBitmap(xnode);
+                    break;
+                case "TiffBitmapEncoder":
+                    OnTiffBitmapEncoder(xnode);
+                    break;
+                case "TileBrush":
+                    OnTileBrush(xnode);
+                    break;
+                case "Timeline":
+                    OnTimeline(xnode);
+                    break;
+                case "TimelineCollection":
+                    OnTimelineCollection(xnode);
+                    break;
+                case "TimelıneGroup":
+                    OnTimelıneGroup(xnode);
+                    break;
+                case "TimerTrigger":
+                    OnTimerTrigger(xnode);
+                    break;
+                case "ToggleButton":
+                    OnToggleButton(xnode);
+                    break;
+                case "ToggleButtonAutomationPeer":
+                    OnToggleButtonAutomationPeer(xnode);
+                    break;
+                case "ToolBar":
+                    OnToolBar(xnode);
+                    break;
+                case "TooIBarAutomationPeer":
+                    OnTooIBarAutomationPeer(xnode);
+                    break;
+                case "ToolBarOverflowPanel":
+                    OnToolBarOverflowPanel(xnode);
+                    break;
+                case "ToolBarPanel":
+                    OnToolBarPanel(xnode);
+                    break;
+                case "ToolBarTray":
+                    OnToolBarTray(xnode);
+                    break;
+                case "ToolTip":
+                    OnToolTip(xnode);
+                    break;
+                case "ToolTipAutomationPeer":
+                    OnToolTipAutomationPeer(xnode);
+                    break;
+                case "ToolTipEventArg3G":
+                    OnToolTipEventArg3G(xnode);
+                    break;
+                case "TouchDevice":
+                    OnTouchDevice(xnode);
+                    break;
+                case "TouchDeviceArgs":
+                    OnTouchDeviceArgs(xnode);
+                    break;
+                case "Track":
+                    OnTrack(xnode);
+                    break;
+                case "Transform":
+                    OnTransform(xnode);
+                    break;
+                case "Transform3D":
+                    OnTransform3D(xnode);
+                    break;
+                case "Transformn3DCollection":
+                    OnTransformn3DCollection(xnode);
+                    break;
+                case "Transform3DGroup":
+                    OnTransform3DGroup(xnode);
+                    break;
+                case "TransformCollection":
+                    OnTransformCollection(xnode);
+                    break;
+                case "TransformedBitmap":
+                    OnTransformedBitmap(xnode);
+                    break;
+                case "TransformGroup":
+                    OnTransformGroup(xnode);
+                    break;
+                case "TransformValueSerializer":
+                    OnTransformValueSerializer(xnode);
+                    break;
+                case "TransitionEfect":
+                    OnTransitionEfect(xnode);
+                    break;
+                case "TranslateTransform":
+                    OnTranslateTransform(xnode);
+                    break;
+                case "TranslateTransfom3D":
+                    OnTranslateTransfom3D(xnode);
+                    break;
+                case "TranslateZoomRotateBehavior":
+                    OnTranslateZoomRotateBehavior(xnode);
+                    break;
+                case "TreeView":
+                    OnTreeView(xnode);
+                    break;
+                case "TreeViewAutomationPeer":
+                    OnTreeViewAutomationPeer(xnode);
+                    break;
+                case "TreeViewDataltemAutomationPeer":
+                    OnTreeViewDataltemAutomationPeer(xnode);
+                    break;
+                case "TreeViewItem":
+                    OnTreeViewItem(xnode);
+                    break;
+                case "TreeViewItemAutomationPeer":
+                    OnTreeViewItemAutomationPeer(xnode);
+                    break;
+                case "Trigger":
+                    OnTrigger(xnode);
+                    break;
+                case "TriggerAction":
+                    OnTriggerAction(xnode);
+                    break;
+                case "TriggerActionCollection":
+                    OnTriggerActionCollection(xnode);
+                    break;
+                case "TriggerBase":
+                    OnTriggerBase(xnode);
+                    break;
+                case "TriggerCollection":
+                    OnTriggerCollection(xnode);
+                    break;
+                case "TypeConverter":
+                    OnTypeConverter(xnode);
+                    break;
+                case "TypeExtension":
+                    OnTypeExtension(xnode);
+                    break;
+                case "UIElement":
+                    OnUIElement(xnode);
+                    break;
+                case "UElement3D":
+                    OnUElement3D(xnode);
+                    break;
+                case "UIElement3DAutomationPeer":
+                    OnUIElement3DAutomationPeer(xnode);
+                    break;
+                case "UIElementAutomationPeer":
+                    OnUIElementAutomationPeer(xnode);
+                    break;
+                case "UIPropertyMetadata":
+                    OnUIPropertyMetadata(xnode);
+                    break;
+                case "Underline":
+                    OnUnderline(xnode);
+                    break;
+                case "UniformGrid":
+                    OnUniformGrid(xnode);
+                    break;
+                case "UserControl":
+                    OnUserControl(xnode);
+                    break;
+                case "UserControlAutomationPeer":
+                    OnUserControlAutomationPeer(xnode);
+                    break;
+                case "UShortlListConverter":
+                    OnUShortlListConverter(xnode);
+                    break;
+                case "ValidationErrorEventArgs":
+                    OnValidationErrorEventArgs(xnode);
+                    break;
+                case "ValidationRule":
+                    OnValidationRule(xnode);
+                    break;
+                case "ValueSerializer":
+                    OnValueSerializer(xnode);
+                    break;
+                case "Vector3DAnimation":
+                    OnVector3DAnimation(xnode);
+                    break;
+                case "Vector3DAnimationBase":
+                    OnVector3DAnimationBase(xnode);
+                    break;
+                case "Vector3DAnimationUsingKeyFrames":
+                    OnVector3DAnimationUsingKeyFrames(xnode);
+                    break;
+                case "Vector3DCollection":
+                    OnVector3DCollection(xnode);
+                    break;
+                case "Vector3DCollectionValueSerializer":
+                    OnVector3DCollectionValueSerializer(xnode);
+                    break;
+                case "Vector3DKeyFrame":
+                    OnVector3DKeyFrame(xnode);
+                    break;
+                case "Vector3DKevFrameCollection":
+                    OnVector3DKevFrameCollection(xnode);
+                    break;
+                case "Vector3DValueSerializer":
+                    OnVector3DValueSerializer(xnode);
+                    break;
+                case "VectorAnimation":
+                    OnVectorAnimation(xnode);
+                    break;
+                case "VectorAnimationBase":
+                    OnVectorAnimationBase(xnode);
+                    break;
+                case "VectorAnimationUsingKeyFrames":
+                    OnVectorAnimationUsingKeyFrames(xnode);
+                    break;
+                case "VectorCollection":
+                    OnVectorCollection(xnode);
+                    break;
+                case "VectorCollectionValueSerializer":
+                    OnVectorCollectionValueSerializer(xnode);
+                    break;
+                case "VectorKeyFrame":
+                    OnVectorKeyFrame(xnode);
+                    break;
+                case "VectorKeyFrameCollection":
+                    OnVectorKeyFrameCollection(xnode);
+                    break;
+                case "VectorValueSerializer":
+                    OnVectorValueSerializer(xnode);
+                    break;
+                case "VideoDrawing":
+                    OnVideoDrawing(xnode);
+                    break;
+                case "ViewBase":
+                    OnViewBase(xnode);
+                    break;
+                case "Viewbox":
+                    OnViewbox(xnode);
+                    break;
+                case "Viewport2DVisual3D":
+                    OnViewport2DVisual3D(xnode);
+                    break;
+                case "Viewport3D":
+                    OnViewport3D(xnode);
+                    break;
+                case "Viewport3DAutomationPeer":
+                    OnViewport3DAutomationPeer(xnode);
+                    break;
+                case "Viewport3DVisual":
+                    OnViewport3DVisual(xnode);
+                    break;
+                case "VrtualizingPanel":
+                    OnVrtualizingPanel(xnode);
+                    break;
+                case "VtualizingStackPanel":
+                    OnVtualizingStackPanel(xnode);
+                    break;
+                case "Visual":
+                    OnVisual(xnode);
+                    break;
+                case "Visual3D":
+                    OnVisual3D(xnode);
+                    break;
+                case "VisualBrush":
+                    OnVisualBrush(xnode);
+                    break;
+                case "VisualState":
+                    OnVisualState(xnode);
+                    break;
+                case "VisualStateGroup":
+                    OnVisualStateGroup(xnode);
+                    break;
+                case "VisualStateManager":
+                    OnVisualStateManager(xnode);
+                    break;
+                case "VisualTarget":
+                    OnVisualTarget(xnode);
+                    break;
+                case "VisualTransition":
+                    OnVisualTransition(xnode);
+                    break;
+                case "WeakEventManager":
+                    OnWeakEventManager(xnode);
+                    break;
+                case "WebBrowser":
+                    OnWebBrowser(xnode);
+                    break;
+                case "Window":
+                    OnWindow(xnode);
+                    break;
+                case "WindowAutomationPeer":
+                    OnWindowAutomationPeer(xnode);
+                    break;
+                case "WindowChrome":
+                    OnWindowChrome(xnode);
+                    break;
+                case "WmpBitmapDecoder":
+                    OnWmpBitmapDecoder(xnode);
+                    break;
+                case "WmpBitmapEncoder":
+                    OnWmpBitmapEncoder(xnode);
+                    break;
+                case "WrapPanel":
+                    OnWrapPanel(xnode);
+                    break;
+                case "WriteableBitmap":
+                    OnWriteableBitmap(xnode);
+                    break;
+                case "XamlBackgroundReader":
+                    OnXamlBackgroundReader(xnode);
+                    break;
+                case "XamlDeferringLoader":
+                    OnXamlDeferringLoader(xnode);
+                    break;
+                case "XamlDesignerSernalizationManager":
+                    OnXamlDesignerSernalizationManager(xnode);
+                    break;
+                case "XamlDirective":
+                    OnXamlDirective(xnode);
+                    break;
+                case "XamlDuplicateMemberException":
+                    OnXamlDuplicateMemberException(xnode);
+                    break;
+                case "XamlException":
+                    OnXamlException(xnode);
+                    break;
+                case "XamlInternalException":
+                    OnXamlInternalException(xnode);
+                    break;
+                case "XamlMember":
+                    OnXamlMember(xnode);
+                    break;
+                case "XamlObjectReader":
+                    OnXamlObjectReader(xnode);
+                    break;
+                case "XamlObjectReaderException":
+                    OnXamlObjectReaderException(xnode);
+                    break;
+                case "XamlObjectReaderSettings":
+                    OnXamlObjectReaderSettings(xnode);
+                    break;
+                case "XamlObjectWriter":
+                    OnXamlObjectWriter(xnode);
+                    break;
+                case "XamlObjectWriterException":
+                    OnXamlObjectWriterException(xnode);
+                    break;
+                case "XamlObjectWriterSettings":
+                    OnXamlObjectWriterSettings(xnode);
+                    break;
+                case "XamlParseException":
+                    OnXamlParseException(xnode);
+                    break;
+                case "XamlReader":
+                    OnXamlReader(xnode);
+                    break;
+                case "XamlReaderSettings":
+                    OnXamlReaderSettings(xnode);
+                    break;
+                case "XamlSchemaException":
+                    OnXamlSchemaException(xnode);
+                    break;
+                case "XamlSetMarkupExtensionEventArgs":
+                    OnXamlSetMarkupExtensionEventArgs(xnode);
+                    break;
+                case "XamlSetypeConverterEventArgs":
+                    OnXamlSetypeConverterEventArgs(xnode);
+                    break;
+                case "XamSetValueEentArgs":
+                    OnXamSetValueEentArgs(xnode);
+                    break;
+                case "XamlWriter":
+                    OnXamlWriter(xnode);
+                    break;
+                case "XamlWriterSettings":
+                    OnXamlWriterSettings(xnode);
+                    break;
+                case "XamlXmlReader":
+                    OnXamlXmlReader(xnode);
+                    break;
+                case "XamlXmlReaderSettings":
+                    OnXamlXmlReaderSettings(xnode);
+                    break;
+                case "XamlXmlWriter":
+                    OnXamlXmlWriter(xnode);
+                    break;
+                case "XamlXmlWriterException":
+                    OnXamlXmlWriterException(xnode);
+                    break;
+                case "XamlXmlWriterSettings":
+                    OnXamlXmlWriterSettings(xnode);
+                    break;
+                case "XmlDataProvider":
+                    OnXmlDataProvider(xnode);
+                    break;
+                case "XmlStreamStore":
+                    OnXmlStreamStore(xnode);
+                    break;
+                case "ZipPackage":
+                    OnZipPackage(xnode);
+                    break;
+                case "ZipPackagePart":
+                    OnZipPackagePart(xnode);
+                    break;
+                case "IdealSoftTextBox":
+                    OnIdealSoftTextBox(xnode);
+                    break;
+                //
+                default:
+                    OnDefaultNode(xnode);
+                    break;
+            }
+        }
    }
 
    public virtual void OnAccessKeyPressedEventArgs(XXmlNode xnode) {}
