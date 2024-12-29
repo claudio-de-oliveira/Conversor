@@ -1,35 +1,33 @@
-﻿
-using System.Xml;
+﻿using System.Xml;
 using Conversor.Xml;
+using Conversor.Generator;
+using Conversor.Flutter;
 
 internal class Program
 {
-    static Dictionary<string, object> xmlNodeTypes = [];
-
     private static void Main(string[] args)
     {
-        // string[] xmlFiles = ListXmlFiles(args[0]);
-        string[] xmlFiles = ListXmlFiles("/home/claudio/Source/Conversor/ConversorWpfApp");
+        // // string[] xmlFiles = ListXmlFiles(args[0]);
+        // string[] xmlFiles = ListXmlFiles("/home/claudio/Source/Conversor/ConversorWpfApp");
 
-        // var xsdPath = "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\xsd.exe";
+        // if (args.Length > 0)
+        // {
+        //     foreach (string caminhoArquivo in xmlFiles)
+        //     {
+        //         var xml = LerArquivoXml(caminhoArquivo);
 
-        if (args.Length > 0)
-        {
-            foreach (string caminhoArquivo in xmlFiles)
-            {
-                var xml = LerArquivoXml(caminhoArquivo);
+        //         XXmlNode xmlNode = ProcessXmlNode(xml);
 
-                XXmlNode xmlNode = ProcessXmlNode(xml);
+        //         var xContext = new XFlutterContext();
 
-                var xContext = new XFlutterContext();
+        //         xContext.Process(xmlNode);
+        //     }
 
-                xContext.Process(xmlNode);
-            }
+        // }
 
-        }
+        CodeGenerator.GenerateXContextBase("/home/claudio/Source/Conversor/Conversor/src/Xml/XContextBase.cs");
 
         return;
-
     }
 
     private static string[] ListXmlFiles(string path)
