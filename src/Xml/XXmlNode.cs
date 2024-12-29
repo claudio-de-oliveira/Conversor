@@ -5,4 +5,6 @@ public class XXmlNode {
     public List<XXmlAttribute> Attributes { get; } = [];
     public List<XXmlNode> ChildNodes { get; } = [];
     public string? Value { get; set; }
+
+    public string Code { get; set; } = "";
 }
