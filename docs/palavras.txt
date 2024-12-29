@@ -1045,3 +1045,6 @@
 
 [L2G41I0S0] ZipPackage
 [L2G42I0S0] ZipPackagePart
+
+
+[L0G0I0] IdealSoftTextBox

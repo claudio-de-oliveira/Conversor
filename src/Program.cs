@@ -8,24 +8,24 @@ internal class Program
     private static void Main(string[] args)
     {
         // // string[] xmlFiles = ListXmlFiles(args[0]);
-        // string[] xmlFiles = ListXmlFiles("/home/claudio/Source/Conversor/ConversorWpfApp");
+        string[] xmlFiles = ListXmlFiles("/home/claudio/Source/Conversor/ConversorWpfApp");
 
-        // if (args.Length > 0)
-        // {
-        //     foreach (string caminhoArquivo in xmlFiles)
-        //     {
-        //         var xml = LerArquivoXml(caminhoArquivo);
+        if (args.Length > 0)
+        {
+            foreach (string caminhoArquivo in xmlFiles)
+            {
+                var xml = LerArquivoXml(caminhoArquivo);
 
-        //         XXmlNode xmlNode = ProcessXmlNode(xml);
+                XXmlNode xmlNode = ProcessXmlNode(xml);
 
-        //         var xContext = new XFlutterContext();
+                var xContext = new XFlutterContext();
 
-        //         xContext.Process(xmlNode);
-        //     }
+                xContext.Process(xmlNode);
+            }
 
-        // }
+        }
 
-        CodeGenerator.GenerateXContextBase("/home/claudio/Source/Conversor/Conversor/src/Xml/XContextBase.cs");
+        // CodeGenerator.GenerateXContextBase("/home/claudio/Source/Conversor/Conversor/src/Xml/XContextBase.cs");
 
         return;
     }

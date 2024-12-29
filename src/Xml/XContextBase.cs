@@ -1,6 +1,6 @@
 // ####################################
 // ESSE CÓDIGO É GERADO AUTOMATICAMENTE
-// ****** NÃO ALTERE ESTE CÓDIGO ****** 
+// ****** NÃO ALTERE ESTE CÓDIGO ******
 // ####################################
 
 namespace Conversor.Xml;
@@ -3107,6 +3107,9 @@ public abstract class XContextBase
            case "ZipPackagePart":
                OnZipPackagePart(xnode);
                break;
+           case "IdealSoftTextBox":
+               OnIdealSoftTextBox(xnode);
+               break;
            //
            default:
                OnDefaultNode(xnode);
@@ -4137,5 +4140,6 @@ public abstract class XContextBase
    public virtual void OnXmlStreamStore(XXmlNode xnode) {}
    public virtual void OnZipPackage(XXmlNode xnode) {}
    public virtual void OnZipPackagePart(XXmlNode xnode) {}
+   public virtual void OnIdealSoftTextBox(XXmlNode xnode) {}
    public abstract void OnDefaultNode(XXmlNode xnode);
 }
