@@ -7,8 +7,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        // // string[] xmlFiles = ListXmlFiles(args[0]);
-        string[] xmlFiles = ListXmlFiles("/home/claudio/Source/Conversor/ConversorWpfApp");
+        // string[] xmlFiles = ListXmlFiles(args[0]);
+        string[] xmlFiles = ListXmlFiles("/home/claudio/Source/Conversor/Conversor/docs");
 
         if (args.Length > 0)
         {
@@ -20,7 +20,7 @@ internal class Program
 
                 var xContext = new XFlutterContext();
 
-                xContext.Process(xmlNode);
+                xContext.ProcessNode(xmlNode);
             }
 
         }
@@ -52,12 +52,22 @@ internal class Program
         }
     }
 
-    private static XXmlAttribute ProcessXmlAttribute(XmlAttribute attribute)
+    private static XXmlAttribute ProcessXmlAttribute(XmlNode attribute)
     {
-        return new XXmlAttribute() {
+        var xattribute = new XXmlAttribute() {
             Name = attribute.Name,
-            Value = attribute.Value
+            Value = attribute.Value,
+            Node = attribute,
         };
+
+        if (attribute.Attributes != null)
+            foreach (XmlNode xmlAttribute in attribute.Attributes)
+                xattribute.Attributes.Add(ProcessXmlAttribute(xmlAttribute));
+        if (attribute.ChildNodes != null)
+            foreach (XmlNode childNode in attribute.ChildNodes)
+                xattribute.ChildNodes.Add(ProcessXmlNode(childNode));
+
+        return xattribute;
     }
 
     private static XXmlNode ProcessXmlNode(XmlNode node)
@@ -65,6 +75,7 @@ internal class Program
         var xnode = new XXmlNode() {
             Name = node.Name,
             Value = node.Value,
+            Node = node,
         };
         
         if (node.Attributes != null)
