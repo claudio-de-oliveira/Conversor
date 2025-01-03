@@ -8,7 +8,7 @@ internal class Program
     private static void Main(string[] args)
     {
         // string[] xmlFiles = ListXmlFiles(args[0]);
-        string[] xmlFiles = ListXmlFiles("/home/claudio/Source/Conversor/Conversor/docs");
+        string[] xmlFiles = ListXmlFiles("./../../../docs");
 
         if (args.Length > 0)
         {
